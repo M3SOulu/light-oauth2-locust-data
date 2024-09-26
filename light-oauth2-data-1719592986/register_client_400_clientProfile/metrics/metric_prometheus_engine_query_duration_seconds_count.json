@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592248,
+                "485"
+            ],
+            [
+                1719592253,
+                "970"
+            ],
+            [
+                1719592258,
+                "970"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592248,
+                "485"
+            ],
+            [
+                1719592253,
+                "970"
+            ],
+            [
+                1719592258,
+                "970"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592248,
+                "970"
+            ],
+            [
+                1719592253,
+                "1940"
+            ],
+            [
+                1719592258,
+                "1940"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592248,
+                "485"
+            ],
+            [
+                1719592253,
+                "970"
+            ],
+            [
+                1719592258,
+                "970"
+            ]
+        ]
+    }
+]

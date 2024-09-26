@@ -1,0 +1,46 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_out_of_order_samples_total",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "type": "float"
+        },
+        "values": [
+            [
+                1719592314,
+                "0"
+            ],
+            [
+                1719592319,
+                "0"
+            ],
+            [
+                1719592324,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_out_of_order_samples_total",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "type": "histogram"
+        },
+        "values": [
+            [
+                1719592314,
+                "0"
+            ],
+            [
+                1719592319,
+                "0"
+            ],
+            [
+                1719592324,
+                "0"
+            ]
+        ]
+    }
+]

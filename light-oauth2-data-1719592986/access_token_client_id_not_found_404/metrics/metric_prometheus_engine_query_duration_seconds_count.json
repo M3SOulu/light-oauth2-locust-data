@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592566,
+                "11640"
+            ],
+            [
+                1719592571,
+                "12125"
+            ],
+            [
+                1719592576,
+                "12125"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592566,
+                "11640"
+            ],
+            [
+                1719592571,
+                "12125"
+            ],
+            [
+                1719592576,
+                "12125"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592566,
+                "23280"
+            ],
+            [
+                1719592571,
+                "24250"
+            ],
+            [
+                1719592576,
+                "24250"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592566,
+                "11640"
+            ],
+            [
+                1719592571,
+                "12125"
+            ],
+            [
+                1719592576,
+                "12125"
+            ]
+        ]
+    }
+]

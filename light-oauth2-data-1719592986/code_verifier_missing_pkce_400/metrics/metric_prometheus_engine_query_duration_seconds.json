@@ -1,0 +1,278 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000012657"
+            ],
+            [
+                1719592754,
+                "0.000012657"
+            ],
+            [
+                1719592759,
+                "0.000012657"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000007638"
+            ],
+            [
+                1719592754,
+                "0.000007638"
+            ],
+            [
+                1719592759,
+                "0.000007638"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000003471"
+            ],
+            [
+                1719592754,
+                "0.000003471"
+            ],
+            [
+                1719592759,
+                "0.000003471"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592749,
+                "4.31e-07"
+            ],
+            [
+                1719592754,
+                "4.31e-07"
+            ],
+            [
+                1719592759,
+                "4.31e-07"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.00003971"
+            ],
+            [
+                1719592754,
+                "0.00003971"
+            ],
+            [
+                1719592759,
+                "0.00003971"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.00001111"
+            ],
+            [
+                1719592754,
+                "0.00001111"
+            ],
+            [
+                1719592759,
+                "0.00001111"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000006085"
+            ],
+            [
+                1719592754,
+                "0.000006085"
+            ],
+            [
+                1719592759,
+                "0.000006085"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000001868"
+            ],
+            [
+                1719592754,
+                "0.000001868"
+            ],
+            [
+                1719592759,
+                "0.000001868"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000123034"
+            ],
+            [
+                1719592754,
+                "0.000123034"
+            ],
+            [
+                1719592759,
+                "0.000123034"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000022391"
+            ],
+            [
+                1719592754,
+                "0.000022391"
+            ],
+            [
+                1719592759,
+                "0.000022391"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000015878"
+            ],
+            [
+                1719592754,
+                "0.000015878"
+            ],
+            [
+                1719592759,
+                "0.000015878"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592749,
+                "0.000006087"
+            ],
+            [
+                1719592754,
+                "0.000005418"
+            ],
+            [
+                1719592759,
+                "0.000006087"
+            ]
+        ]
+    }
+]

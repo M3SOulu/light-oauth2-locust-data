@@ -1,0 +1,416 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "+Inf"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "100"
+        },
+        "values": [
+            [
+                1719592622,
+                "0"
+            ],
+            [
+                1719592627,
+                "0"
+            ],
+            [
+                1719592632,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1000"
+        },
+        "values": [
+            [
+                1719592622,
+                "13520"
+            ],
+            [
+                1719592627,
+                "14003"
+            ],
+            [
+                1719592632,
+                "14003"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "10000"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "100000"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+06"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+07"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+08"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+09"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "+Inf"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "100"
+        },
+        "values": [
+            [
+                1719592622,
+                "0"
+            ],
+            [
+                1719592627,
+                "0"
+            ],
+            [
+                1719592632,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1000"
+        },
+        "values": [
+            [
+                1719592622,
+                "0"
+            ],
+            [
+                1719592627,
+                "0"
+            ],
+            [
+                1719592632,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "10000"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "100000"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+06"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+07"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+08"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_response_size_bytes_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1e+09"
+        },
+        "values": [
+            [
+                1719592622,
+                "94"
+            ],
+            [
+                1719592627,
+                "95"
+            ],
+            [
+                1719592632,
+                "96"
+            ]
+        ]
+    }
+]

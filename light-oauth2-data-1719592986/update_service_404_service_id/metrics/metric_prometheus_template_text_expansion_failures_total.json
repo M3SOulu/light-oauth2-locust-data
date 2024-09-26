@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_template_text_expansion_failures_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592423,
+                "0"
+            ],
+            [
+                1719592428,
+                "0"
+            ],
+            [
+                1719592433,
+                "0"
+            ]
+        ]
+    }
+]

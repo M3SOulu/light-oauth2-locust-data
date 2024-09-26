@@ -1,0 +1,68 @@
+[
+    {
+        "metric": {
+            "__name__": "net_conntrack_dialer_conn_established_total",
+            "dialer_name": "default",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592651,
+                "0"
+            ],
+            [
+                1719592656,
+                "0"
+            ],
+            [
+                1719592661,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "net_conntrack_dialer_conn_established_total",
+            "dialer_name": "node",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592651,
+                "1"
+            ],
+            [
+                1719592656,
+                "1"
+            ],
+            [
+                1719592661,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "net_conntrack_dialer_conn_established_total",
+            "dialer_name": "prometheus",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592651,
+                "1"
+            ],
+            [
+                1719592656,
+                "1"
+            ],
+            [
+                1719592661,
+                "1"
+            ]
+        ]
+    }
+]

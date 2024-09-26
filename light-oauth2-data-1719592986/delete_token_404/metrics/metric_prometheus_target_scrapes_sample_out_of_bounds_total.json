@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_scrapes_sample_out_of_bounds_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592792,
+                "0"
+            ],
+            [
+                1719592797,
+                "0"
+            ],
+            [
+                1719592802,
+                "0"
+            ]
+        ]
+    }
+]

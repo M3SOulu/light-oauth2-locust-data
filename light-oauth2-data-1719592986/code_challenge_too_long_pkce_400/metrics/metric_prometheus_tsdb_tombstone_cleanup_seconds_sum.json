@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592679,
+                "0"
+            ],
+            [
+                1719592684,
+                "0"
+            ],
+            [
+                1719592689,
+                "0"
+            ]
+        ]
+    }
+]

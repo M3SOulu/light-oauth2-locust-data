@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_DirectMap4k_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592287,
+                "1054736384"
+            ],
+            [
+                1719592292,
+                "1054736384"
+            ],
+            [
+                1719592297,
+                "1054736384"
+            ]
+        ]
+    }
+]

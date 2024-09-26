@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_KReclaimable_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592508,
+                "3795144704"
+            ],
+            [
+                1719592513,
+                "3795824640"
+            ],
+            [
+                1719592518,
+                "3796312064"
+            ]
+        ]
+    }
+]

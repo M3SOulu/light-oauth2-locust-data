@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_treecache_zookeeper_failures_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592622,
+                "0"
+            ],
+            [
+                1719592627,
+                "0"
+            ],
+            [
+                1719592632,
+                "0"
+            ]
+        ]
+    }
+]

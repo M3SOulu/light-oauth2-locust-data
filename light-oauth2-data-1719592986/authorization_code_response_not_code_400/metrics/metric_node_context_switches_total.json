@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_context_switches_total",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592508,
+                "208170501223"
+            ],
+            [
+                1719592513,
+                "208170706833"
+            ],
+            [
+                1719592518,
+                "208170994416"
+            ]
+        ]
+    }
+]

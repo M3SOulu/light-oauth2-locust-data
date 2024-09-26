@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592679,
+                "15520"
+            ],
+            [
+                1719592684,
+                "15760"
+            ],
+            [
+                1719592689,
+                "16005"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592679,
+                "15520"
+            ],
+            [
+                1719592684,
+                "15760"
+            ],
+            [
+                1719592689,
+                "16005"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592679,
+                "31040"
+            ],
+            [
+                1719592684,
+                "31520"
+            ],
+            [
+                1719592689,
+                "32010"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592679,
+                "15520"
+            ],
+            [
+                1719592684,
+                "15760"
+            ],
+            [
+                1719592689,
+                "16005"
+            ]
+        ]
+    }
+]

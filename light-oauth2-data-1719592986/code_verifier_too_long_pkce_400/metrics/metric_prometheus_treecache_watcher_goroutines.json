@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_treecache_watcher_goroutines",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592735,
+                "0"
+            ],
+            [
+                1719592740,
+                "0"
+            ],
+            [
+                1719592745,
+                "0"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_memstats_frees_total",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592637,
+                "2880632"
+            ],
+            [
+                1719592642,
+                "2908764"
+            ],
+            [
+                1719592647,
+                "2937781"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_memstats_frees_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592637,
+                "5299555"
+            ],
+            [
+                1719592642,
+                "5474860"
+            ],
+            [
+                1719592647,
+                "5475073"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,3074 @@
+[
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8255922.04"
+            ],
+            [
+                1719592292,
+                "8255925.01"
+            ],
+            [
+                1719592297,
+                "8255928.15"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1119.04"
+            ],
+            [
+                1719592292,
+                "1119.05"
+            ],
+            [
+                1719592297,
+                "1119.08"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "16454"
+            ],
+            [
+                1719592292,
+                "16454.04"
+            ],
+            [
+                1719592297,
+                "16454.08"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "160.27"
+            ],
+            [
+                1719592292,
+                "160.27"
+            ],
+            [
+                1719592297,
+                "160.27"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "7399.05"
+            ],
+            [
+                1719592292,
+                "7399.09"
+            ],
+            [
+                1719592297,
+                "7399.11"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "106005.94"
+            ],
+            [
+                1719592292,
+                "106006.24"
+            ],
+            [
+                1719592297,
+                "106006.52"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "235456.44"
+            ],
+            [
+                1719592292,
+                "235458.05"
+            ],
+            [
+                1719592297,
+                "235459.52"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8209619.67"
+            ],
+            [
+                1719592292,
+                "8209623.18"
+            ],
+            [
+                1719592297,
+                "8209626.94"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1306.43"
+            ],
+            [
+                1719592292,
+                "1306.45"
+            ],
+            [
+                1719592297,
+                "1306.47"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "17154.07"
+            ],
+            [
+                1719592292,
+                "17154.1"
+            ],
+            [
+                1719592297,
+                "17154.12"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "153.36"
+            ],
+            [
+                1719592292,
+                "153.36"
+            ],
+            [
+                1719592297,
+                "153.36"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "2700.67"
+            ],
+            [
+                1719592292,
+                "2700.69"
+            ],
+            [
+                1719592297,
+                "2700.72"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "112014.19"
+            ],
+            [
+                1719592292,
+                "112014.44"
+            ],
+            [
+                1719592297,
+                "112014.63"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "280611.4"
+            ],
+            [
+                1719592292,
+                "280612.55"
+            ],
+            [
+                1719592297,
+                "280613.51"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8248228.57"
+            ],
+            [
+                1719592292,
+                "8248231.72"
+            ],
+            [
+                1719592297,
+                "8248234.63"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1194.42"
+            ],
+            [
+                1719592292,
+                "1194.46"
+            ],
+            [
+                1719592297,
+                "1194.82"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15709.46"
+            ],
+            [
+                1719592292,
+                "15709.49"
+            ],
+            [
+                1719592297,
+                "15709.53"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "151.1"
+            ],
+            [
+                1719592292,
+                "151.1"
+            ],
+            [
+                1719592297,
+                "151.1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1531.29"
+            ],
+            [
+                1719592292,
+                "1531.32"
+            ],
+            [
+                1719592297,
+                "1531.38"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "106922.81"
+            ],
+            [
+                1719592292,
+                "106923.16"
+            ],
+            [
+                1719592297,
+                "106923.52"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "247936.52"
+            ],
+            [
+                1719592292,
+                "247937.9"
+            ],
+            [
+                1719592297,
+                "247939.15"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "6976389.61"
+            ],
+            [
+                1719592292,
+                "6976392.65"
+            ],
+            [
+                1719592297,
+                "6976395.46"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1214.84"
+            ],
+            [
+                1719592292,
+                "1214.94"
+            ],
+            [
+                1719592297,
+                "1215.02"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "19230.43"
+            ],
+            [
+                1719592292,
+                "19230.47"
+            ],
+            [
+                1719592297,
+                "19230.51"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "142.29"
+            ],
+            [
+                1719592292,
+                "142.29"
+            ],
+            [
+                1719592297,
+                "142.29"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1247.56"
+            ],
+            [
+                1719592292,
+                "1247.59"
+            ],
+            [
+                1719592297,
+                "1247.66"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "106008.97"
+            ],
+            [
+                1719592292,
+                "106009.34"
+            ],
+            [
+                1719592297,
+                "106009.72"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "1518326.97"
+            ],
+            [
+                1719592292,
+                "1518328.36"
+            ],
+            [
+                1719592297,
+                "1518330.03"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8237543.81"
+            ],
+            [
+                1719592292,
+                "8237547.01"
+            ],
+            [
+                1719592297,
+                "8237550.39"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1315.75"
+            ],
+            [
+                1719592292,
+                "1315.78"
+            ],
+            [
+                1719592297,
+                "1315.82"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15687.94"
+            ],
+            [
+                1719592292,
+                "15687.99"
+            ],
+            [
+                1719592297,
+                "15688.02"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "141.77"
+            ],
+            [
+                1719592292,
+                "141.77"
+            ],
+            [
+                1719592297,
+                "141.77"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1464.43"
+            ],
+            [
+                1719592292,
+                "1464.47"
+            ],
+            [
+                1719592297,
+                "1464.51"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "107088.12"
+            ],
+            [
+                1719592292,
+                "107088.47"
+            ],
+            [
+                1719592297,
+                "107088.74"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "259274.06"
+            ],
+            [
+                1719592292,
+                "259275.4"
+            ],
+            [
+                1719592297,
+                "259276.6"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8243199.06"
+            ],
+            [
+                1719592292,
+                "8243202.57"
+            ],
+            [
+                1719592297,
+                "8243206.09"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1247.11"
+            ],
+            [
+                1719592292,
+                "1247.15"
+            ],
+            [
+                1719592297,
+                "1247.2"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15692.6"
+            ],
+            [
+                1719592292,
+                "15692.63"
+            ],
+            [
+                1719592297,
+                "15692.67"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "135.58"
+            ],
+            [
+                1719592292,
+                "135.58"
+            ],
+            [
+                1719592297,
+                "135.58"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1335.73"
+            ],
+            [
+                1719592292,
+                "1335.75"
+            ],
+            [
+                1719592297,
+                "1335.8"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "108395.47"
+            ],
+            [
+                1719592292,
+                "108395.74"
+            ],
+            [
+                1719592297,
+                "108396.02"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "253015.1"
+            ],
+            [
+                1719592292,
+                "253016.22"
+            ],
+            [
+                1719592297,
+                "253017.27"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8239951"
+            ],
+            [
+                1719592292,
+                "8239954.52"
+            ],
+            [
+                1719592297,
+                "8239957.57"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1211.34"
+            ],
+            [
+                1719592292,
+                "1211.38"
+            ],
+            [
+                1719592297,
+                "1211.44"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15914.23"
+            ],
+            [
+                1719592292,
+                "15914.26"
+            ],
+            [
+                1719592297,
+                "15914.3"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "176.17"
+            ],
+            [
+                1719592292,
+                "176.17"
+            ],
+            [
+                1719592297,
+                "176.17"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1651.96"
+            ],
+            [
+                1719592292,
+                "1651.98"
+            ],
+            [
+                1719592297,
+                "1652.03"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "109477.66"
+            ],
+            [
+                1719592292,
+                "109477.91"
+            ],
+            [
+                1719592297,
+                "109478.29"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "253340.82"
+            ],
+            [
+                1719592292,
+                "253341.92"
+            ],
+            [
+                1719592297,
+                "253343.33"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8061348.9"
+            ],
+            [
+                1719592292,
+                "8061351.72"
+            ],
+            [
+                1719592297,
+                "8061354.59"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1162.9"
+            ],
+            [
+                1719592292,
+                "1162.91"
+            ],
+            [
+                1719592297,
+                "1162.93"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "16194.86"
+            ],
+            [
+                1719592292,
+                "16194.89"
+            ],
+            [
+                1719592297,
+                "16194.92"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "167.61"
+            ],
+            [
+                1719592292,
+                "167.61"
+            ],
+            [
+                1719592297,
+                "167.61"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1305.3"
+            ],
+            [
+                1719592292,
+                "1305.33"
+            ],
+            [
+                1719592297,
+                "1305.38"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "106689.36"
+            ],
+            [
+                1719592292,
+                "106689.68"
+            ],
+            [
+                1719592297,
+                "106689.97"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "435375.36"
+            ],
+            [
+                1719592292,
+                "435377.14"
+            ],
+            [
+                1719592297,
+                "435378.89"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8134224.34"
+            ],
+            [
+                1719592292,
+                "8134227.68"
+            ],
+            [
+                1719592297,
+                "8134230.96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1217.69"
+            ],
+            [
+                1719592292,
+                "1217.72"
+            ],
+            [
+                1719592297,
+                "1217.75"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "16854.97"
+            ],
+            [
+                1719592292,
+                "16855"
+            ],
+            [
+                1719592297,
+                "16855.03"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "177.55"
+            ],
+            [
+                1719592292,
+                "177.55"
+            ],
+            [
+                1719592297,
+                "177.55"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1756.58"
+            ],
+            [
+                1719592292,
+                "1756.6"
+            ],
+            [
+                1719592297,
+                "1756.64"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "111295.58"
+            ],
+            [
+                1719592292,
+                "111295.87"
+            ],
+            [
+                1719592297,
+                "111296.21"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "357149.31"
+            ],
+            [
+                1719592292,
+                "357150.58"
+            ],
+            [
+                1719592297,
+                "357151.82"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8181580.97"
+            ],
+            [
+                1719592292,
+                "8181584.26"
+            ],
+            [
+                1719592297,
+                "8181587.79"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1222.91"
+            ],
+            [
+                1719592292,
+                "1222.93"
+            ],
+            [
+                1719592297,
+                "1222.95"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "16444.33"
+            ],
+            [
+                1719592292,
+                "16444.37"
+            ],
+            [
+                1719592297,
+                "16444.4"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "143.3"
+            ],
+            [
+                1719592292,
+                "143.3"
+            ],
+            [
+                1719592297,
+                "143.3"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1591.17"
+            ],
+            [
+                1719592292,
+                "1591.19"
+            ],
+            [
+                1719592297,
+                "1591.22"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "109967.87"
+            ],
+            [
+                1719592292,
+                "109968.16"
+            ],
+            [
+                1719592297,
+                "109968.42"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "310960.4"
+            ],
+            [
+                1719592292,
+                "310961.71"
+            ],
+            [
+                1719592297,
+                "310962.81"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "7669645.23"
+            ],
+            [
+                1719592292,
+                "7669645.23"
+            ],
+            [
+                1719592297,
+                "7669645.23"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1242.65"
+            ],
+            [
+                1719592292,
+                "1242.65"
+            ],
+            [
+                1719592297,
+                "1242.65"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "18079.71"
+            ],
+            [
+                1719592292,
+                "18079.73"
+            ],
+            [
+                1719592297,
+                "18079.76"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "154.41"
+            ],
+            [
+                1719592292,
+                "154.41"
+            ],
+            [
+                1719592297,
+                "154.41"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1381.9"
+            ],
+            [
+                1719592292,
+                "1381.9"
+            ],
+            [
+                1719592297,
+                "1381.9"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "109939.12"
+            ],
+            [
+                1719592292,
+                "109939.12"
+            ],
+            [
+                1719592297,
+                "109939.12"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "821513.63"
+            ],
+            [
+                1719592292,
+                "821518.61"
+            ],
+            [
+                1719592297,
+                "821523.59"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8169590.35"
+            ],
+            [
+                1719592292,
+                "8169593.56"
+            ],
+            [
+                1719592297,
+                "8169597.16"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1350.02"
+            ],
+            [
+                1719592292,
+                "1350.11"
+            ],
+            [
+                1719592297,
+                "1350.18"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "16185.83"
+            ],
+            [
+                1719592292,
+                "16185.87"
+            ],
+            [
+                1719592297,
+                "16185.89"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "174.01"
+            ],
+            [
+                1719592292,
+                "174.01"
+            ],
+            [
+                1719592297,
+                "174.01"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1573.95"
+            ],
+            [
+                1719592292,
+                "1573.98"
+            ],
+            [
+                1719592297,
+                "1574"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "109239.78"
+            ],
+            [
+                1719592292,
+                "109240.04"
+            ],
+            [
+                1719592297,
+                "109240.2"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "323607.51"
+            ],
+            [
+                1719592292,
+                "323608.84"
+            ],
+            [
+                1719592297,
+                "323609.95"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8249595.29"
+            ],
+            [
+                1719592292,
+                "8249598.52"
+            ],
+            [
+                1719592297,
+                "8249601.61"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1311.17"
+            ],
+            [
+                1719592292,
+                "1311.21"
+            ],
+            [
+                1719592297,
+                "1311.23"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15811.9"
+            ],
+            [
+                1719592292,
+                "15811.93"
+            ],
+            [
+                1719592297,
+                "15811.96"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "134.28"
+            ],
+            [
+                1719592292,
+                "134.28"
+            ],
+            [
+                1719592297,
+                "134.28"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1342.03"
+            ],
+            [
+                1719592292,
+                "1342.04"
+            ],
+            [
+                1719592297,
+                "1342.05"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "109787.75"
+            ],
+            [
+                1719592292,
+                "109788.07"
+            ],
+            [
+                1719592297,
+                "109788.5"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "244009.37"
+            ],
+            [
+                1719592292,
+                "244010.7"
+            ],
+            [
+                1719592297,
+                "244012.07"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8253500.22"
+            ],
+            [
+                1719592292,
+                "8253503.14"
+            ],
+            [
+                1719592297,
+                "8253506.18"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1184.82"
+            ],
+            [
+                1719592292,
+                "1184.86"
+            ],
+            [
+                1719592297,
+                "1184.91"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15897.75"
+            ],
+            [
+                1719592292,
+                "15897.78"
+            ],
+            [
+                1719592297,
+                "15897.83"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "139.82"
+            ],
+            [
+                1719592292,
+                "139.82"
+            ],
+            [
+                1719592297,
+                "139.82"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1711.01"
+            ],
+            [
+                1719592292,
+                "1711.05"
+            ],
+            [
+                1719592297,
+                "1711.1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "107428.07"
+            ],
+            [
+                1719592292,
+                "107428.43"
+            ],
+            [
+                1719592297,
+                "107428.78"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "242045.18"
+            ],
+            [
+                1719592292,
+                "242046.76"
+            ],
+            [
+                1719592297,
+                "242048.21"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8136566.21"
+            ],
+            [
+                1719592292,
+                "8136569.73"
+            ],
+            [
+                1719592297,
+                "8136573.08"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1211.14"
+            ],
+            [
+                1719592292,
+                "1211.15"
+            ],
+            [
+                1719592297,
+                "1211.18"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15981.7"
+            ],
+            [
+                1719592292,
+                "15981.74"
+            ],
+            [
+                1719592297,
+                "15981.78"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "132.71"
+            ],
+            [
+                1719592292,
+                "132.71"
+            ],
+            [
+                1719592297,
+                "132.71"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1338.9"
+            ],
+            [
+                1719592292,
+                "1338.93"
+            ],
+            [
+                1719592297,
+                "1338.99"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "106875"
+            ],
+            [
+                1719592292,
+                "106875.26"
+            ],
+            [
+                1719592297,
+                "106875.59"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "360123.57"
+            ],
+            [
+                1719592292,
+                "360124.67"
+            ],
+            [
+                1719592297,
+                "360125.87"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "idle"
+        },
+        "values": [
+            [
+                1719592287,
+                "8211976.7"
+            ],
+            [
+                1719592292,
+                "8211979.39"
+            ],
+            [
+                1719592297,
+                "8211982.4"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "iowait"
+        },
+        "values": [
+            [
+                1719592287,
+                "1342.05"
+            ],
+            [
+                1719592292,
+                "1342.07"
+            ],
+            [
+                1719592297,
+                "1342.09"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "irq"
+        },
+        "values": [
+            [
+                1719592287,
+                "15978.95"
+            ],
+            [
+                1719592292,
+                "15979.01"
+            ],
+            [
+                1719592297,
+                "15979.05"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "nice"
+        },
+        "values": [
+            [
+                1719592287,
+                "134.51"
+            ],
+            [
+                1719592292,
+                "134.51"
+            ],
+            [
+                1719592297,
+                "134.51"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "softirq"
+        },
+        "values": [
+            [
+                1719592287,
+                "1721.83"
+            ],
+            [
+                1719592292,
+                "1721.87"
+            ],
+            [
+                1719592297,
+                "1721.91"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "steal"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "system"
+        },
+        "values": [
+            [
+                1719592287,
+                "107959.55"
+            ],
+            [
+                1719592292,
+                "107959.98"
+            ],
+            [
+                1719592297,
+                "107960.25"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_cpu_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mode": "user"
+        },
+        "values": [
+            [
+                1719592287,
+                "282368.33"
+            ],
+            [
+                1719592292,
+                "282370.04"
+            ],
+            [
+                1719592297,
+                "282371.63"
+            ]
+        ]
+    }
+]

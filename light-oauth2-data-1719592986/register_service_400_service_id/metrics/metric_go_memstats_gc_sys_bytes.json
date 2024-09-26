@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_memstats_gc_sys_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592368,
+                "4302648"
+            ],
+            [
+                1719592373,
+                "4302648"
+            ],
+            [
+                1719592378,
+                "4302648"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_memstats_gc_sys_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592368,
+                "4861648"
+            ],
+            [
+                1719592373,
+                "4861648"
+            ],
+            [
+                1719592378,
+                "4861648"
+            ]
+        ]
+    }
+]

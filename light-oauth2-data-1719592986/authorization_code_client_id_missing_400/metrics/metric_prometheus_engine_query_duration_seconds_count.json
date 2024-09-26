@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592522,
+                "10185"
+            ],
+            [
+                1719592527,
+                "10670"
+            ],
+            [
+                1719592532,
+                "10670"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592522,
+                "10185"
+            ],
+            [
+                1719592527,
+                "10670"
+            ],
+            [
+                1719592532,
+                "10670"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592522,
+                "20370"
+            ],
+            [
+                1719592527,
+                "21340"
+            ],
+            [
+                1719592532,
+                "21340"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592522,
+                "10185"
+            ],
+            [
+                1719592527,
+                "10670"
+            ],
+            [
+                1719592532,
+                "10670"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_storage_size_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592235,
+                "191732"
+            ],
+            [
+                1719592240,
+                "201092"
+            ],
+            [
+                1719592245,
+                "211204"
+            ]
+        ]
+    }
+]

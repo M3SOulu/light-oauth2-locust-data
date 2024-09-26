@@ -1,0 +1,46 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_scrape_pool_targets",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592919,
+                "1"
+            ],
+            [
+                1719592924,
+                "1"
+            ],
+            [
+                1719592929,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_scrape_pool_targets",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592919,
+                "1"
+            ],
+            [
+                1719592924,
+                "1"
+            ],
+            [
+                1719592929,
+                "1"
+            ]
+        ]
+    }
+]

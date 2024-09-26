@@ -1,0 +1,202 @@
+[
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "/dev/sda1",
+            "fstype": "ext4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/boot"
+        },
+        "values": [
+            [
+                1719592722,
+                "622456832"
+            ],
+            [
+                1719592727,
+                "622456832"
+            ],
+            [
+                1719592732,
+                "622456832"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "/dev/sda3",
+            "fstype": "ext4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/"
+        },
+        "values": [
+            [
+                1719592722,
+                "743061053440"
+            ],
+            [
+                1719592727,
+                "743074648064"
+            ],
+            [
+                1719592732,
+                "743068712960"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "none",
+            "fstype": "ramfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/run/credentials/systemd-sysctl.service"
+        },
+        "values": [
+            [
+                1719592722,
+                "0"
+            ],
+            [
+                1719592727,
+                "0"
+            ],
+            [
+                1719592732,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "none",
+            "fstype": "ramfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/run/credentials/systemd-tmpfiles-setup-dev.service"
+        },
+        "values": [
+            [
+                1719592722,
+                "0"
+            ],
+            [
+                1719592727,
+                "0"
+            ],
+            [
+                1719592732,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "none",
+            "fstype": "ramfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/run/credentials/systemd-tmpfiles-setup.service"
+        },
+        "values": [
+            [
+                1719592722,
+                "0"
+            ],
+            [
+                1719592727,
+                "0"
+            ],
+            [
+                1719592732,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "tmpfs",
+            "fstype": "tmpfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/run"
+        },
+        "values": [
+            [
+                1719592722,
+                "12016386048"
+            ],
+            [
+                1719592727,
+                "12007997440"
+            ],
+            [
+                1719592732,
+                "12007997440"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "tmpfs",
+            "fstype": "tmpfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/run/user/1000"
+        },
+        "values": [
+            [
+                1719592722,
+                "6688890880"
+            ],
+            [
+                1719592727,
+                "6688890880"
+            ],
+            [
+                1719592732,
+                "6688890880"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_filesystem_avail_bytes",
+            "device": "tmpfs",
+            "fstype": "tmpfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "mountpoint": "/run/user/1005"
+        },
+        "values": [
+            [
+                1719592722,
+                "6688886784"
+            ],
+            [
+                1719592727,
+                "6688886784"
+            ],
+            [
+                1719592732,
+                "6688886784"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "metric": {
+            "__name__": "node_disk_reads_completed_total",
+            "device": "sda",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592436,
+                "83880804"
+            ],
+            [
+                1719592441,
+                "83880804"
+            ],
+            [
+                1719592446,
+                "83880804"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_disk_reads_completed_total",
+            "device": "sr0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592436,
+                "0"
+            ],
+            [
+                1719592441,
+                "0"
+            ],
+            [
+                1719592446,
+                "0"
+            ]
+        ]
+    }
+]

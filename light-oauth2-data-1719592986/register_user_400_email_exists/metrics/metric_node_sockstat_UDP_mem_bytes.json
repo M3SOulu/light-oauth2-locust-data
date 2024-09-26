@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_sockstat_UDP_mem_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592834,
+                "5001216"
+            ],
+            [
+                1719592839,
+                "5001216"
+            ],
+            [
+                1719592844,
+                "5001216"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,393 @@
+[
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "br-068f11161e47",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "3"
+            ],
+            [
+                1719592727,
+                "3"
+            ],
+            [
+                1719592732,
+                "3"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "br-39d198a89b64",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2534"
+            ],
+            [
+                1719592727,
+                "2534"
+            ],
+            [
+                1719592732,
+                "2534"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "br-acc6d4e2bdb3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "5"
+            ],
+            [
+                1719592727,
+                "5"
+            ],
+            [
+                1719592732,
+                "5"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "docker0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "4"
+            ],
+            [
+                1719592727,
+                "4"
+            ],
+            [
+                1719592732,
+                "4"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "eth0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2"
+            ],
+            [
+                1719592727,
+                "2"
+            ],
+            [
+                1719592732,
+                "2"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "lo",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "1"
+            ],
+            [
+                1719592727,
+                "1"
+            ],
+            [
+                1719592732,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "veth021ae37",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2541"
+            ],
+            [
+                1719592727,
+                "2541"
+            ],
+            [
+                1719592732,
+                "2541"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "veth31558a6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2557"
+            ],
+            [
+                1719592727,
+                "2557"
+            ],
+            [
+                1719592732,
+                "2557"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "veth35a6185",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2545"
+            ],
+            [
+                1719592727,
+                "2545"
+            ],
+            [
+                1719592732,
+                "2545"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "veth7ff4352",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2553"
+            ],
+            [
+                1719592727,
+                "2553"
+            ],
+            [
+                1719592732,
+                "2553"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "veth8a2cc66",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2539"
+            ],
+            [
+                1719592727,
+                "2539"
+            ],
+            [
+                1719592732,
+                "2539"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "veth9707148",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2555"
+            ],
+            [
+                1719592727,
+                "2555"
+            ],
+            [
+                1719592732,
+                "2555"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "vethbe34003",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2535"
+            ],
+            [
+                1719592727,
+                "2535"
+            ],
+            [
+                1719592732,
+                "2535"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "vethcd7224c",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2549"
+            ],
+            [
+                1719592727,
+                "2549"
+            ],
+            [
+                1719592732,
+                "2549"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "vethe0a52af",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2551"
+            ],
+            [
+                1719592727,
+                "2551"
+            ],
+            [
+                1719592732,
+                "2551"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "vethe5229c9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2537"
+            ],
+            [
+                1719592727,
+                "2537"
+            ],
+            [
+                1719592732,
+                "2537"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_iface_link",
+            "device": "vethefc75a8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592722,
+                "2547"
+            ],
+            [
+                1719592727,
+                "2547"
+            ],
+            [
+                1719592732,
+                "2547"
+            ]
+        ]
+    }
+]

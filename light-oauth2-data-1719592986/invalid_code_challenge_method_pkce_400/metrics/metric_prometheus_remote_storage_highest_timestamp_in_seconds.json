@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_remote_storage_highest_timestamp_in_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592651,
+                "1719592648"
+            ],
+            [
+                1719592656,
+                "1719592653"
+            ],
+            [
+                1719592661,
+                "1719592658"
+            ]
+        ]
+    }
+]

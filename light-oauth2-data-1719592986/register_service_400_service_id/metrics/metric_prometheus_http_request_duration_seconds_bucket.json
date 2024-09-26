@@ -1,0 +1,462 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "+Inf"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.1"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.2"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.4"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "120"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "20"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "3"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "60"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "8"
+        },
+        "values": [
+            [
+                1719592368,
+                "4850"
+            ],
+            [
+                1719592373,
+                "5335"
+            ],
+            [
+                1719592378,
+                "5335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "+Inf"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.1"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.2"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.4"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "120"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "20"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "3"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "60"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_bucket",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "8"
+        },
+        "values": [
+            [
+                1719592368,
+                "43"
+            ],
+            [
+                1719592373,
+                "44"
+            ],
+            [
+                1719592378,
+                "45"
+            ]
+        ]
+    }
+]

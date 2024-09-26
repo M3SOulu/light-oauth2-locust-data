@@ -1,0 +1,27 @@
+[
+    {
+        "metric": {
+            "__name__": "node_os_version",
+            "group": "production",
+            "id": "rhel",
+            "id_like": "fedora",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "name": "Red Hat Enterprise Linux"
+        },
+        "values": [
+            [
+                1719592537,
+                "9.4"
+            ],
+            [
+                1719592542,
+                "9.4"
+            ],
+            [
+                1719592547,
+                "9.4"
+            ]
+        ]
+    }
+]

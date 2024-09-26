@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_too_old_samples_total",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "type": "float"
+        },
+        "values": [
+            [
+                1719592551,
+                "0"
+            ],
+            [
+                1719592556,
+                "0"
+            ],
+            [
+                1719592561,
+                "0"
+            ]
+        ]
+    }
+]

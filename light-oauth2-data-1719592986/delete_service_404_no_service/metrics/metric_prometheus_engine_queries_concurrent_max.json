@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_queries_concurrent_max",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592436,
+                "20"
+            ],
+            [
+                1719592441,
+                "20"
+            ],
+            [
+                1719592446,
+                "20"
+            ]
+        ]
+    }
+]

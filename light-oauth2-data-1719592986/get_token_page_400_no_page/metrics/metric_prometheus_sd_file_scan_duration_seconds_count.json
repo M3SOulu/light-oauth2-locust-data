@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_file_scan_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592806,
+                "0"
+            ],
+            [
+                1719592811,
+                "0"
+            ],
+            [
+                1719592816,
+                "0"
+            ]
+        ]
+    }
+]

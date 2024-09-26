@@ -1,0 +1,98 @@
+[
+    {
+        "metric": {
+            "__name__": "node_udp_queues",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "ip": "v4",
+            "job": "node",
+            "queue": "rx"
+        },
+        "values": [
+            [
+                1719592961,
+                "0"
+            ],
+            [
+                1719592966,
+                "0"
+            ],
+            [
+                1719592971,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_udp_queues",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "ip": "v4",
+            "job": "node",
+            "queue": "tx"
+        },
+        "values": [
+            [
+                1719592961,
+                "0"
+            ],
+            [
+                1719592966,
+                "0"
+            ],
+            [
+                1719592971,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_udp_queues",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "ip": "v6",
+            "job": "node",
+            "queue": "rx"
+        },
+        "values": [
+            [
+                1719592961,
+                "0"
+            ],
+            [
+                1719592966,
+                "0"
+            ],
+            [
+                1719592971,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_udp_queues",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "ip": "v6",
+            "job": "node",
+            "queue": "tx"
+        },
+        "values": [
+            [
+                1719592961,
+                "0"
+            ],
+            [
+                1719592966,
+                "0"
+            ],
+            [
+                1719592971,
+                "0"
+            ]
+        ]
+    }
+]

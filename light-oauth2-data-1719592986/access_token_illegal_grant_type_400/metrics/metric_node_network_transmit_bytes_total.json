@@ -1,0 +1,48 @@
+[
+    {
+        "metric": {
+            "__name__": "node_network_transmit_bytes_total",
+            "device": "eth0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "1214297"
+            ],
+            [
+                1719592556,
+                "1229481"
+            ],
+            [
+                1719592561,
+                "1244671"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_transmit_bytes_total",
+            "device": "lo",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "0"
+            ],
+            [
+                1719592556,
+                "0"
+            ],
+            [
+                1719592561,
+                "0"
+            ]
+        ]
+    }
+]

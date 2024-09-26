@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_samples_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592693,
+                "174514"
+            ],
+            [
+                1719592698,
+                "179326"
+            ],
+            [
+                1719592703,
+                "179326"
+            ]
+        ]
+    }
+]

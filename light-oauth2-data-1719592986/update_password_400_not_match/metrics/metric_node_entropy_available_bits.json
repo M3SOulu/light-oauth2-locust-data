@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_entropy_available_bits",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592961,
+                "256"
+            ],
+            [
+                1719592966,
+                "256"
+            ],
+            [
+                1719592971,
+                "256"
+            ]
+        ]
+    }
+]

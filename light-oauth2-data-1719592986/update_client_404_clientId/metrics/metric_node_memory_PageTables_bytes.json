@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_PageTables_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592314,
+                "66199552"
+            ],
+            [
+                1719592319,
+                "66056192"
+            ],
+            [
+                1719592324,
+                "66109440"
+            ]
+        ]
+    }
+]

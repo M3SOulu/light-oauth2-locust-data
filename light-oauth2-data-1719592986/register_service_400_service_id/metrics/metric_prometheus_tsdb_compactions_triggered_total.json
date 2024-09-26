@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compactions_triggered_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592368,
+                "3"
+            ],
+            [
+                1719592373,
+                "3"
+            ],
+            [
+                1719592378,
+                "3"
+            ]
+        ]
+    }
+]

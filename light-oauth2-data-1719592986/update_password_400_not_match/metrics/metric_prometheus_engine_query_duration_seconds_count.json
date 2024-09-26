@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592961,
+                "25220"
+            ],
+            [
+                1719592966,
+                "25705"
+            ],
+            [
+                1719592971,
+                "25705"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592961,
+                "25220"
+            ],
+            [
+                1719592966,
+                "25705"
+            ],
+            [
+                1719592971,
+                "25705"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592961,
+                "50440"
+            ],
+            [
+                1719592966,
+                "51410"
+            ],
+            [
+                1719592971,
+                "51410"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592961,
+                "25220"
+            ],
+            [
+                1719592966,
+                "25705"
+            ],
+            [
+                1719592971,
+                "25705"
+            ]
+        ]
+    }
+]

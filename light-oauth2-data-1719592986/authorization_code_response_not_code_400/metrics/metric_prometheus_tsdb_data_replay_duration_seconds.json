@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_data_replay_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592508,
+                "0.000606908"
+            ],
+            [
+                1719592513,
+                "0.000606908"
+            ],
+            [
+                1719592518,
+                "0.000606908"
+            ]
+        ]
+    }
+]

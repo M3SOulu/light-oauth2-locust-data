@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_duration_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592287,
+                "0"
+            ],
+            [
+                1719592292,
+                "0"
+            ],
+            [
+                1719592297,
+                "0"
+            ]
+        ]
+    }
+]

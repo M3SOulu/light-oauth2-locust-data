@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "process_resident_memory_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592494,
+                "21045248"
+            ],
+            [
+                1719592499,
+                "21045248"
+            ],
+            [
+                1719592504,
+                "21843968"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "process_resident_memory_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592494,
+                "89849856"
+            ],
+            [
+                1719592499,
+                "90517504"
+            ],
+            [
+                1719592504,
+                "90259456"
+            ]
+        ]
+    }
+]

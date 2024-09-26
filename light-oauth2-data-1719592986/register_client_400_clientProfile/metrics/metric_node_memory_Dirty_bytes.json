@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_Dirty_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592248,
+                "33992704"
+            ],
+            [
+                1719592253,
+                "40116224"
+            ],
+            [
+                1719592258,
+                "39526400"
+            ]
+        ]
+    }
+]

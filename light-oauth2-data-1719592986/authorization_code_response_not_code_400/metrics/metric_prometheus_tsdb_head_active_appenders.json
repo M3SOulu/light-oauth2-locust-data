@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_head_active_appenders",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592508,
+                "1"
+            ],
+            [
+                1719592513,
+                "1"
+            ],
+            [
+                1719592518,
+                "1"
+            ]
+        ]
+    }
+]

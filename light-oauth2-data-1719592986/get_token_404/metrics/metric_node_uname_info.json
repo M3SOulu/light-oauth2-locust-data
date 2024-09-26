@@ -1,0 +1,30 @@
+[
+    {
+        "metric": {
+            "__name__": "node_uname_info",
+            "domainname": "(none)",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "machine": "x86_64",
+            "nodename": "759259b099c8",
+            "release": "5.14.0-362.24.1.el9_3.x86_64",
+            "sysname": "Linux",
+            "version": "#1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024"
+        },
+        "values": [
+            [
+                1719592777,
+                "1"
+            ],
+            [
+                1719592782,
+                "1"
+            ],
+            [
+                1719592787,
+                "1"
+            ]
+        ]
+    }
+]

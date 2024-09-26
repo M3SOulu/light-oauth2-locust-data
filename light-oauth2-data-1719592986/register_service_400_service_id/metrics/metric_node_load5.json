@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_load5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592368,
+                "8.06"
+            ],
+            [
+                1719592373,
+                "8.05"
+            ],
+            [
+                1719592378,
+                "7.98"
+            ]
+        ]
+    }
+]

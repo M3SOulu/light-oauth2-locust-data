@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_netstat_Tcp_OutSegs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592693,
+                "1190"
+            ],
+            [
+                1719592698,
+                "1201"
+            ],
+            [
+                1719592703,
+                "1212"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_vmstat_pswpout",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592848,
+                "2139383"
+            ],
+            [
+                1719592853,
+                "2139383"
+            ],
+            [
+                1719592858,
+                "2139383"
+            ]
+        ]
+    }
+]

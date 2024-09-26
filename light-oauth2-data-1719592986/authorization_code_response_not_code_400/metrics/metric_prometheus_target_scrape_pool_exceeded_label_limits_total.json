@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_scrape_pool_exceeded_label_limits_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592508,
+                "0"
+            ],
+            [
+                1719592513,
+                "0"
+            ],
+            [
+                1719592518,
+                "0"
+            ]
+        ]
+    }
+]

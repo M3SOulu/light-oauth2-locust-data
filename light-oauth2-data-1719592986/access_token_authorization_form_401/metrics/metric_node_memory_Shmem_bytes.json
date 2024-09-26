@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_Shmem_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592637,
+                "1352560640"
+            ],
+            [
+                1719592642,
+                "1352560640"
+            ],
+            [
+                1719592647,
+                "1352560640"
+            ]
+        ]
+    }
+]

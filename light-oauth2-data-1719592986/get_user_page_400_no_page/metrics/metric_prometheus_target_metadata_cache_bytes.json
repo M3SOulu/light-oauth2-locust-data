@@ -1,0 +1,46 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_metadata_cache_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592905,
+                "14037"
+            ],
+            [
+                1719592910,
+                "14037"
+            ],
+            [
+                1719592915,
+                "14037"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_metadata_cache_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592905,
+                "11411"
+            ],
+            [
+                1719592910,
+                "11411"
+            ],
+            [
+                1719592915,
+                "11411"
+            ]
+        ]
+    }
+]

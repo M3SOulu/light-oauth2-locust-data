@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_linode_failures_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    }
+]

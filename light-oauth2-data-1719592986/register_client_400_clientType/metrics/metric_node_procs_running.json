@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_procs_running",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592235,
+                "8"
+            ],
+            [
+                1719592240,
+                "19"
+            ],
+            [
+                1719592245,
+                "13"
+            ]
+        ]
+    }
+]

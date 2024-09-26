@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592395,
+                "5820"
+            ],
+            [
+                1719592400,
+                "6305"
+            ],
+            [
+                1719592405,
+                "6305"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592395,
+                "5820"
+            ],
+            [
+                1719592400,
+                "6305"
+            ],
+            [
+                1719592405,
+                "6305"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592395,
+                "11640"
+            ],
+            [
+                1719592400,
+                "12610"
+            ],
+            [
+                1719592405,
+                "12610"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592395,
+                "5820"
+            ],
+            [
+                1719592400,
+                "6305"
+            ],
+            [
+                1719592405,
+                "6305"
+            ]
+        ]
+    }
+]

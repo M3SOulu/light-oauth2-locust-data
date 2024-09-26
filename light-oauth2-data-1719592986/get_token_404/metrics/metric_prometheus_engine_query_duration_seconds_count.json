@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592777,
+                "18915"
+            ],
+            [
+                1719592782,
+                "19400"
+            ],
+            [
+                1719592787,
+                "19400"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592777,
+                "18915"
+            ],
+            [
+                1719592782,
+                "19400"
+            ],
+            [
+                1719592787,
+                "19400"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592777,
+                "37830"
+            ],
+            [
+                1719592782,
+                "38800"
+            ],
+            [
+                1719592787,
+                "38800"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592777,
+                "18915"
+            ],
+            [
+                1719592782,
+                "19400"
+            ],
+            [
+                1719592787,
+                "19400"
+            ]
+        ]
+    }
+]

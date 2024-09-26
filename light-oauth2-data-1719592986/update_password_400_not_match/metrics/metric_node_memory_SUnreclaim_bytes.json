@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_SUnreclaim_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592961,
+                "519311360"
+            ],
+            [
+                1719592966,
+                "519360512"
+            ],
+            [
+                1719592971,
+                "519360512"
+            ]
+        ]
+    }
+]

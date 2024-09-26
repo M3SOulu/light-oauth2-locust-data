@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_sockstat_sockets_used",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592566,
+                "5"
+            ],
+            [
+                1719592571,
+                "5"
+            ],
+            [
+                1719592576,
+                "5"
+            ]
+        ]
+    }
+]

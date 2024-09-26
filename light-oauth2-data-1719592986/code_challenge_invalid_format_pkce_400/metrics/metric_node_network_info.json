@@ -1,0 +1,477 @@
+[
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "00:00:00:00:00:00",
+            "adminstate": "up",
+            "broadcast": "00:00:00:00:00:00",
+            "device": "lo",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "unknown"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "00:50:56:ad:36:70",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "eth0",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "02:42:31:91:ca:4f",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "br-acc6d4e2bdb3",
+            "duplex": "unknown",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "down"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "02:42:70:56:62:56",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "docker0",
+            "duplex": "unknown",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "down"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "02:42:b2:8c:45:e2",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "br-39d198a89b64",
+            "duplex": "unknown",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "02:42:f4:64:28:79",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "br-068f11161e47",
+            "duplex": "unknown",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "02:48:5b:f1:d4:20",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "vethcd7224c",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "3e:34:ec:53:9b:6c",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "veth7ff4352",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "5a:21:0e:19:a6:58",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "vethe0a52af",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "72:f9:d0:f2:c8:32",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "veth8a2cc66",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "76:7c:6d:27:c1:8c",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "vethe5229c9",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "8e:43:0e:6f:60:0e",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "vethbe34003",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "92:38:2d:0c:8a:d8",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "vethefc75a8",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "a6:fa:d4:93:dc:27",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "veth9707148",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "b6:79:01:76:e5:05",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "veth35a6185",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "ba:c0:3c:81:c1:2e",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "veth31558a6",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_network_info",
+            "address": "ca:1f:c8:be:5d:ff",
+            "adminstate": "up",
+            "broadcast": "ff:ff:ff:ff:ff:ff",
+            "device": "veth021ae37",
+            "duplex": "full",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "operstate": "up"
+        },
+        "values": [
+            [
+                1719592693,
+                "1"
+            ],
+            [
+                1719592698,
+                "1"
+            ],
+            [
+                1719592703,
+                "1"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_rule_evaluation_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592763,
+                "0"
+            ],
+            [
+                1719592768,
+                "0"
+            ],
+            [
+                1719592773,
+                "0"
+            ]
+        ]
+    }
+]

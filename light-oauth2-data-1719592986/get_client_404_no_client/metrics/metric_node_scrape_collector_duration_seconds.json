@@ -1,0 +1,1037 @@
+[
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "arp",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000161507"
+            ],
+            [
+                1719592346,
+                "0.000167972"
+            ],
+            [
+                1719592351,
+                "0.000193299"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "bcache",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.00000819"
+            ],
+            [
+                1719592346,
+                "0.000009304"
+            ],
+            [
+                1719592351,
+                "0.000014644"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "bonding",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000010039"
+            ],
+            [
+                1719592346,
+                "0.000010942"
+            ],
+            [
+                1719592351,
+                "0.000014291"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "btrfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000204416"
+            ],
+            [
+                1719592346,
+                "0.000145311"
+            ],
+            [
+                1719592351,
+                "0.000222335"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "conntrack",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000136275"
+            ],
+            [
+                1719592346,
+                "0.000233411"
+            ],
+            [
+                1719592351,
+                "0.00015796"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "cpu",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.00107645"
+            ],
+            [
+                1719592346,
+                "0.001005145"
+            ],
+            [
+                1719592351,
+                "0.001305622"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "cpufreq",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000123343"
+            ],
+            [
+                1719592346,
+                "0.000113865"
+            ],
+            [
+                1719592351,
+                "0.000121818"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "diskstats",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000133173"
+            ],
+            [
+                1719592346,
+                "0.000130612"
+            ],
+            [
+                1719592351,
+                "0.000175008"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "dmi",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000011276"
+            ],
+            [
+                1719592346,
+                "0.000013853"
+            ],
+            [
+                1719592351,
+                "0.000012421"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "edac",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000042752"
+            ],
+            [
+                1719592346,
+                "0.000032419"
+            ],
+            [
+                1719592351,
+                "0.000030022"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "entropy",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000075453"
+            ],
+            [
+                1719592346,
+                "0.000095163"
+            ],
+            [
+                1719592351,
+                "0.00007805"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "fibrechannel",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000008136"
+            ],
+            [
+                1719592346,
+                "0.000007553"
+            ],
+            [
+                1719592351,
+                "0.000008768"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "filefd",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000056321"
+            ],
+            [
+                1719592346,
+                "0.000026519"
+            ],
+            [
+                1719592351,
+                "0.000033661"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "filesystem",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.017065229"
+            ],
+            [
+                1719592346,
+                "0.013355231"
+            ],
+            [
+                1719592351,
+                "0.012001499"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "hwmon",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000206158"
+            ],
+            [
+                1719592346,
+                "0.000184183"
+            ],
+            [
+                1719592351,
+                "0.000211022"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "infiniband",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000008378"
+            ],
+            [
+                1719592346,
+                "0.000007959"
+            ],
+            [
+                1719592351,
+                "0.000007086"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "ipvs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000012411"
+            ],
+            [
+                1719592346,
+                "0.000010326"
+            ],
+            [
+                1719592351,
+                "0.000010492"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "loadavg",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000027825"
+            ],
+            [
+                1719592346,
+                "0.000028289"
+            ],
+            [
+                1719592351,
+                "0.000030639"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "mdadm",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000028635"
+            ],
+            [
+                1719592346,
+                "0.000029143"
+            ],
+            [
+                1719592351,
+                "0.00003828"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "meminfo",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000115197"
+            ],
+            [
+                1719592346,
+                "0.000120537"
+            ],
+            [
+                1719592351,
+                "0.000139627"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "netclass",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.009862867"
+            ],
+            [
+                1719592346,
+                "0.011885266"
+            ],
+            [
+                1719592351,
+                "0.009997211"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "netdev",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.00012902"
+            ],
+            [
+                1719592346,
+                "0.00012577"
+            ],
+            [
+                1719592351,
+                "0.000130422"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "netstat",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000519741"
+            ],
+            [
+                1719592346,
+                "0.000507075"
+            ],
+            [
+                1719592351,
+                "0.000603689"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "nfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000009554"
+            ],
+            [
+                1719592346,
+                "0.000099669"
+            ],
+            [
+                1719592351,
+                "0.000025787"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "nfsd",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000021208"
+            ],
+            [
+                1719592346,
+                "0.000013789"
+            ],
+            [
+                1719592351,
+                "0.00001444"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "nvme",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000012135"
+            ],
+            [
+                1719592346,
+                "0.000012864"
+            ],
+            [
+                1719592351,
+                "0.000012727"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "os",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000030543"
+            ],
+            [
+                1719592346,
+                "0.000034126"
+            ],
+            [
+                1719592351,
+                "0.000027945"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "powersupplyclass",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000287379"
+            ],
+            [
+                1719592346,
+                "0.000267492"
+            ],
+            [
+                1719592351,
+                "0.017901975"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "pressure",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000018031"
+            ],
+            [
+                1719592346,
+                "0.000017046"
+            ],
+            [
+                1719592351,
+                "0.000015449"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "rapl",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000025958"
+            ],
+            [
+                1719592346,
+                "0.000020722"
+            ],
+            [
+                1719592351,
+                "0.000021305"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "schedstat",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000098206"
+            ],
+            [
+                1719592346,
+                "0.000101887"
+            ],
+            [
+                1719592351,
+                "0.000108794"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "selinux",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000001155"
+            ],
+            [
+                1719592346,
+                "0.00000132"
+            ],
+            [
+                1719592351,
+                "0.000001712"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "sockstat",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000135844"
+            ],
+            [
+                1719592346,
+                "0.000121772"
+            ],
+            [
+                1719592351,
+                "0.000117767"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "softnet",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000098781"
+            ],
+            [
+                1719592346,
+                "0.000099844"
+            ],
+            [
+                1719592351,
+                "0.00012304"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "stat",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000266568"
+            ],
+            [
+                1719592346,
+                "0.000983222"
+            ],
+            [
+                1719592351,
+                "0.000258214"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "tapestats",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.0000079"
+            ],
+            [
+                1719592346,
+                "0.000008867"
+            ],
+            [
+                1719592351,
+                "0.000008029"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "textfile",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000008815"
+            ],
+            [
+                1719592346,
+                "0.000013083"
+            ],
+            [
+                1719592351,
+                "0.000010673"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "thermal_zone",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000819901"
+            ],
+            [
+                1719592346,
+                "0.000837558"
+            ],
+            [
+                1719592351,
+                "0.000881689"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "time",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000085107"
+            ],
+            [
+                1719592346,
+                "0.000081897"
+            ],
+            [
+                1719592351,
+                "0.000107886"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "timex",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000023977"
+            ],
+            [
+                1719592346,
+                "0.000011979"
+            ],
+            [
+                1719592351,
+                "0.000012357"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "udp_queues",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000320177"
+            ],
+            [
+                1719592346,
+                "0.000335547"
+            ],
+            [
+                1719592351,
+                "0.000356636"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "uname",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000007353"
+            ],
+            [
+                1719592346,
+                "0.000008143"
+            ],
+            [
+                1719592351,
+                "0.000007735"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "vmstat",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000120807"
+            ],
+            [
+                1719592346,
+                "0.000106548"
+            ],
+            [
+                1719592351,
+                "0.000117872"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "xfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000019616"
+            ],
+            [
+                1719592346,
+                "0.000012586"
+            ],
+            [
+                1719592351,
+                "0.00001176"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_scrape_collector_duration_seconds",
+            "collector": "zfs",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592341,
+                "0.000012662"
+            ],
+            [
+                1719592346,
+                "0.000021208"
+            ],
+            [
+                1719592351,
+                "0.000009845"
+            ]
+        ]
+    }
+]

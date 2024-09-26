@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_Slab_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592465,
+                "4308951040"
+            ],
+            [
+                1719592470,
+                "4310065152"
+            ],
+            [
+                1719592475,
+                "4310319104"
+            ]
+        ]
+    }
+]

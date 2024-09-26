@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_api_remote_read_queries",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592905,
+                "0"
+            ],
+            [
+                1719592910,
+                "0"
+            ],
+            [
+                1719592915,
+                "0"
+            ]
+        ]
+    }
+]

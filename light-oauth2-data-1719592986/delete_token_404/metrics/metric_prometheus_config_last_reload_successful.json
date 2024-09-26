@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_config_last_reload_successful",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592792,
+                "1"
+            ],
+            [
+                1719592797,
+                "1"
+            ],
+            [
+                1719592802,
+                "1"
+            ]
+        ]
+    }
+]

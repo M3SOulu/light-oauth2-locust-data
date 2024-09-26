@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592919,
+                "23765"
+            ],
+            [
+                1719592924,
+                "24144"
+            ],
+            [
+                1719592929,
+                "24250"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592919,
+                "23765"
+            ],
+            [
+                1719592924,
+                "24144"
+            ],
+            [
+                1719592929,
+                "24250"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592919,
+                "47530"
+            ],
+            [
+                1719592924,
+                "48288"
+            ],
+            [
+                1719592929,
+                "48500"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592919,
+                "23765"
+            ],
+            [
+                1719592924,
+                "24144"
+            ],
+            [
+                1719592929,
+                "24250"
+            ]
+        ]
+    }
+]

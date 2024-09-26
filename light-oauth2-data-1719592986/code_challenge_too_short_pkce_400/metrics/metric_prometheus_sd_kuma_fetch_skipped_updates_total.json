@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_kuma_fetch_skipped_updates_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592665,
+                "0"
+            ],
+            [
+                1719592670,
+                "0"
+            ],
+            [
+                1719592675,
+                "0"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_checkpoint_creations_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592409,
+                "0"
+            ],
+            [
+                1719592414,
+                "0"
+            ],
+            [
+                1719592419,
+                "0"
+            ]
+        ]
+    }
+]

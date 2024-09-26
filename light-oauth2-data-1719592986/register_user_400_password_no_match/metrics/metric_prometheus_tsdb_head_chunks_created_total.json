@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_head_chunks_created_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592862,
+                "3227"
+            ],
+            [
+                1719592867,
+                "3227"
+            ],
+            [
+                1719592872,
+                "3227"
+            ]
+        ]
+    }
+]

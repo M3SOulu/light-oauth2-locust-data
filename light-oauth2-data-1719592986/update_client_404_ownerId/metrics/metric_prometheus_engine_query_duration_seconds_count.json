@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592301,
+                "2425"
+            ],
+            [
+                1719592306,
+                "2910"
+            ],
+            [
+                1719592311,
+                "2910"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592301,
+                "2425"
+            ],
+            [
+                1719592306,
+                "2910"
+            ],
+            [
+                1719592311,
+                "2910"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592301,
+                "4850"
+            ],
+            [
+                1719592306,
+                "5820"
+            ],
+            [
+                1719592311,
+                "5820"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592301,
+                "2425"
+            ],
+            [
+                1719592306,
+                "2910"
+            ],
+            [
+                1719592311,
+                "2910"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "process_cpu_seconds_total",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592494,
+                "1.57"
+            ],
+            [
+                1719592499,
+                "1.59"
+            ],
+            [
+                1719592504,
+                "1.62"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "process_cpu_seconds_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592494,
+                "12.32"
+            ],
+            [
+                1719592499,
+                "12.78"
+            ],
+            [
+                1719592504,
+                "12.91"
+            ]
+        ]
+    }
+]

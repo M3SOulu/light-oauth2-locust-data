@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_interval_length_seconds_sum",
+            "instance": "localhost:9090",
+            "interval": "5s",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592522,
+                "740.0026600519999"
+            ],
+            [
+                1719592527,
+                "750.0019616909999"
+            ],
+            [
+                1719592532,
+                "760.0029071839999"
+            ]
+        ]
+    }
+]

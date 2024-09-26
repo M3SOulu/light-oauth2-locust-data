@@ -1,0 +1,46 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_received_updates_total",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "name": "notify"
+        },
+        "values": [
+            [
+                1719592261,
+                "0"
+            ],
+            [
+                1719592266,
+                "0"
+            ],
+            [
+                1719592271,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_received_updates_total",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "name": "scrape"
+        },
+        "values": [
+            [
+                1719592261,
+                "4"
+            ],
+            [
+                1719592266,
+                "4"
+            ],
+            [
+                1719592271,
+                "4"
+            ]
+        ]
+    }
+]

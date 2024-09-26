@@ -1,0 +1,266 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "+Inf"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.005"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.01"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.025"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.05"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.1"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.25"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "0.5"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "10"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "2.5"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_tombstone_cleanup_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "5"
+        },
+        "values": [
+            [
+                1719592395,
+                "0"
+            ],
+            [
+                1719592400,
+                "0"
+            ],
+            [
+                1719592405,
+                "0"
+            ]
+        ]
+    }
+]

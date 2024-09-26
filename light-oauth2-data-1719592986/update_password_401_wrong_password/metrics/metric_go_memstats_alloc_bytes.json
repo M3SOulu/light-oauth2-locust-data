@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_memstats_alloc_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592934,
+                "2481688"
+            ],
+            [
+                1719592939,
+                "2464816"
+            ],
+            [
+                1719592944,
+                "2819032"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_memstats_alloc_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592934,
+                "23796720"
+            ],
+            [
+                1719592939,
+                "30261960"
+            ],
+            [
+                1719592944,
+                "31624256"
+            ]
+        ]
+    }
+]

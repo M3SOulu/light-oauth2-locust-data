@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "net_conntrack_listener_conn_closed_total",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "listener_name": "http"
+        },
+        "values": [
+            [
+                1719592580,
+                "12179"
+            ],
+            [
+                1719592585,
+                "12610"
+            ],
+            [
+                1719592590,
+                "12610"
+            ]
+        ]
+    }
+]

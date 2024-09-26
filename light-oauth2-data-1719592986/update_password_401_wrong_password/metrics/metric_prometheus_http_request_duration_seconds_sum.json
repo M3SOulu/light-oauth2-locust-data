@@ -1,0 +1,46 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_sum",
+            "handler": "/api/v1/query_range",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592934,
+                "9.289641720000027"
+            ],
+            [
+                1719592939,
+                "9.464861008000018"
+            ],
+            [
+                1719592944,
+                "9.464861008000018"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_http_request_duration_seconds_sum",
+            "handler": "/metrics",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592934,
+                "0.4745671460000001"
+            ],
+            [
+                1719592939,
+                "0.4765437640000001"
+            ],
+            [
+                1719592944,
+                "0.4802091560000001"
+            ]
+        ]
+    }
+]

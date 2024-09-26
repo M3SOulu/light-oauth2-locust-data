@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_file_watcher_errors_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592480,
+                "0"
+            ],
+            [
+                1719592485,
+                "0"
+            ],
+            [
+                1719592490,
+                "0"
+            ]
+        ]
+    }
+]

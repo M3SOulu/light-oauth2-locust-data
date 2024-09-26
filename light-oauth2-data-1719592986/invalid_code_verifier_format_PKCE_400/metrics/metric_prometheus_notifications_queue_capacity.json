@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_notifications_queue_capacity",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592707,
+                "10000"
+            ],
+            [
+                1719592712,
+                "10000"
+            ],
+            [
+                1719592717,
+                "10000"
+            ]
+        ]
+    }
+]

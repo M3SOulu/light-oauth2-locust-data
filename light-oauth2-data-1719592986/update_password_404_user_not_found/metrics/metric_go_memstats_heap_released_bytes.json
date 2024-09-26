@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_memstats_heap_released_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592947,
+                "3104768"
+            ],
+            [
+                1719592952,
+                "2809856"
+            ],
+            [
+                1719592957,
+                "3104768"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_memstats_heap_released_bytes",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592947,
+                "9977856"
+            ],
+            [
+                1719592952,
+                "8749056"
+            ],
+            [
+                1719592957,
+                "8749056"
+            ]
+        ]
+    }
+]

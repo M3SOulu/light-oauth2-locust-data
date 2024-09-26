@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592820,
+                "20479"
+            ],
+            [
+                1719592825,
+                "20855"
+            ],
+            [
+                1719592830,
+                "20855"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592820,
+                "20479"
+            ],
+            [
+                1719592825,
+                "20855"
+            ],
+            [
+                1719592830,
+                "20855"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592820,
+                "40958"
+            ],
+            [
+                1719592825,
+                "41710"
+            ],
+            [
+                1719592830,
+                "41710"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592820,
+                "20479"
+            ],
+            [
+                1719592825,
+                "20855"
+            ],
+            [
+                1719592830,
+                "20855"
+            ]
+        ]
+    }
+]

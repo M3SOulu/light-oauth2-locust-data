@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_goroutines",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592792,
+                "7"
+            ],
+            [
+                1719592797,
+                "7"
+            ],
+            [
+                1719592802,
+                "7"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_goroutines",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592792,
+                "34"
+            ],
+            [
+                1719592797,
+                "33"
+            ],
+            [
+                1719592802,
+                "33"
+            ]
+        ]
+    }
+]

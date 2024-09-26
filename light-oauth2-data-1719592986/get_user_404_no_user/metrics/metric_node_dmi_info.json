@@ -1,0 +1,41 @@
+[
+    {
+        "metric": {
+            "__name__": "node_dmi_info",
+            "bios_date": "11/12/2020",
+            "bios_release": "4.6",
+            "bios_vendor": "Phoenix Technologies LTD",
+            "bios_version": "6.00",
+            "board_name": "440BX Desktop Reference Platform",
+            "board_serial": "None",
+            "board_vendor": "Intel Corporation",
+            "board_version": "None",
+            "chassis_asset_tag": "No Asset Tag",
+            "chassis_serial": "None",
+            "chassis_vendor": "No Enclosure",
+            "chassis_version": "N/A",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "product_name": "VMware Virtual Platform",
+            "product_serial": "VMware-42 2d 9e fa 05 c0 c6 36-6c c1 d2 1f d3 3b 52 9c",
+            "product_uuid": "fa9e2d42-c005-36c6-6cc1-d21fd33b529c",
+            "product_version": "None",
+            "system_vendor": "VMware, Inc."
+        },
+        "values": [
+            [
+                1719592891,
+                "1"
+            ],
+            [
+                1719592896,
+                "1"
+            ],
+            [
+                1719592901,
+                "1"
+            ]
+        ]
+    }
+]

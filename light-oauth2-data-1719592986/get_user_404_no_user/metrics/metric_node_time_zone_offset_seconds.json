@@ -1,0 +1,25 @@
+[
+    {
+        "metric": {
+            "__name__": "node_time_zone_offset_seconds",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node",
+            "time_zone": "UTC"
+        },
+        "values": [
+            [
+                1719592891,
+                "0"
+            ],
+            [
+                1719592896,
+                "0"
+            ],
+            [
+                1719592901,
+                "0"
+            ]
+        ]
+    }
+]

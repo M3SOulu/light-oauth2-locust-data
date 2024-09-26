@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_timex_status",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "0"
+            ],
+            [
+                1719592881,
+                "0"
+            ],
+            [
+                1719592886,
+                "0"
+            ]
+        ]
+    }
+]

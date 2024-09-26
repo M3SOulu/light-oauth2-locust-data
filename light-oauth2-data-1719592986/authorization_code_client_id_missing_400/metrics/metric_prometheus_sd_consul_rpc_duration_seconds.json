@@ -1,0 +1,146 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592522,
+                "NaN"
+            ],
+            [
+                1719592527,
+                "NaN"
+            ],
+            [
+                1719592532,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592522,
+                "NaN"
+            ],
+            [
+                1719592527,
+                "NaN"
+            ],
+            [
+                1719592532,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592522,
+                "NaN"
+            ],
+            [
+                1719592527,
+                "NaN"
+            ],
+            [
+                1719592532,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592522,
+                "NaN"
+            ],
+            [
+                1719592527,
+                "NaN"
+            ],
+            [
+                1719592532,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592522,
+                "NaN"
+            ],
+            [
+                1719592527,
+                "NaN"
+            ],
+            [
+                1719592532,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592522,
+                "NaN"
+            ],
+            [
+                1719592527,
+                "NaN"
+            ],
+            [
+                1719592532,
+                "NaN"
+            ]
+        ]
+    }
+]

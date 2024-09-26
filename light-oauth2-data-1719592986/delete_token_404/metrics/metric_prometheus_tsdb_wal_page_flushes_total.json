@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_page_flushes_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592792,
+                "299"
+            ],
+            [
+                1719592797,
+                "301"
+            ],
+            [
+                1719592802,
+                "304"
+            ]
+        ]
+    }
+]

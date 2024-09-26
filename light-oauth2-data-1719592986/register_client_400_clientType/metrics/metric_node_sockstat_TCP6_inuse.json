@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_sockstat_TCP6_inuse",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592235,
+                "2"
+            ],
+            [
+                1719592240,
+                "2"
+            ],
+            [
+                1719592245,
+                "2"
+            ]
+        ]
+    }
+]

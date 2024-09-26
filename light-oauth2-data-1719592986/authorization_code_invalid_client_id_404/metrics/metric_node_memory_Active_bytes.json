@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_Active_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592537,
+                "5863743488"
+            ],
+            [
+                1719592542,
+                "5867941888"
+            ],
+            [
+                1719592547,
+                "5867945984"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_vmstat_pgfault",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592862,
+                "9790155115"
+            ],
+            [
+                1719592867,
+                "9790803631"
+            ],
+            [
+                1719592872,
+                "9791674950"
+            ]
+        ]
+    }
+]

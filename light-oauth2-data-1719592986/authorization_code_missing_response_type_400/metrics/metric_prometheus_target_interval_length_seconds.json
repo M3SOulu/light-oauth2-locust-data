@@ -1,0 +1,117 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_interval_length_seconds",
+            "instance": "localhost:9090",
+            "interval": "5s",
+            "job": "prometheus",
+            "quantile": "0.01"
+        },
+        "values": [
+            [
+                1719592494,
+                "4.997790829"
+            ],
+            [
+                1719592499,
+                "4.997790829"
+            ],
+            [
+                1719592504,
+                "4.997790829"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_interval_length_seconds",
+            "instance": "localhost:9090",
+            "interval": "5s",
+            "job": "prometheus",
+            "quantile": "0.05"
+        },
+        "values": [
+            [
+                1719592494,
+                "4.999113905"
+            ],
+            [
+                1719592499,
+                "4.999113905"
+            ],
+            [
+                1719592504,
+                "4.999113905"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_interval_length_seconds",
+            "instance": "localhost:9090",
+            "interval": "5s",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592494,
+                "5.000006375"
+            ],
+            [
+                1719592499,
+                "5.000006268"
+            ],
+            [
+                1719592504,
+                "5.000006375"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_interval_length_seconds",
+            "instance": "localhost:9090",
+            "interval": "5s",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592494,
+                "5.000784757"
+            ],
+            [
+                1719592499,
+                "5.000784757"
+            ],
+            [
+                1719592504,
+                "5.000767802"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_interval_length_seconds",
+            "instance": "localhost:9090",
+            "interval": "5s",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592494,
+                "5.002063584"
+            ],
+            [
+                1719592499,
+                "5.002063584"
+            ],
+            [
+                1719592504,
+                "5.002063584"
+            ]
+        ]
+    }
+]

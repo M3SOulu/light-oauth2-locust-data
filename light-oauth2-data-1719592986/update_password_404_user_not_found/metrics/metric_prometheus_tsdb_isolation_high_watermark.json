@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_isolation_high_watermark",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592947,
+                "320"
+            ],
+            [
+                1719592952,
+                "322"
+            ],
+            [
+                1719592957,
+                "324"
+            ]
+        ]
+    }
+]

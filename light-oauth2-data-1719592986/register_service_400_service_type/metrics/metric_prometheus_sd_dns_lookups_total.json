@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_dns_lookups_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592381,
+                "0"
+            ],
+            [
+                1719592386,
+                "0"
+            ],
+            [
+                1719592391,
+                "0"
+            ]
+        ]
+    }
+]

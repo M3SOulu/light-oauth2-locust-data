@@ -1,0 +1,137 @@
+[
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_total",
+            "code": "200",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592301,
+                "30"
+            ],
+            [
+                1719592306,
+                "31"
+            ],
+            [
+                1719592311,
+                "32"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_total",
+            "code": "200",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592301,
+                "30"
+            ],
+            [
+                1719592306,
+                "31"
+            ],
+            [
+                1719592311,
+                "32"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_total",
+            "code": "500",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592301,
+                "0"
+            ],
+            [
+                1719592306,
+                "0"
+            ],
+            [
+                1719592311,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_total",
+            "code": "500",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592301,
+                "0"
+            ],
+            [
+                1719592306,
+                "0"
+            ],
+            [
+                1719592311,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_total",
+            "code": "503",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592301,
+                "0"
+            ],
+            [
+                1719592306,
+                "0"
+            ],
+            [
+                1719592311,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_total",
+            "code": "503",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592301,
+                "0"
+            ],
+            [
+                1719592306,
+                "0"
+            ],
+            [
+                1719592311,
+                "0"
+            ]
+        ]
+    }
+]

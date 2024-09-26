@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_completed_pages_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592905,
+                "45"
+            ],
+            [
+                1719592910,
+                "45"
+            ],
+            [
+                1719592915,
+                "45"
+            ]
+        ]
+    }
+]

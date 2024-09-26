@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_vmstat_oom_kill",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592451,
+                "281"
+            ],
+            [
+                1719592456,
+                "281"
+            ],
+            [
+                1719592461,
+                "281"
+            ]
+        ]
+    }
+]

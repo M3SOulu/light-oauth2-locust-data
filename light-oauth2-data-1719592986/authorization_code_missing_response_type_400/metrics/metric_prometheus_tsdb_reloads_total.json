@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_reloads_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592494,
+                "6"
+            ],
+            [
+                1719592499,
+                "6"
+            ],
+            [
+                1719592504,
+                "6"
+            ]
+        ]
+    }
+]

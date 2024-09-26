@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_mmap_chunk_corruptions_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592261,
+                "0"
+            ],
+            [
+                1719592266,
+                "0"
+            ],
+            [
+                1719592271,
+                "0"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_rule_group_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.01"
+        },
+        "values": [
+            [
+                1719592862,
+                "NaN"
+            ],
+            [
+                1719592867,
+                "NaN"
+            ],
+            [
+                1719592872,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_rule_group_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.05"
+        },
+        "values": [
+            [
+                1719592862,
+                "NaN"
+            ],
+            [
+                1719592867,
+                "NaN"
+            ],
+            [
+                1719592872,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_rule_group_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592862,
+                "NaN"
+            ],
+            [
+                1719592867,
+                "NaN"
+            ],
+            [
+                1719592872,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_rule_group_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592862,
+                "NaN"
+            ],
+            [
+                1719592867,
+                "NaN"
+            ],
+            [
+                1719592872,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_rule_group_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592862,
+                "NaN"
+            ],
+            [
+                1719592867,
+                "NaN"
+            ],
+            [
+                1719592872,
+                "NaN"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592891,
+                "22795"
+            ],
+            [
+                1719592896,
+                "23280"
+            ],
+            [
+                1719592901,
+                "23280"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592891,
+                "22795"
+            ],
+            [
+                1719592896,
+                "23280"
+            ],
+            [
+                1719592901,
+                "23280"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592891,
+                "45590"
+            ],
+            [
+                1719592896,
+                "46560"
+            ],
+            [
+                1719592901,
+                "46560"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592891,
+                "22795"
+            ],
+            [
+                1719592896,
+                "23280"
+            ],
+            [
+                1719592901,
+                "23280"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_timex_maxerror_seconds",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592934,
+                "0.021705"
+            ],
+            [
+                1719592939,
+                "0.024205"
+            ],
+            [
+                1719592944,
+                "0.026705"
+            ]
+        ]
+    }
+]

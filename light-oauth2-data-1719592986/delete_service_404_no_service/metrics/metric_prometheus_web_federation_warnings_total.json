@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_web_federation_warnings_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592436,
+                "0"
+            ],
+            [
+                1719592441,
+                "0"
+            ],
+            [
+                1719592446,
+                "0"
+            ]
+        ]
+    }
+]

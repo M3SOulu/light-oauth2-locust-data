@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592327,
+                "3395"
+            ],
+            [
+                1719592332,
+                "3880"
+            ],
+            [
+                1719592337,
+                "3880"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592327,
+                "3395"
+            ],
+            [
+                1719592332,
+                "3880"
+            ],
+            [
+                1719592337,
+                "3880"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592327,
+                "6790"
+            ],
+            [
+                1719592332,
+                "7760"
+            ],
+            [
+                1719592337,
+                "7760"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592327,
+                "3395"
+            ],
+            [
+                1719592332,
+                "3880"
+            ],
+            [
+                1719592337,
+                "3880"
+            ]
+        ]
+    }
+]

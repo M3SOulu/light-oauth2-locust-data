@@ -1,0 +1,370 @@
+[
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "43368138"
+            ],
+            [
+                1719592712,
+                "43370206"
+            ],
+            [
+                1719592717,
+                "43373856"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "58361680"
+            ],
+            [
+                1719592712,
+                "58363615"
+            ],
+            [
+                1719592717,
+                "58366487"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "51589307"
+            ],
+            [
+                1719592712,
+                "51590681"
+            ],
+            [
+                1719592717,
+                "51593953"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "38466050"
+            ],
+            [
+                1719592712,
+                "38467565"
+            ],
+            [
+                1719592717,
+                "38471033"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "51019617"
+            ],
+            [
+                1719592712,
+                "51021120"
+            ],
+            [
+                1719592717,
+                "51025674"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "47304581"
+            ],
+            [
+                1719592712,
+                "47305582"
+            ],
+            [
+                1719592717,
+                "47307557"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "57170942"
+            ],
+            [
+                1719592712,
+                "57172508"
+            ],
+            [
+                1719592717,
+                "57178062"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "44523418"
+            ],
+            [
+                1719592712,
+                "44524266"
+            ],
+            [
+                1719592717,
+                "44527574"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "48401145"
+            ],
+            [
+                1719592712,
+                "48405525"
+            ],
+            [
+                1719592717,
+                "48413574"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "50329198"
+            ],
+            [
+                1719592712,
+                "50330983"
+            ],
+            [
+                1719592717,
+                "50334206"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "41927198"
+            ],
+            [
+                1719592712,
+                "41927198"
+            ],
+            [
+                1719592717,
+                "41927198"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "55757511"
+            ],
+            [
+                1719592712,
+                "55759912"
+            ],
+            [
+                1719592717,
+                "55766337"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "44424422"
+            ],
+            [
+                1719592712,
+                "44426608"
+            ],
+            [
+                1719592717,
+                "44433302"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "54230748"
+            ],
+            [
+                1719592712,
+                "54233824"
+            ],
+            [
+                1719592717,
+                "54238078"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "47097144"
+            ],
+            [
+                1719592712,
+                "47098918"
+            ],
+            [
+                1719592717,
+                "47104096"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_softnet_processed_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592707,
+                "63447873"
+            ],
+            [
+                1719592712,
+                "63452497"
+            ],
+            [
+                1719592717,
+                "63462589"
+            ]
+        ]
+    }
+]

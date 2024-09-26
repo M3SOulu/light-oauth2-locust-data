@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_VmallocUsed_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592777,
+                "49115136"
+            ],
+            [
+                1719592782,
+                "49233920"
+            ],
+            [
+                1719592787,
+                "49147904"
+            ]
+        ]
+    }
+]

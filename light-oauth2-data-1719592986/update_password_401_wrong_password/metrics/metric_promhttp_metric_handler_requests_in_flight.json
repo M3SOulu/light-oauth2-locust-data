@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_in_flight",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592934,
+                "1"
+            ],
+            [
+                1719592939,
+                "1"
+            ],
+            [
+                1719592944,
+                "1"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "promhttp_metric_handler_requests_in_flight",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592934,
+                "1"
+            ],
+            [
+                1719592939,
+                "1"
+            ],
+            [
+                1719592944,
+                "1"
+            ]
+        ]
+    }
+]

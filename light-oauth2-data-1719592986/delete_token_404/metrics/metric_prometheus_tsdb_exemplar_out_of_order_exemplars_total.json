@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_exemplar_out_of_order_exemplars_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592792,
+                "0"
+            ],
+            [
+                1719592797,
+                "0"
+            ],
+            [
+                1719592802,
+                "0"
+            ]
+        ]
+    }
+]

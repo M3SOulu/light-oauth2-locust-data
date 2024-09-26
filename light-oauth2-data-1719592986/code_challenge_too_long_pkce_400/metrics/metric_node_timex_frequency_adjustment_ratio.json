@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_timex_frequency_adjustment_ratio",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592679,
+                "1.0000105780181885"
+            ],
+            [
+                1719592684,
+                "1.0000105780181885"
+            ],
+            [
+                1719592689,
+                "1.0000105780181885"
+            ]
+        ]
+    }
+]

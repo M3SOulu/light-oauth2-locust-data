@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592436,
+                "7275"
+            ],
+            [
+                1719592441,
+                "7760"
+            ],
+            [
+                1719592446,
+                "7760"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592436,
+                "7275"
+            ],
+            [
+                1719592441,
+                "7760"
+            ],
+            [
+                1719592446,
+                "7760"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592436,
+                "14550"
+            ],
+            [
+                1719592441,
+                "15520"
+            ],
+            [
+                1719592446,
+                "15520"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592436,
+                "7275"
+            ],
+            [
+                1719592441,
+                "7760"
+            ],
+            [
+                1719592446,
+                "7760"
+            ]
+        ]
+    }
+]

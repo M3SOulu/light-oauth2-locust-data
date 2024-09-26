@@ -1,0 +1,232 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.01",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000108826"
+            ],
+            [
+                1719592556,
+                "0.000108826"
+            ],
+            [
+                1719592561,
+                "0.000108826"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.01",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000097473"
+            ],
+            [
+                1719592556,
+                "0.000097473"
+            ],
+            [
+                1719592561,
+                "0.000097473"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.05",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000108826"
+            ],
+            [
+                1719592556,
+                "0.000108826"
+            ],
+            [
+                1719592561,
+                "0.000108826"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.05",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000097473"
+            ],
+            [
+                1719592556,
+                "0.000097473"
+            ],
+            [
+                1719592561,
+                "0.000097473"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000108826"
+            ],
+            [
+                1719592556,
+                "0.000108826"
+            ],
+            [
+                1719592561,
+                "0.000108826"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000097473"
+            ],
+            [
+                1719592556,
+                "0.000097473"
+            ],
+            [
+                1719592561,
+                "0.000097473"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000108826"
+            ],
+            [
+                1719592556,
+                "0.000108826"
+            ],
+            [
+                1719592561,
+                "0.000108826"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000097473"
+            ],
+            [
+                1719592556,
+                "0.000097473"
+            ],
+            [
+                1719592561,
+                "0.000097473"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99",
+            "scrape_job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000108826"
+            ],
+            [
+                1719592556,
+                "0.000108826"
+            ],
+            [
+                1719592561,
+                "0.000108826"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_target_sync_length_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99",
+            "scrape_job": "prometheus"
+        },
+        "values": [
+            [
+                1719592551,
+                "0.000097473"
+            ],
+            [
+                1719592556,
+                "0.000097473"
+            ],
+            [
+                1719592561,
+                "0.000097473"
+            ]
+        ]
+    }
+]

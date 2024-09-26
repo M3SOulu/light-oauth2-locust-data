@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_sockstat_TCP_mem_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592327,
+                "815104"
+            ],
+            [
+                1719592332,
+                "815104"
+            ],
+            [
+                1719592337,
+                "0"
+            ]
+        ]
+    }
+]

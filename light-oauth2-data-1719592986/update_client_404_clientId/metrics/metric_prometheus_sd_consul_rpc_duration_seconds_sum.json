@@ -1,0 +1,48 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds_sum",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592314,
+                "0"
+            ],
+            [
+                1719592319,
+                "0"
+            ],
+            [
+                1719592324,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds_sum",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592314,
+                "0"
+            ],
+            [
+                1719592319,
+                "0"
+            ],
+            [
+                1719592324,
+                "0"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592622,
+                "27160"
+            ],
+            [
+                1719592627,
+                "28130"
+            ],
+            [
+                1719592632,
+                "28130"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592622,
+                "13580"
+            ],
+            [
+                1719592627,
+                "14065"
+            ],
+            [
+                1719592632,
+                "14065"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592381,
+                "5335"
+            ],
+            [
+                1719592386,
+                "5820"
+            ],
+            [
+                1719592391,
+                "5820"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592381,
+                "5335"
+            ],
+            [
+                1719592386,
+                "5820"
+            ],
+            [
+                1719592391,
+                "5820"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592381,
+                "10670"
+            ],
+            [
+                1719592386,
+                "11640"
+            ],
+            [
+                1719592391,
+                "11640"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592381,
+                "5335"
+            ],
+            [
+                1719592386,
+                "5820"
+            ],
+            [
+                1719592391,
+                "5820"
+            ]
+        ]
+    }
+]

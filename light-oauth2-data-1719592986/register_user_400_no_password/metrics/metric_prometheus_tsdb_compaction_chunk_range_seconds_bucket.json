@@ -1,0 +1,244 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "+Inf"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1.6384e+06"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "100"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "102400"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "1600"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "2.62144e+07"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "25600"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "400"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "409600"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "6.5536e+06"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_range_seconds_bucket",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "le": "6400"
+        },
+        "values": [
+            [
+                1719592848,
+                "0"
+            ],
+            [
+                1719592853,
+                "0"
+            ],
+            [
+                1719592858,
+                "0"
+            ]
+        ]
+    }
+]

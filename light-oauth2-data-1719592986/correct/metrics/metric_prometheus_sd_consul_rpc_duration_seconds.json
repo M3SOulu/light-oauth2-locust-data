@@ -1,0 +1,386 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592172,
+                "NaN"
+            ],
+            [
+                1719592177,
+                "NaN"
+            ],
+            [
+                1719592182,
+                "NaN"
+            ],
+            [
+                1719592187,
+                "NaN"
+            ],
+            [
+                1719592192,
+                "NaN"
+            ],
+            [
+                1719592197,
+                "NaN"
+            ],
+            [
+                1719592202,
+                "NaN"
+            ],
+            [
+                1719592207,
+                "NaN"
+            ],
+            [
+                1719592212,
+                "NaN"
+            ],
+            [
+                1719592217,
+                "NaN"
+            ],
+            [
+                1719592222,
+                "NaN"
+            ],
+            [
+                1719592227,
+                "NaN"
+            ],
+            [
+                1719592232,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592172,
+                "NaN"
+            ],
+            [
+                1719592177,
+                "NaN"
+            ],
+            [
+                1719592182,
+                "NaN"
+            ],
+            [
+                1719592187,
+                "NaN"
+            ],
+            [
+                1719592192,
+                "NaN"
+            ],
+            [
+                1719592197,
+                "NaN"
+            ],
+            [
+                1719592202,
+                "NaN"
+            ],
+            [
+                1719592207,
+                "NaN"
+            ],
+            [
+                1719592212,
+                "NaN"
+            ],
+            [
+                1719592217,
+                "NaN"
+            ],
+            [
+                1719592222,
+                "NaN"
+            ],
+            [
+                1719592227,
+                "NaN"
+            ],
+            [
+                1719592232,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "service",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592172,
+                "NaN"
+            ],
+            [
+                1719592177,
+                "NaN"
+            ],
+            [
+                1719592182,
+                "NaN"
+            ],
+            [
+                1719592187,
+                "NaN"
+            ],
+            [
+                1719592192,
+                "NaN"
+            ],
+            [
+                1719592197,
+                "NaN"
+            ],
+            [
+                1719592202,
+                "NaN"
+            ],
+            [
+                1719592207,
+                "NaN"
+            ],
+            [
+                1719592212,
+                "NaN"
+            ],
+            [
+                1719592217,
+                "NaN"
+            ],
+            [
+                1719592222,
+                "NaN"
+            ],
+            [
+                1719592227,
+                "NaN"
+            ],
+            [
+                1719592232,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592172,
+                "NaN"
+            ],
+            [
+                1719592177,
+                "NaN"
+            ],
+            [
+                1719592182,
+                "NaN"
+            ],
+            [
+                1719592187,
+                "NaN"
+            ],
+            [
+                1719592192,
+                "NaN"
+            ],
+            [
+                1719592197,
+                "NaN"
+            ],
+            [
+                1719592202,
+                "NaN"
+            ],
+            [
+                1719592207,
+                "NaN"
+            ],
+            [
+                1719592212,
+                "NaN"
+            ],
+            [
+                1719592217,
+                "NaN"
+            ],
+            [
+                1719592222,
+                "NaN"
+            ],
+            [
+                1719592227,
+                "NaN"
+            ],
+            [
+                1719592232,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592172,
+                "NaN"
+            ],
+            [
+                1719592177,
+                "NaN"
+            ],
+            [
+                1719592182,
+                "NaN"
+            ],
+            [
+                1719592187,
+                "NaN"
+            ],
+            [
+                1719592192,
+                "NaN"
+            ],
+            [
+                1719592197,
+                "NaN"
+            ],
+            [
+                1719592202,
+                "NaN"
+            ],
+            [
+                1719592207,
+                "NaN"
+            ],
+            [
+                1719592212,
+                "NaN"
+            ],
+            [
+                1719592217,
+                "NaN"
+            ],
+            [
+                1719592222,
+                "NaN"
+            ],
+            [
+                1719592227,
+                "NaN"
+            ],
+            [
+                1719592232,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_sd_consul_rpc_duration_seconds",
+            "call": "services",
+            "endpoint": "catalog",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592172,
+                "NaN"
+            ],
+            [
+                1719592177,
+                "NaN"
+            ],
+            [
+                1719592182,
+                "NaN"
+            ],
+            [
+                1719592187,
+                "NaN"
+            ],
+            [
+                1719592192,
+                "NaN"
+            ],
+            [
+                1719592197,
+                "NaN"
+            ],
+            [
+                1719592202,
+                "NaN"
+            ],
+            [
+                1719592207,
+                "NaN"
+            ],
+            [
+                1719592212,
+                "NaN"
+            ],
+            [
+                1719592217,
+                "NaN"
+            ],
+            [
+                1719592222,
+                "NaN"
+            ],
+            [
+                1719592227,
+                "NaN"
+            ],
+            [
+                1719592232,
+                "NaN"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592465,
+                "0.14992274099999983"
+            ],
+            [
+                1719592470,
+                "0.16001276799999978"
+            ],
+            [
+                1719592475,
+                "0.16001276799999978"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592465,
+                "0.07579834099999985"
+            ],
+            [
+                1719592470,
+                "0.07983209699999991"
+            ],
+            [
+                1719592475,
+                "0.07983209699999991"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592465,
+                "0.06235357500000013"
+            ],
+            [
+                1719592470,
+                "0.06589236300000002"
+            ],
+            [
+                1719592475,
+                "0.06589236300000002"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592465,
+                "0.00686954000000002"
+            ],
+            [
+                1719592470,
+                "0.007311944000000015"
+            ],
+            [
+                1719592475,
+                "0.007311944000000015"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_fsync_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.5"
+        },
+        "values": [
+            [
+                1719592494,
+                "NaN"
+            ],
+            [
+                1719592499,
+                "NaN"
+            ],
+            [
+                1719592504,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_fsync_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.9"
+        },
+        "values": [
+            [
+                1719592494,
+                "NaN"
+            ],
+            [
+                1719592499,
+                "NaN"
+            ],
+            [
+                1719592504,
+                "NaN"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_fsync_duration_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "quantile": "0.99"
+        },
+        "values": [
+            [
+                1719592494,
+                "NaN"
+            ],
+            [
+                1719592499,
+                "NaN"
+            ],
+            [
+                1719592504,
+                "NaN"
+            ]
+        ]
+    }
+]

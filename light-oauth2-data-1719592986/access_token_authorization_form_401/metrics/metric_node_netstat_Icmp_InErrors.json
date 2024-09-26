@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_netstat_Icmp_InErrors",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592637,
+                "0"
+            ],
+            [
+                1719592642,
+                "0"
+            ],
+            [
+                1719592647,
+                "0"
+            ]
+        ]
+    }
+]

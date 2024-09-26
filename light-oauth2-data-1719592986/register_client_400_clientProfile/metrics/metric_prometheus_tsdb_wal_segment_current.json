@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_segment_current",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592248,
+                "0"
+            ],
+            [
+                1719592253,
+                "0"
+            ],
+            [
+                1719592258,
+                "0"
+            ]
+        ]
+    }
+]

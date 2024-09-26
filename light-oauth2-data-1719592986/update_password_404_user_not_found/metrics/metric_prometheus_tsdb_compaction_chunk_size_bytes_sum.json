@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_compaction_chunk_size_bytes_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592947,
+                "0"
+            ],
+            [
+                1719592952,
+                "0"
+            ],
+            [
+                1719592957,
+                "0"
+            ]
+        ]
+    }
+]

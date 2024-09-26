@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_forks_total",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592622,
+                "6561718"
+            ],
+            [
+                1719592627,
+                "6561826"
+            ],
+            [
+                1719592632,
+                "6561829"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_gc_duration_seconds_sum",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592622,
+                "0.003933221"
+            ],
+            [
+                1719592627,
+                "0.003989675"
+            ],
+            [
+                1719592632,
+                "0.004020451"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_gc_duration_seconds_sum",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592622,
+                "0.107656506"
+            ],
+            [
+                1719592627,
+                "0.109349909"
+            ],
+            [
+                1719592632,
+                "0.109349909"
+            ]
+        ]
+    }
+]

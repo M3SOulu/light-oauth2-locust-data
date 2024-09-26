@@ -1,0 +1,25 @@
+[
+    {
+        "metric": {
+            "__name__": "node_arp_entries",
+            "device": "eth0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592637,
+                "2"
+            ],
+            [
+                1719592642,
+                "2"
+            ],
+            [
+                1719592647,
+                "2"
+            ]
+        ]
+    }
+]

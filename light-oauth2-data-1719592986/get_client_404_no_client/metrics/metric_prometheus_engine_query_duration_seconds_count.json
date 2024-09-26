@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592341,
+                "3880"
+            ],
+            [
+                1719592346,
+                "4365"
+            ],
+            [
+                1719592351,
+                "4365"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592341,
+                "3880"
+            ],
+            [
+                1719592346,
+                "4365"
+            ],
+            [
+                1719592351,
+                "4365"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592341,
+                "7760"
+            ],
+            [
+                1719592346,
+                "8730"
+            ],
+            [
+                1719592351,
+                "8730"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592341,
+                "3880"
+            ],
+            [
+                1719592346,
+                "4365"
+            ],
+            [
+                1719592351,
+                "4365"
+            ]
+        ]
+    }
+]

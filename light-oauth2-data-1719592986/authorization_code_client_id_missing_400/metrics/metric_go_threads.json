@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "go_threads",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592522,
+                "5"
+            ],
+            [
+                1719592527,
+                "5"
+            ],
+            [
+                1719592532,
+                "5"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "go_threads",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592522,
+                "23"
+            ],
+            [
+                1719592527,
+                "23"
+            ],
+            [
+                1719592532,
+                "23"
+            ]
+        ]
+    }
+]

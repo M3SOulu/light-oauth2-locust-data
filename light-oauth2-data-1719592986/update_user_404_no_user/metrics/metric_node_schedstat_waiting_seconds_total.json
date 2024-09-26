@@ -1,0 +1,370 @@
+[
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "0",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "213150.664112162"
+            ],
+            [
+                1719592881,
+                "213151.04101133"
+            ],
+            [
+                1719592886,
+                "213151.684379653"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "1",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "208331.739972564"
+            ],
+            [
+                1719592881,
+                "208332.38772917"
+            ],
+            [
+                1719592886,
+                "208333.283708094"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "10",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "215557.083586724"
+            ],
+            [
+                1719592881,
+                "215557.502528749"
+            ],
+            [
+                1719592886,
+                "215557.852240109"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "11",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "208419.699077631"
+            ],
+            [
+                1719592881,
+                "208420.439082059"
+            ],
+            [
+                1719592886,
+                "208421.217914918"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "12",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "214637.371208248"
+            ],
+            [
+                1719592881,
+                "214638.299121756"
+            ],
+            [
+                1719592886,
+                "214639.021846213"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "13",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "226209.777708133"
+            ],
+            [
+                1719592881,
+                "226210.160218829"
+            ],
+            [
+                1719592886,
+                "226210.841864041"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "14",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "220226.254965562"
+            ],
+            [
+                1719592881,
+                "220226.605197783"
+            ],
+            [
+                1719592886,
+                "220227.158134738"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "15",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "209243.202716508"
+            ],
+            [
+                1719592881,
+                "209243.625902091"
+            ],
+            [
+                1719592886,
+                "209244.806184303"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "2",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "216542.017561614"
+            ],
+            [
+                1719592881,
+                "216542.314166933"
+            ],
+            [
+                1719592886,
+                "216543.078522362"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "3",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "210549.156930851"
+            ],
+            [
+                1719592881,
+                "210549.824319724"
+            ],
+            [
+                1719592886,
+                "210550.855764094"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "4",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "214846.986055907"
+            ],
+            [
+                1719592881,
+                "214846.986063404"
+            ],
+            [
+                1719592886,
+                "214846.98606975"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "5",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "217241.784727964"
+            ],
+            [
+                1719592881,
+                "217242.153484993"
+            ],
+            [
+                1719592886,
+                "217242.995924403"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "6",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "214636.447896351"
+            ],
+            [
+                1719592881,
+                "214636.907440512"
+            ],
+            [
+                1719592886,
+                "214637.569764265"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "7",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "209052.10517115"
+            ],
+            [
+                1719592881,
+                "209052.757980493"
+            ],
+            [
+                1719592886,
+                "209053.479482102"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "8",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "214435.970709083"
+            ],
+            [
+                1719592881,
+                "214436.534322786"
+            ],
+            [
+                1719592886,
+                "214437.602475395"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "node_schedstat_waiting_seconds_total",
+            "cpu": "9",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592876,
+                "211514.673798436"
+            ],
+            [
+                1719592881,
+                "211514.998425266"
+            ],
+            [
+                1719592886,
+                "211515.530535736"
+            ]
+        ]
+    }
+]

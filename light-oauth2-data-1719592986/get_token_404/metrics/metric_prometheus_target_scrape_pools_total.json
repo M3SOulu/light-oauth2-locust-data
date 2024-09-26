@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_target_scrape_pools_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592777,
+                "2"
+            ],
+            [
+                1719592782,
+                "2"
+            ],
+            [
+                1719592787,
+                "2"
+            ]
+        ]
+    }
+]

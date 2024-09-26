@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_head_max_time_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592665,
+                "1719592663"
+            ],
+            [
+                1719592670,
+                "1719592668"
+            ],
+            [
+                1719592675,
+                "1719592673"
+            ]
+        ]
+    }
+]

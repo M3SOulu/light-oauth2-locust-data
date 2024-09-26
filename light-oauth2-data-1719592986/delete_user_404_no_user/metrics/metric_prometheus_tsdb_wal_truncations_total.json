@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_truncations_total",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592919,
+                "0"
+            ],
+            [
+                1719592924,
+                "0"
+            ],
+            [
+                1719592929,
+                "0"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_lowest_timestamp",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592820,
+                "1719592148786"
+            ],
+            [
+                1719592825,
+                "1719592148786"
+            ],
+            [
+                1719592830,
+                "1719592148786"
+            ]
+        ]
+    }
+]

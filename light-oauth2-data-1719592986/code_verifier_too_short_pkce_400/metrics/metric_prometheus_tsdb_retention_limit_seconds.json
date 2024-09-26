@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_retention_limit_seconds",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592722,
+                "1296000"
+            ],
+            [
+                1719592727,
+                "1296000"
+            ],
+            [
+                1719592732,
+                "1296000"
+            ]
+        ]
+    }
+]

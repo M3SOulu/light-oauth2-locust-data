@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_sockstat_TCP_alloc",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592622,
+                "189"
+            ],
+            [
+                1719592627,
+                "179"
+            ],
+            [
+                1719592632,
+                "206"
+            ]
+        ]
+    }
+]

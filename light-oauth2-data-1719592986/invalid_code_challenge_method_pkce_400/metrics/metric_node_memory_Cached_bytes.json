@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_Cached_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592651,
+                "20445642752"
+            ],
+            [
+                1719592656,
+                "20453732352"
+            ],
+            [
+                1719592661,
+                "20460175360"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "scrape_samples_scraped",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592451,
+                "1119"
+            ],
+            [
+                1719592456,
+                "1119"
+            ],
+            [
+                1719592461,
+                "1119"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "scrape_samples_scraped",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592451,
+                "475"
+            ],
+            [
+                1719592456,
+                "475"
+            ],
+            [
+                1719592461,
+                "475"
+            ]
+        ]
+    }
+]

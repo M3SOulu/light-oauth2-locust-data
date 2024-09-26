@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592465,
+                "8245"
+            ],
+            [
+                1719592470,
+                "8730"
+            ],
+            [
+                1719592475,
+                "8730"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592465,
+                "8245"
+            ],
+            [
+                1719592470,
+                "8730"
+            ],
+            [
+                1719592475,
+                "8730"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592465,
+                "16490"
+            ],
+            [
+                1719592470,
+                "17460"
+            ],
+            [
+                1719592475,
+                "17460"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592465,
+                "8245"
+            ],
+            [
+                1719592470,
+                "8730"
+            ],
+            [
+                1719592475,
+                "8730"
+            ]
+        ]
+    }
+]

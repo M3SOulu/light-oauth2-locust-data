@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_memory_AnonPages_bytes",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592368,
+                "26934194176"
+            ],
+            [
+                1719592373,
+                "26724098048"
+            ],
+            [
+                1719592378,
+                "26765688832"
+            ]
+        ]
+    }
+]

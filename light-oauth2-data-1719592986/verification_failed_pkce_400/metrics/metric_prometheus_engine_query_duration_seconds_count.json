@@ -1,0 +1,90 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "inner_eval"
+        },
+        "values": [
+            [
+                1719592763,
+                "18430"
+            ],
+            [
+                1719592768,
+                "18915"
+            ],
+            [
+                1719592773,
+                "18915"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "prepare_time"
+        },
+        "values": [
+            [
+                1719592763,
+                "18430"
+            ],
+            [
+                1719592768,
+                "18915"
+            ],
+            [
+                1719592773,
+                "18915"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "queue_time"
+        },
+        "values": [
+            [
+                1719592763,
+                "36860"
+            ],
+            [
+                1719592768,
+                "37830"
+            ],
+            [
+                1719592773,
+                "37830"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "prometheus_engine_query_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus",
+            "slice": "result_sort"
+        },
+        "values": [
+            [
+                1719592763,
+                "18430"
+            ],
+            [
+                1719592768,
+                "18915"
+            ],
+            [
+                1719592773,
+                "18915"
+            ]
+        ]
+    }
+]

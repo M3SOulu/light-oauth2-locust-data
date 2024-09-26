@@ -1,0 +1,45 @@
+[
+    {
+        "metric": {
+            "__name__": "process_open_fds",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592551,
+                "9"
+            ],
+            [
+                1719592556,
+                "9"
+            ],
+            [
+                1719592561,
+                "9"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "process_open_fds",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592551,
+                "15"
+            ],
+            [
+                1719592556,
+                "16"
+            ],
+            [
+                1719592561,
+                "15"
+            ]
+        ]
+    }
+]

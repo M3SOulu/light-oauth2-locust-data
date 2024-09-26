@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_head_series",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592494,
+                "1623"
+            ],
+            [
+                1719592499,
+                "1623"
+            ],
+            [
+                1719592504,
+                "1623"
+            ]
+        ]
+    }
+]

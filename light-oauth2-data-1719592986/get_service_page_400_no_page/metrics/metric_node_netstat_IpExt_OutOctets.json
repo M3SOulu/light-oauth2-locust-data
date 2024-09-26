@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_netstat_IpExt_OutOctets",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592465,
+                "952547"
+            ],
+            [
+                1719592470,
+                "967666"
+            ],
+            [
+                1719592475,
+                "982794"
+            ]
+        ]
+    }
+]

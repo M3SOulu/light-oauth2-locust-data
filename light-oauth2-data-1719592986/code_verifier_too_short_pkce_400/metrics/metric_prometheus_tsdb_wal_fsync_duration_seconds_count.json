@@ -1,0 +1,23 @@
+[
+    {
+        "metric": {
+            "__name__": "prometheus_tsdb_wal_fsync_duration_seconds_count",
+            "instance": "localhost:9090",
+            "job": "prometheus"
+        },
+        "values": [
+            [
+                1719592722,
+                "0"
+            ],
+            [
+                1719592727,
+                "0"
+            ],
+            [
+                1719592732,
+                "0"
+            ]
+        ]
+    }
+]

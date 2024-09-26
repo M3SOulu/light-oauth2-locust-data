@@ -1,0 +1,24 @@
+[
+    {
+        "metric": {
+            "__name__": "node_entropy_pool_size_bits",
+            "group": "production",
+            "instance": "node_exporter:9100",
+            "job": "node"
+        },
+        "values": [
+            [
+                1719592848,
+                "256"
+            ],
+            [
+                1719592853,
+                "256"
+            ],
+            [
+                1719592858,
+                "256"
+            ]
+        ]
+    }
+]
