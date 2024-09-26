@@ -16,7 +16,11 @@ for run_name in os.listdir(os.getcwd()):
                 continue
             file = os.path.join(metrics, file)
             with open(file, 'r') as f:
-                data = json.load(f)
+                try:
+                    data = json.load(f)
+                except:
+                    print(f"Error when loading JSON from {file}")
+                    continue
             for metric in data:
                 if metric["metric"]["job"] != "node":
                     continue
