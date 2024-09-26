@@ -2,15 +2,18 @@ import os
 import csv
 import json
 
-run_name = "light-oauth2-data-1719592986"
-for test_folder in os.listdir(run_name):
-    test_path = os.path.join(run_name, test_folder)
-    if not os.path.isdir(test_path):
+for run_name in os.listdir(os.getcwd()):
+    if not run_name.startswith('light-oauth2'):
         continue
-    METRICS = dict()
-    metrics = os.path.join(test_path, "metrics")
-    for file in os.listdir(metrics):
-        if os.path.splitext(file)[1] == ".json":
+    for test_folder in os.listdir(run_name):
+        test_path = os.path.join(run_name, test_folder)
+        if not os.path.isdir(test_path):
+            continue
+        METRICS = dict()
+        metrics = os.path.join(test_path, "metrics")
+        for file in os.listdir(metrics):
+            if os.path.splitext(file)[1] != ".json":
+                continue
             file = os.path.join(metrics, file)
             with open(file, 'r') as f:
                 data = json.load(f)
@@ -22,18 +25,20 @@ for test_folder in os.listdir(run_name):
                 for timestamp, value in metric["values"]:
                     metric_values = METRICS.setdefault(timestamp, dict())
                     metric_values[metric_name] = value
-    test_csv = run_name + "-" + test_folder + ".csv"
-    all_metrics = set()
-    for timestamp, metrics in METRICS.items():
-        all_metrics = all_metrics.union(metrics.keys())
-    all_metrics = sorted(list(all_metrics))
-    HEADER = ["timestamp", "run_end", "test_name"]
-    HEADER.extend(all_metrics)
-    with open(test_csv, 'w', newline='') as f:
-        csv_writer = csv.writer(f)
-        csv_writer.writerow(HEADER)
+
+        test_csv = run_name + "-" + test_folder + ".csv"
+        all_metrics = set()
         for timestamp, metrics in METRICS.items():
-            row = [timestamp, run_name, test_folder]
-            for metric in all_metrics:
-                row.append(metrics.get(metric, None))
-            csv_writer.writerow(row)
+            all_metrics = all_metrics.union(metrics.keys())
+        all_metrics = sorted(list(all_metrics))
+        HEADER = ["timestamp", "run_end", "test_name"]
+        HEADER.extend(all_metrics)
+
+        with open(test_csv, 'w', newline='') as f:
+            csv_writer = csv.writer(f)
+            csv_writer.writerow(HEADER)
+            for timestamp, metrics in METRICS.items():
+                row = [timestamp, run_name, test_folder]
+                for metric in all_metrics:
+                    row.append(metrics.get(metric, None))
+                csv_writer.writerow(row)
