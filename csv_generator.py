@@ -3,6 +3,8 @@ import csv
 import json
 
 for run_name in os.listdir(os.getcwd()):
+    if not os.path.isdir(run_name):
+        continue
     if not run_name.startswith('light-oauth2'):
         continue
     for test_folder in os.listdir(run_name):
