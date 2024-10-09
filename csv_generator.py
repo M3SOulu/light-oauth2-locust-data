@@ -7,6 +7,10 @@ for run_name in os.listdir(os.getcwd()):
         continue
     for test_folder in os.listdir(run_name):
         test_path = os.path.join(run_name, test_folder)
+        test_csv = run_name + "-" + test_folder + ".csv"
+        if os.path.isfile(test_csv):
+            print(f"{test_csv} exists, skipping...")
+            continue
         if not os.path.isdir(test_path):
             continue
         METRICS = dict()
@@ -30,7 +34,6 @@ for run_name in os.listdir(os.getcwd()):
                     metric_values = METRICS.setdefault(timestamp, dict())
                     metric_values[metric_name] = value
 
-        test_csv = run_name + "-" + test_folder + ".csv"
         all_metrics = set()
         for timestamp, metrics in METRICS.items():
             all_metrics = all_metrics.union(metrics.keys())
@@ -38,6 +41,7 @@ for run_name in os.listdir(os.getcwd()):
         HEADER = ["timestamp", "run_end", "test_name"]
         HEADER.extend(all_metrics)
 
+        print(f"Writing to {test_csv}...")
         with open(test_csv, 'w', newline='') as f:
             csv_writer = csv.writer(f)
             csv_writer.writerow(HEADER)
