@@ -2,6 +2,7 @@ import scipy.stats
 import numpy
 import numpy.random
 import numpy.linalg
+import pandas as pd
 from functools import partial
 import matplotlib.pyplot as plt
 
@@ -126,12 +127,25 @@ ALPHA = 0.1
 BETA = 1.
 KAPPA = 1.
 MU = 0.
-DELAY = 1
+DELAY = 15
 THRESHOLD = 0.5
 
 series = numpy.random.normal(size=1000)
 series[len(series) // 4:len(series) // 2] += 10.
 series[len(series) // 2:3 * len(series) // 4] -= 10.
+
+df = pd.read_csv("light-oauth2-data-1719592986.csv")
+# series = df["node_disk_written_bytes_total&device=sda"].to_numpy()
+# series = df["node_filesystem_avail_bytes&device=tmpfs&fstype=tmpfs&mountpoint=/run"].to_numpy()
+# series = df["node_memory_AnonHugePages_bytes"].to_numpy()
+# series = df["node_memory_AnonPages_bytes"].to_numpy()
+# series = df["node_memory_MemAvailable_bytes"].to_numpy()
+# series = df["node_memory_MemFree_bytes"].to_numpy()
+# series = df["node_memory_Committed_AS_bytes"].to_numpy()
+# series = df["node_memory_Inactive_anon_bytes"].to_numpy()
+# series = df["node_memory_Inactive_bytes"].to_numpy()
+# series = df["node_memory_Shmem_bytes"].to_numpy()
+# series = df["node_filesystem_free_bytes&device=tmpfs&fstype=tmpfs&mountpoint=/run"].to_numpy()
 
 bocd = BOCD(partial(constant_hazard, LAMBDA),
             StudentT(ALPHA, BETA, KAPPA, MU))
