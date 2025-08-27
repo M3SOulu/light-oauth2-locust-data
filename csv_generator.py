@@ -2,30 +2,29 @@ import os
 import csv
 import json
 
-for run_name in os.listdir(os.getcwd()):
-    if not os.path.isdir(run_name):
+for run_dir in os.listdir(os.getcwd()):
+    if not all([os.path.isdir(run_dir),
+                run_dir.startswith('LO2_run')]):
         continue
-    if not run_name.startswith('light-oauth2'):
-        continue
-    for test_folder in os.listdir(run_name):
-        test_path = os.path.join(run_name, test_folder)
-        test_csv = run_name + "-" + test_folder + ".csv"
-        if os.path.isfile(test_csv):
-            print(f"{test_csv} exists, skipping...")
+    for test_dir in os.listdir(run_dir):
+        test_path = os.path.join(run_dir, test_dir)
+        output_csv = f"{run_dir}-{test_dir}.csv"
+        if os.path.isfile(output_csv):
+            print(f"{output_csv} exists, skipping...")
             continue
         if not os.path.isdir(test_path):
             continue
         METRICS = dict()
-        metrics = os.path.join(test_path, "metrics")
-        for file in os.listdir(metrics):
-            if os.path.splitext(file)[1] != ".json":
+        metrics_dir = os.path.join(test_path, "metrics")
+        for metric_file in os.listdir(metrics_dir):
+            if os.path.splitext(metric_file)[1] != ".json":
                 continue
-            file = os.path.join(metrics, file)
-            with open(file, 'r') as f:
+            metric_json = os.path.join(metrics_dir, metric_file)
+            with open(metric_json, 'r') as f:
                 try:
                     data = json.load(f)
                 except:
-                    print(f"Error when loading JSON from {file}")
+                    print(f"Error when loading JSON from {metric_json}")
                     continue
             for metric in data:
                 if metric["metric"]["job"] != "node":
@@ -37,18 +36,18 @@ for run_name in os.listdir(os.getcwd()):
                     metric_values[metric_name] = value
 
         all_metrics = set()
-        for timestamp, metrics in METRICS.items():
-            all_metrics = all_metrics.union(metrics.keys())
+        for timestamp, metrics_dir in METRICS.items():
+            all_metrics = all_metrics.union(metrics_dir.keys())
         all_metrics = sorted(list(all_metrics))
-        HEADER = ["timestamp", "run_end", "test_name"]
+        HEADER = ["timestamp", "run_start", "test_name"]
         HEADER.extend(all_metrics)
 
-        print(f"Writing to {test_csv}...")
-        with open(test_csv, 'w', newline='') as f:
+        print(f"Writing to {output_csv}...")
+        with open(output_csv, 'w', newline='') as f:
             csv_writer = csv.writer(f)
             csv_writer.writerow(HEADER)
-            for timestamp, metrics in METRICS.items():
-                row = [timestamp, run_name, test_folder]
+            for timestamp, metrics_dir in METRICS.items():
+                row = [timestamp, run_dir, test_dir]
                 for metric in all_metrics:
-                    row.append(metrics.get(metric, None))
+                    row.append(metrics_dir.get(metric, None))
                 csv_writer.writerow(row)
