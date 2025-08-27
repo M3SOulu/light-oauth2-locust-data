@@ -5,21 +5,21 @@ import json
 for run_dir in filter(lambda run_dir: os.path.isdir(run_dir) and run_dir.startswith('LO2_run'), os.listdir(os.getcwd())):
     NODE_METRICS = dict()
     CONTAINER_METRICS = dict()
-    for test_dir, metrics_dir in filter(lambda x: os.path.isdir(x[1]), ((test_dir, os.path.join(run_dir, test_dir, "metrics")) for test_dir in os.listdir(run_dir))):
+    for test_name, metrics_dir in filter(lambda x: os.path.isdir(x[1]), ((test_dir, os.path.join(run_dir, test_dir, "metrics")) for test_dir in os.listdir(run_dir))):
         for metric_json in filter(lambda x: os.path.splitext(x)[1] == ".json" , (os.path.join(metrics_dir, metric_file) for metric_file in os.listdir(metrics_dir))):
             with open(metric_json, 'r') as f:
                 try:
-                    data = json.load(f)
+                    metric_data = json.load(f)
                 except:
                     print(f"Error when loading JSON from {metric_json}")
                     continue
-            for metric in data:
+            for metric in metric_data:
                 if metric["metric"]["job"] == "node":
                     metric_name = [metric["metric"]["__name__"]] + [f"{k}={v}" for k,v in metric["metric"].items() if k not in {"group", "instance", "job", "__name__"}]
                     metric_name = '&'.join(metric_name)
                     for timestamp, value in metric["values"]:
                         test_dict = NODE_METRICS.setdefault(timestamp, dict())
-                        metric_dict = test_dict.setdefault(test_dir, dict())
+                        metric_dict = test_dict.setdefault(test_name, dict())
                         metric_dict[metric_name] = value
                 elif metric["metric"]["job"] == "cadvisor":
                     if "name" not in metric["metric"]:
@@ -29,7 +29,7 @@ for run_dir in filter(lambda run_dir: os.path.isdir(run_dir) and run_dir.startsw
                     container_dict = CONTAINER_METRICS.setdefault(container_name, dict())
                     for timestamp, value in metric["values"]:
                         test_dict = container_dict.setdefault(timestamp, dict())
-                        metric_dict = test_dict.setdefault(test_dir, dict())
+                        metric_dict = test_dict.setdefault(test_name, dict())
                         metric_dict[metric_name] = value
 
     all_metrics = set()
