@@ -8,6 +8,7 @@ for run_dir in filter(lambda run_dir: os.path.isdir(run_dir) and run_dir.startsw
     NODE_METRICS = dict()
     # Stores cAdvisor metrics (container level metrics)
     CONTAINER_METRICS = dict()
+    print("Processing run", run_dir)
     # Iterate over all tests and their metrics
     for test_name, metrics_dir in filter(lambda x: os.path.isdir(x[1]), ((test_dir, os.path.join(run_dir, test_dir, "metrics")) for test_dir in os.listdir(run_dir))):
         # Iterate over all metric json files
