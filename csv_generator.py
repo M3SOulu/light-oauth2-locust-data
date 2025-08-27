@@ -2,21 +2,11 @@ import os
 import csv
 import json
 
-for run_dir in os.listdir(os.getcwd()):
-    if not all([os.path.isdir(run_dir),
-                run_dir.startswith('LO2_run')]):
-        continue
+for run_dir in filter(lambda run_dir: os.path.isdir(run_dir) and run_dir.startswith('LO2_run'), os.listdir(os.getcwd())):
     NODE_METRICS = dict()
     CONTAINER_METRICS = dict()
-    for test_dir in os.listdir(run_dir):
-        test_path = os.path.join(run_dir, test_dir)
-        if not os.path.isdir(test_path):
-            continue
-        metrics_dir = os.path.join(test_path, "metrics")
-        for metric_file in os.listdir(metrics_dir):
-            if os.path.splitext(metric_file)[1] != ".json":
-                continue
-            metric_json = os.path.join(metrics_dir, metric_file)
+    for test_dir, metrics_dir in filter(lambda x: os.path.isdir(x[1]), ((test_dir, os.path.join(run_dir, test_dir, "metrics")) for test_dir in os.listdir(run_dir))):
+        for metric_json in filter(lambda x: os.path.splitext(x)[1] == ".json" , (os.path.join(metrics_dir, metric_file) for metric_file in os.listdir(metrics_dir))):
             with open(metric_json, 'r') as f:
                 try:
                     data = json.load(f)
