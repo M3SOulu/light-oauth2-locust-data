@@ -65,16 +65,17 @@ for run_dir in os.listdir(os.getcwd()):
                         row.append(metrics_dict.get(metric, None))
                 csv_writer.writerow(row)
 
+    all_metrics = set()
     for container_name, container_dict in CONTAINER_METRICS.items():
-        container_output_csv = f"{run_dir}-{container_name}-metrics.csv"
-        all_metrics = set()
         for test_dict in container_dict.values():
             for metric_dict in test_dict.values():
                 all_metrics = all_metrics.union(metric_dict.keys())
-        all_metrics = sorted(list(all_metrics))
-        HEADER = ["timestamp", "run", "container", "test"]
-        HEADER.extend(all_metrics)
+    all_metrics = sorted(list(all_metrics))
+    HEADER = ["timestamp", "run", "container", "test"]
+    HEADER.extend(all_metrics)
 
+    for container_name, container_dict in CONTAINER_METRICS.items():
+        container_output_csv = f"{run_dir}-{container_name}-metrics.csv"
         print(f"Writing to {container_output_csv}...")
         with open(container_output_csv, 'w', newline='') as f:
             csv_writer = csv.writer(f)
