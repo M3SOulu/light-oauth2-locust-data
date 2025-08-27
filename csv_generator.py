@@ -8,7 +8,6 @@ for run_dir in os.listdir(os.getcwd()):
         continue
     NODE_METRICS = dict()
     CONTAINER_METRICS = dict()
-    node_output_csv = f"{run_dir}-node-metrics.csv"
     for test_dir in os.listdir(run_dir):
         test_path = os.path.join(run_dir, test_dir)
         if not os.path.isdir(test_path):
@@ -43,28 +42,6 @@ for run_dir in os.listdir(os.getcwd()):
                         metric_dict = test_dict.setdefault(test_dir, dict())
                         metric_dict[metric_name] = value
 
-    if os.path.isfile(node_output_csv):
-        print(f"{node_output_csv} exists, skipping...")
-    else:
-        all_metrics = set()
-        for test_dict in NODE_METRICS.values():
-            for metric_dict in test_dict.values():
-                all_metrics = all_metrics.union(metric_dict.keys())
-        all_metrics = sorted(list(all_metrics))
-        HEADER = ["timestamp", "run", "test"]
-        HEADER.extend(all_metrics)
-
-        print(f"Writing to {node_output_csv}...")
-        with open(node_output_csv, 'w', newline='') as f:
-            csv_writer = csv.writer(f)
-            csv_writer.writerow(HEADER)
-            for timestamp, test_dict in NODE_METRICS.items():
-                for test_name, metrics_dict in test_dict.items():
-                    row = [timestamp, run_dir, test_name]
-                    for metric in all_metrics:
-                        row.append(metrics_dict.get(metric, None))
-                csv_writer.writerow(row)
-
     all_metrics = set()
     for container_name, container_dict in CONTAINER_METRICS.items():
         for test_dict in container_dict.values():
@@ -76,6 +53,9 @@ for run_dir in os.listdir(os.getcwd()):
 
     for container_name, container_dict in CONTAINER_METRICS.items():
         container_output_csv = f"{run_dir}-{container_name}-metrics.csv"
+        if os.path.isfile(container_output_csv):
+            print(f"{container_output_csv} exists, skipping...")
+            continue
         print(f"Writing to {container_output_csv}...")
         with open(container_output_csv, 'w', newline='') as f:
             csv_writer = csv.writer(f)
@@ -87,3 +67,26 @@ for run_dir in os.listdir(os.getcwd()):
                         row.append(metrics_dict.get(metric, None))
                 csv_writer.writerow(row)
 
+    node_output_csv = f"{run_dir}-node-metrics.csv"
+    if os.path.isfile(node_output_csv):
+        print(f"{node_output_csv} exists, skipping...")
+        continue
+
+    all_metrics = set()
+    for test_dict in NODE_METRICS.values():
+        for metric_dict in test_dict.values():
+            all_metrics = all_metrics.union(metric_dict.keys())
+    all_metrics = sorted(list(all_metrics))
+    HEADER = ["timestamp", "run", "test"]
+    HEADER.extend(all_metrics)
+
+    print(f"Writing to {node_output_csv}...")
+    with open(node_output_csv, 'w', newline='') as f:
+        csv_writer = csv.writer(f)
+        csv_writer.writerow(HEADER)
+        for timestamp, test_dict in NODE_METRICS.items():
+            for test_name, metrics_dict in test_dict.items():
+                row = [timestamp, run_dir, test_name]
+                for metric in all_metrics:
+                    row.append(metrics_dict.get(metric, None))
+            csv_writer.writerow(row)
