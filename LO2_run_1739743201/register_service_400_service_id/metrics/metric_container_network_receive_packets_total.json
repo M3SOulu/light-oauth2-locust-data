@@ -1,0 +1,2175 @@
+[
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "24ad3dd198c99f09dcebfb45656002e7830a0b36266debbd0c958974d3e0a6e0",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:c99325b6ce932ef5131ee3609c26e092dc92bc98d3e4166de84d0ddabf47b3e3",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-key",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-1eaaab5b91593d36c9881592eae6e0ffbe097d7abf5a640ad93b655e3a9c74ec.scope",
+            "image": "networknt/oauth2-key:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-key-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1369202"
+            ],
+            [
+                1739746901,
+                "1369202"
+            ],
+            [
+                1739746902,
+                "1369247"
+            ],
+            [
+                1739746903,
+                "1369247"
+            ],
+            [
+                1739746904,
+                "1369256"
+            ],
+            [
+                1739746905,
+                "1369256"
+            ],
+            [
+                1739746906,
+                "1369356"
+            ],
+            [
+                1739746907,
+                "1369420"
+            ],
+            [
+                1739746908,
+                "1369436"
+            ],
+            [
+                1739746909,
+                "1369436"
+            ],
+            [
+                1739746910,
+                "1369514"
+            ],
+            [
+                1739746911,
+                "1369514"
+            ],
+            [
+                1739746912,
+                "1369592"
+            ],
+            [
+                1739746913,
+                "1369604"
+            ],
+            [
+                1739746914,
+                "1369647"
+            ],
+            [
+                1739746915,
+                "1369647"
+            ],
+            [
+                1739746916,
+                "1369745"
+            ],
+            [
+                1739746917,
+                "1369811"
+            ],
+            [
+                1739746918,
+                "1369925"
+            ],
+            [
+                1739746919,
+                "1369925"
+            ],
+            [
+                1739746920,
+                "1370136"
+            ],
+            [
+                1739746921,
+                "1370253"
+            ],
+            [
+                1739746922,
+                "1370253"
+            ],
+            [
+                1739746923,
+                "1370344"
+            ],
+            [
+                1739746924,
+                "1370473"
+            ],
+            [
+                1739746925,
+                "1370473"
+            ],
+            [
+                1739746926,
+                "1370761"
+            ],
+            [
+                1739746927,
+                "1370761"
+            ],
+            [
+                1739746928,
+                "1370899"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "5cffed7f50b497d882d34aa8f5ccd320f6035076d396d753207d192c6cf90ffc",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:549f21c6ea163fc4f78ab5a5a35f93f2af3760ecf1c515ba9e59b849c87c3aa1",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "jaeger",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-258ec23501e7ad99e4c4ec348e4770926ca19660378463c2b696ef15a3d571e3.scope",
+            "image": "jaegertracing/all-in-one:latest",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "jaeger-container"
+        },
+        "values": [
+            [
+                1739746900,
+                "227500"
+            ],
+            [
+                1739746901,
+                "227500"
+            ],
+            [
+                1739746902,
+                "227504"
+            ],
+            [
+                1739746903,
+                "227504"
+            ],
+            [
+                1739746904,
+                "227508"
+            ],
+            [
+                1739746905,
+                "227508"
+            ],
+            [
+                1739746906,
+                "227526"
+            ],
+            [
+                1739746907,
+                "227526"
+            ],
+            [
+                1739746908,
+                "227551"
+            ],
+            [
+                1739746909,
+                "227551"
+            ],
+            [
+                1739746910,
+                "227551"
+            ],
+            [
+                1739746911,
+                "227562"
+            ],
+            [
+                1739746912,
+                "227562"
+            ],
+            [
+                1739746913,
+                "227583"
+            ],
+            [
+                1739746914,
+                "227655"
+            ],
+            [
+                1739746915,
+                "227655"
+            ],
+            [
+                1739746916,
+                "227669"
+            ],
+            [
+                1739746917,
+                "227691"
+            ],
+            [
+                1739746918,
+                "227691"
+            ],
+            [
+                1739746919,
+                "227782"
+            ],
+            [
+                1739746920,
+                "227782"
+            ],
+            [
+                1739746921,
+                "227798"
+            ],
+            [
+                1739746922,
+                "227798"
+            ],
+            [
+                1739746923,
+                "227913"
+            ],
+            [
+                1739746924,
+                "227913"
+            ],
+            [
+                1739746925,
+                "227913"
+            ],
+            [
+                1739746926,
+                "227931"
+            ],
+            [
+                1739746927,
+                "228060"
+            ],
+            [
+                1739746928,
+                "228060"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "6f9ac1d875d7aedce3d1c02cf1c3600c8472050c4c3eef152b988955797c7c9b",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:47f1633c58a9279359810c1d0fd122245b699fb69d45e6f0978ec44e75d246f6",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-token",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-c9ce1dd1dd3ae9571c7328883d414b01648f7f497d6bf7bcf421681394a5576b.scope",
+            "image": "networknt/oauth2-token:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-token-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1775859"
+            ],
+            [
+                1739746901,
+                "1775859"
+            ],
+            [
+                1739746902,
+                "1775918"
+            ],
+            [
+                1739746903,
+                "1775918"
+            ],
+            [
+                1739746904,
+                "1775918"
+            ],
+            [
+                1739746905,
+                "1775947"
+            ],
+            [
+                1739746906,
+                "1775947"
+            ],
+            [
+                1739746907,
+                "1776083"
+            ],
+            [
+                1739746908,
+                "1776145"
+            ],
+            [
+                1739746909,
+                "1776145"
+            ],
+            [
+                1739746910,
+                "1776512"
+            ],
+            [
+                1739746911,
+                "1776717"
+            ],
+            [
+                1739746912,
+                "1776717"
+            ],
+            [
+                1739746913,
+                "1776938"
+            ],
+            [
+                1739746914,
+                "1776938"
+            ],
+            [
+                1739746915,
+                "1777277"
+            ],
+            [
+                1739746916,
+                "1777423"
+            ],
+            [
+                1739746917,
+                "1777786"
+            ],
+            [
+                1739746918,
+                "1777786"
+            ],
+            [
+                1739746919,
+                "1778300"
+            ],
+            [
+                1739746920,
+                "1778834"
+            ],
+            [
+                1739746921,
+                "1778834"
+            ],
+            [
+                1739746922,
+                "1779243"
+            ],
+            [
+                1739746923,
+                "1779502"
+            ],
+            [
+                1739746924,
+                "1779502"
+            ],
+            [
+                1739746925,
+                "1779815"
+            ],
+            [
+                1739746926,
+                "1780363"
+            ],
+            [
+                1739746927,
+                "1780792"
+            ],
+            [
+                1739746928,
+                "1780792"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "72f826bb43d7cec8dd63c2b91f4805b58df06e1a77017799edc039ccd5a6c8a3",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:663113bbfab8c2be8a7940cff70167eca6277895dfb8f93272a5a72150c96f55",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-user",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-62f18d49794c702b98d7aca0253ddfa595ec6a3d29df25777948cb99a7ff028e.scope",
+            "image": "networknt/oauth2-user:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-user-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1632633"
+            ],
+            [
+                1739746901,
+                "1632675"
+            ],
+            [
+                1739746902,
+                "1632675"
+            ],
+            [
+                1739746903,
+                "1632703"
+            ],
+            [
+                1739746904,
+                "1632726"
+            ],
+            [
+                1739746905,
+                "1632786"
+            ],
+            [
+                1739746906,
+                "1632924"
+            ],
+            [
+                1739746907,
+                "1632924"
+            ],
+            [
+                1739746908,
+                "1633056"
+            ],
+            [
+                1739746909,
+                "1633056"
+            ],
+            [
+                1739746910,
+                "1633172"
+            ],
+            [
+                1739746911,
+                "1633207"
+            ],
+            [
+                1739746912,
+                "1633286"
+            ],
+            [
+                1739746913,
+                "1633286"
+            ],
+            [
+                1739746914,
+                "1633339"
+            ],
+            [
+                1739746915,
+                "1633433"
+            ],
+            [
+                1739746916,
+                "1633530"
+            ],
+            [
+                1739746917,
+                "1633530"
+            ],
+            [
+                1739746918,
+                "1633778"
+            ],
+            [
+                1739746919,
+                "1633778"
+            ],
+            [
+                1739746920,
+                "1634020"
+            ],
+            [
+                1739746921,
+                "1634020"
+            ],
+            [
+                1739746922,
+                "1634131"
+            ],
+            [
+                1739746923,
+                "1634226"
+            ],
+            [
+                1739746924,
+                "1634337"
+            ],
+            [
+                1739746925,
+                "1634507"
+            ],
+            [
+                1739746926,
+                "1634507"
+            ],
+            [
+                1739746927,
+                "1634729"
+            ],
+            [
+                1739746928,
+                "1634863"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "837e7e0578e4eb9149a65e38be6634e98f7e4949011aa3fc5873fff1385caf17",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:e74ad17219f4ad85906e5c59c424ebc29acd6f9326aadd3d1e6962371d9755c9",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-client",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-8c750b11ff54c5f4c6600ace82abcc5078ff3f996f368bd4680603472db2ed2a.scope",
+            "image": "networknt/oauth2-client:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-client-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1926947"
+            ],
+            [
+                1739746901,
+                "1926947"
+            ],
+            [
+                1739746902,
+                "1926947"
+            ],
+            [
+                1739746903,
+                "1927289"
+            ],
+            [
+                1739746904,
+                "1927362"
+            ],
+            [
+                1739746905,
+                "1927362"
+            ],
+            [
+                1739746906,
+                "1927630"
+            ],
+            [
+                1739746907,
+                "1927654"
+            ],
+            [
+                1739746908,
+                "1927654"
+            ],
+            [
+                1739746909,
+                "1927786"
+            ],
+            [
+                1739746910,
+                "1927786"
+            ],
+            [
+                1739746911,
+                "1927901"
+            ],
+            [
+                1739746912,
+                "1927901"
+            ],
+            [
+                1739746913,
+                "1927926"
+            ],
+            [
+                1739746914,
+                "1927926"
+            ],
+            [
+                1739746915,
+                "1928050"
+            ],
+            [
+                1739746916,
+                "1928126"
+            ],
+            [
+                1739746917,
+                "1928126"
+            ],
+            [
+                1739746918,
+                "1928272"
+            ],
+            [
+                1739746919,
+                "1928370"
+            ],
+            [
+                1739746920,
+                "1928592"
+            ],
+            [
+                1739746921,
+                "1928592"
+            ],
+            [
+                1739746922,
+                "1928741"
+            ],
+            [
+                1739746923,
+                "1928741"
+            ],
+            [
+                1739746924,
+                "1928931"
+            ],
+            [
+                1739746925,
+                "1929018"
+            ],
+            [
+                1739746926,
+                "1929018"
+            ],
+            [
+                1739746927,
+                "1929454"
+            ],
+            [
+                1739746928,
+                "1929454"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "89617a6d18f56a589c7e5e6e5b1fbccd39170f0b451906e703bc2542a6234ed7",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:170bdb6cee313f149abb16e28757f3d156be6501d0b0128234c21bd8b6679b8e",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-refresh-token",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-e9b63b2b7416a14aead7e8eef5f4847b628ea677ae7101347ae952a472c064b7.scope",
+            "image": "networknt/oauth2-refresh-token:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-refresh-token-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1875170"
+            ],
+            [
+                1739746901,
+                "1875175"
+            ],
+            [
+                1739746902,
+                "1875175"
+            ],
+            [
+                1739746903,
+                "1875225"
+            ],
+            [
+                1739746904,
+                "1875225"
+            ],
+            [
+                1739746905,
+                "1875266"
+            ],
+            [
+                1739746906,
+                "1875266"
+            ],
+            [
+                1739746907,
+                "1875339"
+            ],
+            [
+                1739746908,
+                "1875375"
+            ],
+            [
+                1739746909,
+                "1875467"
+            ],
+            [
+                1739746910,
+                "1875467"
+            ],
+            [
+                1739746911,
+                "1875479"
+            ],
+            [
+                1739746912,
+                "1875479"
+            ],
+            [
+                1739746913,
+                "1875526"
+            ],
+            [
+                1739746914,
+                "1875571"
+            ],
+            [
+                1739746915,
+                "1875571"
+            ],
+            [
+                1739746916,
+                "1875792"
+            ],
+            [
+                1739746917,
+                "1875792"
+            ],
+            [
+                1739746918,
+                "1876068"
+            ],
+            [
+                1739746919,
+                "1876698"
+            ],
+            [
+                1739746920,
+                "1877131"
+            ],
+            [
+                1739746921,
+                "1877131"
+            ],
+            [
+                1739746922,
+                "1877442"
+            ],
+            [
+                1739746923,
+                "1877442"
+            ],
+            [
+                1739746924,
+                "1877863"
+            ],
+            [
+                1739746925,
+                "1878210"
+            ],
+            [
+                1739746926,
+                "1878210"
+            ],
+            [
+                1739746927,
+                "1878722"
+            ],
+            [
+                1739746928,
+                "1879170"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "8dbed26a61752b28a24ebd1cb42416d150e74be5982526960fcfec233318e57d",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:72c9c208898624938c9e4183d6686ea4a5fd3f912bc29bc3f00147924c521a3e",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "node_exporter",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+            "id": "/system.slice/docker-580afb472bc286bbd4099a1e4cfdee003d89e74e772431682c21dfb495a4ab56.scope",
+            "image": "prom/node-exporter:latest",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-node_exporter-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "18440"
+            ],
+            [
+                1739746901,
+                "18450"
+            ],
+            [
+                1739746902,
+                "18455"
+            ],
+            [
+                1739746903,
+                "18455"
+            ],
+            [
+                1739746904,
+                "18465"
+            ],
+            [
+                1739746905,
+                "18465"
+            ],
+            [
+                1739746906,
+                "18475"
+            ],
+            [
+                1739746907,
+                "18475"
+            ],
+            [
+                1739746908,
+                "18485"
+            ],
+            [
+                1739746909,
+                "18490"
+            ],
+            [
+                1739746910,
+                "18490"
+            ],
+            [
+                1739746911,
+                "18500"
+            ],
+            [
+                1739746912,
+                "18500"
+            ],
+            [
+                1739746913,
+                "18510"
+            ],
+            [
+                1739746914,
+                "18515"
+            ],
+            [
+                1739746915,
+                "18515"
+            ],
+            [
+                1739746916,
+                "18525"
+            ],
+            [
+                1739746917,
+                "18530"
+            ],
+            [
+                1739746918,
+                "18540"
+            ],
+            [
+                1739746919,
+                "18540"
+            ],
+            [
+                1739746920,
+                "18545"
+            ],
+            [
+                1739746921,
+                "18545"
+            ],
+            [
+                1739746922,
+                "18555"
+            ],
+            [
+                1739746923,
+                "18560"
+            ],
+            [
+                1739746924,
+                "18560"
+            ],
+            [
+                1739746925,
+                "18570"
+            ],
+            [
+                1739746926,
+                "18575"
+            ],
+            [
+                1739746927,
+                "18575"
+            ],
+            [
+                1739746928,
+                "18585"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "97990285ffd34372a4cafc205c139c12cabf2014e00fb529991722020f60b7b3",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:5d2236bfb1bd28148955eddf21912925fe42eb76dab37467268127cb9492de10",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-service",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-a1799448bb6e422b9ac20af487c2d988b01ea155f40579a0f3e18995ff24de12.scope",
+            "image": "networknt/oauth2-service:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-service-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1738274"
+            ],
+            [
+                1739746901,
+                "1738274"
+            ],
+            [
+                1739746902,
+                "1738339"
+            ],
+            [
+                1739746903,
+                "1738339"
+            ],
+            [
+                1739746904,
+                "1738363"
+            ],
+            [
+                1739746905,
+                "1738422"
+            ],
+            [
+                1739746906,
+                "1738600"
+            ],
+            [
+                1739746907,
+                "1738649"
+            ],
+            [
+                1739746908,
+                "1738649"
+            ],
+            [
+                1739746909,
+                "1738694"
+            ],
+            [
+                1739746910,
+                "1738751"
+            ],
+            [
+                1739746911,
+                "1738751"
+            ],
+            [
+                1739746912,
+                "1738814"
+            ],
+            [
+                1739746913,
+                "1738814"
+            ],
+            [
+                1739746914,
+                "1738860"
+            ],
+            [
+                1739746915,
+                "1739004"
+            ],
+            [
+                1739746916,
+                "1739004"
+            ],
+            [
+                1739746917,
+                "1739156"
+            ],
+            [
+                1739746918,
+                "1739286"
+            ],
+            [
+                1739746919,
+                "1739286"
+            ],
+            [
+                1739746920,
+                "1739510"
+            ],
+            [
+                1739746921,
+                "1739510"
+            ],
+            [
+                1739746922,
+                "1739605"
+            ],
+            [
+                1739746923,
+                "1739699"
+            ],
+            [
+                1739746924,
+                "1739815"
+            ],
+            [
+                1739746925,
+                "1739815"
+            ],
+            [
+                1739746926,
+                "1740137"
+            ],
+            [
+                1739746927,
+                "1740137"
+            ],
+            [
+                1739746928,
+                "1740474"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "b7efb8066180aac0c652553da3a0a7cfab0c7a4559e3cff5e8bdc5836d43600c",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "jaeger:service_started:false,mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:c7a2ab4e04754d881af62ae9dcc6a4805677bce4f3429d6cee1d70aed385f26a",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-code",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-d77239828d6f4b978f2054a89be90a2593d8e2953e2fa53203d673d406d7abfe.scope",
+            "image": "networknt/oauth2-code:2.0.28",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-oauth2-code-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1735213"
+            ],
+            [
+                1739746901,
+                "1735213"
+            ],
+            [
+                1739746902,
+                "1735267"
+            ],
+            [
+                1739746903,
+                "1735275"
+            ],
+            [
+                1739746904,
+                "1735275"
+            ],
+            [
+                1739746905,
+                "1735307"
+            ],
+            [
+                1739746906,
+                "1735460"
+            ],
+            [
+                1739746907,
+                "1735460"
+            ],
+            [
+                1739746908,
+                "1735504"
+            ],
+            [
+                1739746909,
+                "1735583"
+            ],
+            [
+                1739746910,
+                "1735583"
+            ],
+            [
+                1739746911,
+                "1735659"
+            ],
+            [
+                1739746912,
+                "1735659"
+            ],
+            [
+                1739746913,
+                "1735689"
+            ],
+            [
+                1739746914,
+                "1735736"
+            ],
+            [
+                1739746915,
+                "1735736"
+            ],
+            [
+                1739746916,
+                "1735807"
+            ],
+            [
+                1739746917,
+                "1735807"
+            ],
+            [
+                1739746918,
+                "1735921"
+            ],
+            [
+                1739746919,
+                "1736080"
+            ],
+            [
+                1739746920,
+                "1736306"
+            ],
+            [
+                1739746921,
+                "1736306"
+            ],
+            [
+                1739746922,
+                "1736398"
+            ],
+            [
+                1739746923,
+                "1736398"
+            ],
+            [
+                1739746924,
+                "1736565"
+            ],
+            [
+                1739746925,
+                "1736652"
+            ],
+            [
+                1739746926,
+                "1736652"
+            ],
+            [
+                1739746927,
+                "1736974"
+            ],
+            [
+                1739746928,
+                "1737220"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "b8deaf60d0cb3b6994d38d865c62e40bfee9d33632878e5b44950cc4f00cf549",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:6a5ddde754b61750cbca5cf1ffa80cbd35ba5f0c47f0a212905e43d95ac6d560",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "prometheus",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+            "id": "/system.slice/docker-ade01980a0a431359fe7d769b8aba091dad5b16104ba6275747d0fee8066db8f.scope",
+            "image": "prom/prometheus:latest",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-prometheus-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "203501"
+            ],
+            [
+                1739746901,
+                "203534"
+            ],
+            [
+                1739746902,
+                "203602"
+            ],
+            [
+                1739746903,
+                "203602"
+            ],
+            [
+                1739746904,
+                "203665"
+            ],
+            [
+                1739746905,
+                "203665"
+            ],
+            [
+                1739746906,
+                "203703"
+            ],
+            [
+                1739746907,
+                "203703"
+            ],
+            [
+                1739746908,
+                "203769"
+            ],
+            [
+                1739746909,
+                "203769"
+            ],
+            [
+                1739746910,
+                "203834"
+            ],
+            [
+                1739746911,
+                "203896"
+            ],
+            [
+                1739746912,
+                "203896"
+            ],
+            [
+                1739746913,
+                "203933"
+            ],
+            [
+                1739746914,
+                "203995"
+            ],
+            [
+                1739746915,
+                "203995"
+            ],
+            [
+                1739746916,
+                "204033"
+            ],
+            [
+                1739746917,
+                "204098"
+            ],
+            [
+                1739746918,
+                "204098"
+            ],
+            [
+                1739746919,
+                "204131"
+            ],
+            [
+                1739746920,
+                "204193"
+            ],
+            [
+                1739746921,
+                "204229"
+            ],
+            [
+                1739746922,
+                "204229"
+            ],
+            [
+                1739746923,
+                "204263"
+            ],
+            [
+                1739746924,
+                "204328"
+            ],
+            [
+                1739746925,
+                "204328"
+            ],
+            [
+                1739746926,
+                "204361"
+            ],
+            [
+                1739746927,
+                "204423"
+            ],
+            [
+                1739746928,
+                "204423"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "cd8abbbf8b36f6efc4ffc29d23d792ea1f64394bc5f28ebb76fa6873c4f8f0df",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:c02cf39d3dba9fcf5531f23358e33377e50fcc6065d97a27e68a4242229c67a0",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "cadvisor",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-979282aaf488b56e9aad973ad6b0b59d2c51f129bbd05751bb4e14fa0c77f7b4.scope",
+            "image": "gcr.io/cadvisor/cadvisor:latest",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-cadvisor-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "104807"
+            ],
+            [
+                1739746901,
+                "104835"
+            ],
+            [
+                1739746902,
+                "104892"
+            ],
+            [
+                1739746903,
+                "104921"
+            ],
+            [
+                1739746904,
+                "104921"
+            ],
+            [
+                1739746905,
+                "104949"
+            ],
+            [
+                1739746906,
+                "105007"
+            ],
+            [
+                1739746907,
+                "105036"
+            ],
+            [
+                1739746908,
+                "105036"
+            ],
+            [
+                1739746909,
+                "105095"
+            ],
+            [
+                1739746910,
+                "105095"
+            ],
+            [
+                1739746911,
+                "105124"
+            ],
+            [
+                1739746912,
+                "105124"
+            ],
+            [
+                1739746913,
+                "105181"
+            ],
+            [
+                1739746914,
+                "105239"
+            ],
+            [
+                1739746915,
+                "105239"
+            ],
+            [
+                1739746916,
+                "105296"
+            ],
+            [
+                1739746917,
+                "105296"
+            ],
+            [
+                1739746918,
+                "105325"
+            ],
+            [
+                1739746919,
+                "105352"
+            ],
+            [
+                1739746920,
+                "105352"
+            ],
+            [
+                1739746921,
+                "105410"
+            ],
+            [
+                1739746922,
+                "105439"
+            ],
+            [
+                1739746923,
+                "105467"
+            ],
+            [
+                1739746924,
+                "105523"
+            ],
+            [
+                1739746925,
+                "105551"
+            ],
+            [
+                1739746926,
+                "105551"
+            ],
+            [
+                1739746927,
+                "105607"
+            ],
+            [
+                1739746928,
+                "105634"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "container_label_com_docker_compose_config_hash": "e52a07cdf80a858ef64413405de5ddd3a1564457694c4fb551f9924dae22058f",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:d9124e6c552f0e739ef130add0e215af6abfc6efc0b43cc26e5a16b15df6c1ff",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "mysqldb",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "id": "/system.slice/docker-8794c52b64fce92ca27cd91debe47fc4f8f7f6991777e82e11a33b64925b768b.scope",
+            "image": "mysql:5.7.16",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor",
+            "name": "light-oauth2-mysqldb-1"
+        },
+        "values": [
+            [
+                1739746900,
+                "1029493"
+            ],
+            [
+                1739746901,
+                "1029499"
+            ],
+            [
+                1739746902,
+                "1029499"
+            ],
+            [
+                1739746903,
+                "1029534"
+            ],
+            [
+                1739746904,
+                "1029534"
+            ],
+            [
+                1739746905,
+                "1029560"
+            ],
+            [
+                1739746906,
+                "1029560"
+            ],
+            [
+                1739746907,
+                "1029664"
+            ],
+            [
+                1739746908,
+                "1029675"
+            ],
+            [
+                1739746909,
+                "1029683"
+            ],
+            [
+                1739746910,
+                "1029683"
+            ],
+            [
+                1739746911,
+                "1029706"
+            ],
+            [
+                1739746912,
+                "1029735"
+            ],
+            [
+                1739746913,
+                "1029735"
+            ],
+            [
+                1739746914,
+                "1029787"
+            ],
+            [
+                1739746915,
+                "1029787"
+            ],
+            [
+                1739746916,
+                "1029856"
+            ],
+            [
+                1739746917,
+                "1029856"
+            ],
+            [
+                1739746918,
+                "1029950"
+            ],
+            [
+                1739746919,
+                "1030002"
+            ],
+            [
+                1739746920,
+                "1030088"
+            ],
+            [
+                1739746921,
+                "1030115"
+            ],
+            [
+                1739746922,
+                "1030115"
+            ],
+            [
+                1739746923,
+                "1030137"
+            ],
+            [
+                1739746924,
+                "1030185"
+            ],
+            [
+                1739746925,
+                "1030185"
+            ],
+            [
+                1739746926,
+                "1030329"
+            ],
+            [
+                1739746927,
+                "1030396"
+            ],
+            [
+                1739746928,
+                "1030515"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "id": "/",
+            "instance": "cadvisor:8080",
+            "interface": "br-068f11161e47",
+            "job": "cadvisor"
+        },
+        "values": [
+            [
+                1739746900,
+                "96201837"
+            ],
+            [
+                1739746901,
+                "96201855"
+            ],
+            [
+                1739746902,
+                "96201855"
+            ],
+            [
+                1739746903,
+                "96201876"
+            ],
+            [
+                1739746904,
+                "96201876"
+            ],
+            [
+                1739746905,
+                "96201915"
+            ],
+            [
+                1739746906,
+                "96201915"
+            ],
+            [
+                1739746907,
+                "96202027"
+            ],
+            [
+                1739746908,
+                "96202090"
+            ],
+            [
+                1739746909,
+                "96202090"
+            ],
+            [
+                1739746910,
+                "96202394"
+            ],
+            [
+                1739746911,
+                "96202394"
+            ],
+            [
+                1739746912,
+                "96202581"
+            ],
+            [
+                1739746913,
+                "96202747"
+            ],
+            [
+                1739746914,
+                "96202861"
+            ],
+            [
+                1739746915,
+                "96203120"
+            ],
+            [
+                1739746916,
+                "96203120"
+            ],
+            [
+                1739746917,
+                "96203294"
+            ],
+            [
+                1739746918,
+                "96203762"
+            ],
+            [
+                1739746919,
+                "96204259"
+            ],
+            [
+                1739746920,
+                "96204259"
+            ],
+            [
+                1739746921,
+                "96204656"
+            ],
+            [
+                1739746922,
+                "96204886"
+            ],
+            [
+                1739746923,
+                "96205125"
+            ],
+            [
+                1739746924,
+                "96205406"
+            ],
+            [
+                1739746925,
+                "96205406"
+            ],
+            [
+                1739746926,
+                "96205912"
+            ],
+            [
+                1739746927,
+                "96206187"
+            ],
+            [
+                1739746928,
+                "96206579"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "id": "/",
+            "instance": "cadvisor:8080",
+            "interface": "br-17e349106aee",
+            "job": "cadvisor"
+        },
+        "values": [
+            [
+                1739746900,
+                "55891"
+            ],
+            [
+                1739746901,
+                "55891"
+            ],
+            [
+                1739746902,
+                "55891"
+            ],
+            [
+                1739746903,
+                "55891"
+            ],
+            [
+                1739746904,
+                "55891"
+            ],
+            [
+                1739746905,
+                "55891"
+            ],
+            [
+                1739746906,
+                "55891"
+            ],
+            [
+                1739746907,
+                "55891"
+            ],
+            [
+                1739746908,
+                "55891"
+            ],
+            [
+                1739746909,
+                "55891"
+            ],
+            [
+                1739746910,
+                "55891"
+            ],
+            [
+                1739746911,
+                "55891"
+            ],
+            [
+                1739746912,
+                "55891"
+            ],
+            [
+                1739746913,
+                "55891"
+            ],
+            [
+                1739746914,
+                "55891"
+            ],
+            [
+                1739746915,
+                "55891"
+            ],
+            [
+                1739746916,
+                "55891"
+            ],
+            [
+                1739746917,
+                "55891"
+            ],
+            [
+                1739746918,
+                "55891"
+            ],
+            [
+                1739746919,
+                "55891"
+            ],
+            [
+                1739746920,
+                "55891"
+            ],
+            [
+                1739746921,
+                "55891"
+            ],
+            [
+                1739746922,
+                "55891"
+            ],
+            [
+                1739746923,
+                "55891"
+            ],
+            [
+                1739746924,
+                "55891"
+            ],
+            [
+                1739746925,
+                "55891"
+            ],
+            [
+                1739746926,
+                "55891"
+            ],
+            [
+                1739746927,
+                "55891"
+            ],
+            [
+                1739746928,
+                "55891"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "id": "/",
+            "instance": "cadvisor:8080",
+            "interface": "br-acc6d4e2bdb3",
+            "job": "cadvisor"
+        },
+        "values": [
+            [
+                1739746900,
+                "0"
+            ],
+            [
+                1739746901,
+                "0"
+            ],
+            [
+                1739746902,
+                "0"
+            ],
+            [
+                1739746903,
+                "0"
+            ],
+            [
+                1739746904,
+                "0"
+            ],
+            [
+                1739746905,
+                "0"
+            ],
+            [
+                1739746906,
+                "0"
+            ],
+            [
+                1739746907,
+                "0"
+            ],
+            [
+                1739746908,
+                "0"
+            ],
+            [
+                1739746909,
+                "0"
+            ],
+            [
+                1739746910,
+                "0"
+            ],
+            [
+                1739746911,
+                "0"
+            ],
+            [
+                1739746912,
+                "0"
+            ],
+            [
+                1739746913,
+                "0"
+            ],
+            [
+                1739746914,
+                "0"
+            ],
+            [
+                1739746915,
+                "0"
+            ],
+            [
+                1739746916,
+                "0"
+            ],
+            [
+                1739746917,
+                "0"
+            ],
+            [
+                1739746918,
+                "0"
+            ],
+            [
+                1739746919,
+                "0"
+            ],
+            [
+                1739746920,
+                "0"
+            ],
+            [
+                1739746921,
+                "0"
+            ],
+            [
+                1739746922,
+                "0"
+            ],
+            [
+                1739746923,
+                "0"
+            ],
+            [
+                1739746924,
+                "0"
+            ],
+            [
+                1739746925,
+                "0"
+            ],
+            [
+                1739746926,
+                "0"
+            ],
+            [
+                1739746927,
+                "0"
+            ],
+            [
+                1739746928,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_network_receive_packets_total",
+            "id": "/",
+            "instance": "cadvisor:8080",
+            "interface": "eth0",
+            "job": "cadvisor"
+        },
+        "values": [
+            [
+                1739746900,
+                "7999793"
+            ],
+            [
+                1739746901,
+                "7999795"
+            ],
+            [
+                1739746902,
+                "7999795"
+            ],
+            [
+                1739746903,
+                "7999800"
+            ],
+            [
+                1739746904,
+                "7999800"
+            ],
+            [
+                1739746905,
+                "7999815"
+            ],
+            [
+                1739746906,
+                "7999815"
+            ],
+            [
+                1739746907,
+                "7999819"
+            ],
+            [
+                1739746908,
+                "7999823"
+            ],
+            [
+                1739746909,
+                "7999823"
+            ],
+            [
+                1739746910,
+                "7999827"
+            ],
+            [
+                1739746911,
+                "7999827"
+            ],
+            [
+                1739746912,
+                "7999829"
+            ],
+            [
+                1739746913,
+                "7999831"
+            ],
+            [
+                1739746914,
+                "7999832"
+            ],
+            [
+                1739746915,
+                "7999835"
+            ],
+            [
+                1739746916,
+                "7999835"
+            ],
+            [
+                1739746917,
+                "7999840"
+            ],
+            [
+                1739746918,
+                "7999845"
+            ],
+            [
+                1739746919,
+                "7999847"
+            ],
+            [
+                1739746920,
+                "7999847"
+            ],
+            [
+                1739746921,
+                "7999850"
+            ],
+            [
+                1739746922,
+                "7999851"
+            ],
+            [
+                1739746923,
+                "7999853"
+            ],
+            [
+                1739746924,
+                "7999854"
+            ],
+            [
+                1739746925,
+                "7999854"
+            ],
+            [
+                1739746926,
+                "7999856"
+            ],
+            [
+                1739746927,
+                "7999858"
+            ],
+            [
+                1739746928,
+                "7999865"
+            ]
+        ]
+    }
+]

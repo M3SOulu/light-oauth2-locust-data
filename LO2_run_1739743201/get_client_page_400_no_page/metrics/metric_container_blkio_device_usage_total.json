@@ -1,0 +1,7584 @@
+[
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "24ad3dd198c99f09dcebfb45656002e7830a0b36266debbd0c958974d3e0a6e0",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:c99325b6ce932ef5131ee3609c26e092dc92bc98d3e4166de84d0ddabf47b3e3",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-key",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-1eaaab5b91593d36c9881592eae6e0ffbe097d7abf5a640ad93b655e3a9c74ec.scope",
+            "image": "networknt/oauth2-key:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-key-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "11558912"
+            ],
+            [
+                1739745134,
+                "11558912"
+            ],
+            [
+                1739745135,
+                "11558912"
+            ],
+            [
+                1739745136,
+                "11558912"
+            ],
+            [
+                1739745137,
+                "11558912"
+            ],
+            [
+                1739745138,
+                "11558912"
+            ],
+            [
+                1739745139,
+                "11558912"
+            ],
+            [
+                1739745140,
+                "11558912"
+            ],
+            [
+                1739745141,
+                "11558912"
+            ],
+            [
+                1739745142,
+                "11558912"
+            ],
+            [
+                1739745143,
+                "11558912"
+            ],
+            [
+                1739745144,
+                "11558912"
+            ],
+            [
+                1739745145,
+                "11558912"
+            ],
+            [
+                1739745146,
+                "11558912"
+            ],
+            [
+                1739745147,
+                "11558912"
+            ],
+            [
+                1739745148,
+                "11558912"
+            ],
+            [
+                1739745149,
+                "11558912"
+            ],
+            [
+                1739745150,
+                "11558912"
+            ],
+            [
+                1739745151,
+                "11558912"
+            ],
+            [
+                1739745152,
+                "11558912"
+            ],
+            [
+                1739745153,
+                "11558912"
+            ],
+            [
+                1739745154,
+                "11558912"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "24ad3dd198c99f09dcebfb45656002e7830a0b36266debbd0c958974d3e0a6e0",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:c99325b6ce932ef5131ee3609c26e092dc92bc98d3e4166de84d0ddabf47b3e3",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-key",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-1eaaab5b91593d36c9881592eae6e0ffbe097d7abf5a640ad93b655e3a9c74ec.scope",
+            "image": "networknt/oauth2-key:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-key-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "13225984"
+            ],
+            [
+                1739745134,
+                "13225984"
+            ],
+            [
+                1739745135,
+                "13225984"
+            ],
+            [
+                1739745136,
+                "13225984"
+            ],
+            [
+                1739745137,
+                "13225984"
+            ],
+            [
+                1739745138,
+                "13258752"
+            ],
+            [
+                1739745139,
+                "13258752"
+            ],
+            [
+                1739745140,
+                "13258752"
+            ],
+            [
+                1739745141,
+                "13258752"
+            ],
+            [
+                1739745142,
+                "13258752"
+            ],
+            [
+                1739745143,
+                "13320192"
+            ],
+            [
+                1739745144,
+                "13320192"
+            ],
+            [
+                1739745145,
+                "13320192"
+            ],
+            [
+                1739745146,
+                "13320192"
+            ],
+            [
+                1739745147,
+                "13320192"
+            ],
+            [
+                1739745148,
+                "13369344"
+            ],
+            [
+                1739745149,
+                "13369344"
+            ],
+            [
+                1739745150,
+                "13369344"
+            ],
+            [
+                1739745151,
+                "13369344"
+            ],
+            [
+                1739745152,
+                "13369344"
+            ],
+            [
+                1739745153,
+                "13430784"
+            ],
+            [
+                1739745154,
+                "13430784"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "6f9ac1d875d7aedce3d1c02cf1c3600c8472050c4c3eef152b988955797c7c9b",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:47f1633c58a9279359810c1d0fd122245b699fb69d45e6f0978ec44e75d246f6",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-token",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-c9ce1dd1dd3ae9571c7328883d414b01648f7f497d6bf7bcf421681394a5576b.scope",
+            "image": "networknt/oauth2-token:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-token-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "8192"
+            ],
+            [
+                1739745134,
+                "8192"
+            ],
+            [
+                1739745135,
+                "8192"
+            ],
+            [
+                1739745136,
+                "8192"
+            ],
+            [
+                1739745137,
+                "8192"
+            ],
+            [
+                1739745138,
+                "8192"
+            ],
+            [
+                1739745139,
+                "8192"
+            ],
+            [
+                1739745140,
+                "8192"
+            ],
+            [
+                1739745141,
+                "8192"
+            ],
+            [
+                1739745142,
+                "8192"
+            ],
+            [
+                1739745143,
+                "8192"
+            ],
+            [
+                1739745144,
+                "8192"
+            ],
+            [
+                1739745145,
+                "8192"
+            ],
+            [
+                1739745146,
+                "8192"
+            ],
+            [
+                1739745147,
+                "8192"
+            ],
+            [
+                1739745148,
+                "8192"
+            ],
+            [
+                1739745149,
+                "8192"
+            ],
+            [
+                1739745150,
+                "8192"
+            ],
+            [
+                1739745151,
+                "8192"
+            ],
+            [
+                1739745152,
+                "8192"
+            ],
+            [
+                1739745153,
+                "8192"
+            ],
+            [
+                1739745154,
+                "8192"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "6f9ac1d875d7aedce3d1c02cf1c3600c8472050c4c3eef152b988955797c7c9b",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:47f1633c58a9279359810c1d0fd122245b699fb69d45e6f0978ec44e75d246f6",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-token",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-c9ce1dd1dd3ae9571c7328883d414b01648f7f497d6bf7bcf421681394a5576b.scope",
+            "image": "networknt/oauth2-token:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-token-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "403378176"
+            ],
+            [
+                1739745134,
+                "403804160"
+            ],
+            [
+                1739745135,
+                "403804160"
+            ],
+            [
+                1739745136,
+                "403804160"
+            ],
+            [
+                1739745137,
+                "403804160"
+            ],
+            [
+                1739745138,
+                "403804160"
+            ],
+            [
+                1739745139,
+                "403836928"
+            ],
+            [
+                1739745140,
+                "403836928"
+            ],
+            [
+                1739745141,
+                "403836928"
+            ],
+            [
+                1739745142,
+                "403836928"
+            ],
+            [
+                1739745143,
+                "404639744"
+            ],
+            [
+                1739745144,
+                "404639744"
+            ],
+            [
+                1739745145,
+                "404639744"
+            ],
+            [
+                1739745146,
+                "404652032"
+            ],
+            [
+                1739745147,
+                "404652032"
+            ],
+            [
+                1739745148,
+                "405987328"
+            ],
+            [
+                1739745149,
+                "405987328"
+            ],
+            [
+                1739745150,
+                "405987328"
+            ],
+            [
+                1739745151,
+                "405987328"
+            ],
+            [
+                1739745152,
+                "405987328"
+            ],
+            [
+                1739745153,
+                "405987328"
+            ],
+            [
+                1739745154,
+                "405987328"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "72f826bb43d7cec8dd63c2b91f4805b58df06e1a77017799edc039ccd5a6c8a3",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:663113bbfab8c2be8a7940cff70167eca6277895dfb8f93272a5a72150c96f55",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-user",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-62f18d49794c702b98d7aca0253ddfa595ec6a3d29df25777948cb99a7ff028e.scope",
+            "image": "networknt/oauth2-user:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-user-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "16384"
+            ],
+            [
+                1739745134,
+                "16384"
+            ],
+            [
+                1739745135,
+                "16384"
+            ],
+            [
+                1739745136,
+                "16384"
+            ],
+            [
+                1739745137,
+                "16384"
+            ],
+            [
+                1739745138,
+                "16384"
+            ],
+            [
+                1739745139,
+                "16384"
+            ],
+            [
+                1739745140,
+                "16384"
+            ],
+            [
+                1739745141,
+                "16384"
+            ],
+            [
+                1739745142,
+                "16384"
+            ],
+            [
+                1739745143,
+                "16384"
+            ],
+            [
+                1739745144,
+                "16384"
+            ],
+            [
+                1739745145,
+                "16384"
+            ],
+            [
+                1739745146,
+                "16384"
+            ],
+            [
+                1739745147,
+                "16384"
+            ],
+            [
+                1739745148,
+                "16384"
+            ],
+            [
+                1739745149,
+                "16384"
+            ],
+            [
+                1739745150,
+                "16384"
+            ],
+            [
+                1739745151,
+                "16384"
+            ],
+            [
+                1739745152,
+                "16384"
+            ],
+            [
+                1739745153,
+                "16384"
+            ],
+            [
+                1739745154,
+                "16384"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "72f826bb43d7cec8dd63c2b91f4805b58df06e1a77017799edc039ccd5a6c8a3",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:663113bbfab8c2be8a7940cff70167eca6277895dfb8f93272a5a72150c96f55",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-user",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-62f18d49794c702b98d7aca0253ddfa595ec6a3d29df25777948cb99a7ff028e.scope",
+            "image": "networknt/oauth2-user:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-user-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "163516416"
+            ],
+            [
+                1739745134,
+                "163516416"
+            ],
+            [
+                1739745135,
+                "163516416"
+            ],
+            [
+                1739745136,
+                "163516416"
+            ],
+            [
+                1739745137,
+                "163516416"
+            ],
+            [
+                1739745138,
+                "163577856"
+            ],
+            [
+                1739745139,
+                "163577856"
+            ],
+            [
+                1739745140,
+                "163577856"
+            ],
+            [
+                1739745141,
+                "163577856"
+            ],
+            [
+                1739745142,
+                "163577856"
+            ],
+            [
+                1739745143,
+                "164331520"
+            ],
+            [
+                1739745144,
+                "164331520"
+            ],
+            [
+                1739745145,
+                "164331520"
+            ],
+            [
+                1739745146,
+                "164331520"
+            ],
+            [
+                1739745147,
+                "164331520"
+            ],
+            [
+                1739745148,
+                "164331520"
+            ],
+            [
+                1739745149,
+                "164331520"
+            ],
+            [
+                1739745150,
+                "164331520"
+            ],
+            [
+                1739745151,
+                "164331520"
+            ],
+            [
+                1739745152,
+                "164331520"
+            ],
+            [
+                1739745153,
+                "164331520"
+            ],
+            [
+                1739745154,
+                "165445632"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "837e7e0578e4eb9149a65e38be6634e98f7e4949011aa3fc5873fff1385caf17",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:e74ad17219f4ad85906e5c59c424ebc29acd6f9326aadd3d1e6962371d9755c9",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-client",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-8c750b11ff54c5f4c6600ace82abcc5078ff3f996f368bd4680603472db2ed2a.scope",
+            "image": "networknt/oauth2-client:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-client-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "837e7e0578e4eb9149a65e38be6634e98f7e4949011aa3fc5873fff1385caf17",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:e74ad17219f4ad85906e5c59c424ebc29acd6f9326aadd3d1e6962371d9755c9",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-client",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-8c750b11ff54c5f4c6600ace82abcc5078ff3f996f368bd4680603472db2ed2a.scope",
+            "image": "networknt/oauth2-client:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-client-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "379617280"
+            ],
+            [
+                1739745134,
+                "379617280"
+            ],
+            [
+                1739745135,
+                "379617280"
+            ],
+            [
+                1739745136,
+                "379617280"
+            ],
+            [
+                1739745137,
+                "379617280"
+            ],
+            [
+                1739745138,
+                "381190144"
+            ],
+            [
+                1739745139,
+                "381190144"
+            ],
+            [
+                1739745140,
+                "381190144"
+            ],
+            [
+                1739745141,
+                "381190144"
+            ],
+            [
+                1739745142,
+                "381190144"
+            ],
+            [
+                1739745143,
+                "381190144"
+            ],
+            [
+                1739745144,
+                "383066112"
+            ],
+            [
+                1739745145,
+                "383066112"
+            ],
+            [
+                1739745146,
+                "383066112"
+            ],
+            [
+                1739745147,
+                "383066112"
+            ],
+            [
+                1739745148,
+                "383066112"
+            ],
+            [
+                1739745149,
+                "383066112"
+            ],
+            [
+                1739745150,
+                "383066112"
+            ],
+            [
+                1739745151,
+                "383066112"
+            ],
+            [
+                1739745152,
+                "383066112"
+            ],
+            [
+                1739745153,
+                "383066112"
+            ],
+            [
+                1739745154,
+                "385945600"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "89617a6d18f56a589c7e5e6e5b1fbccd39170f0b451906e703bc2542a6234ed7",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:170bdb6cee313f149abb16e28757f3d156be6501d0b0128234c21bd8b6679b8e",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-refresh-token",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-e9b63b2b7416a14aead7e8eef5f4847b628ea677ae7101347ae952a472c064b7.scope",
+            "image": "networknt/oauth2-refresh-token:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-refresh-token-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "89617a6d18f56a589c7e5e6e5b1fbccd39170f0b451906e703bc2542a6234ed7",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:170bdb6cee313f149abb16e28757f3d156be6501d0b0128234c21bd8b6679b8e",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-refresh-token",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-e9b63b2b7416a14aead7e8eef5f4847b628ea677ae7101347ae952a472c064b7.scope",
+            "image": "networknt/oauth2-refresh-token:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-refresh-token-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "292245504"
+            ],
+            [
+                1739745134,
+                "292245504"
+            ],
+            [
+                1739745135,
+                "292245504"
+            ],
+            [
+                1739745136,
+                "292245504"
+            ],
+            [
+                1739745137,
+                "292245504"
+            ],
+            [
+                1739745138,
+                "292245504"
+            ],
+            [
+                1739745139,
+                "292245504"
+            ],
+            [
+                1739745140,
+                "292274176"
+            ],
+            [
+                1739745141,
+                "292274176"
+            ],
+            [
+                1739745142,
+                "292274176"
+            ],
+            [
+                1739745143,
+                "292933632"
+            ],
+            [
+                1739745144,
+                "292933632"
+            ],
+            [
+                1739745145,
+                "292933632"
+            ],
+            [
+                1739745146,
+                "292982784"
+            ],
+            [
+                1739745147,
+                "292982784"
+            ],
+            [
+                1739745148,
+                "292982784"
+            ],
+            [
+                1739745149,
+                "292982784"
+            ],
+            [
+                1739745150,
+                "292982784"
+            ],
+            [
+                1739745151,
+                "292982784"
+            ],
+            [
+                1739745152,
+                "292982784"
+            ],
+            [
+                1739745153,
+                "292982784"
+            ],
+            [
+                1739745154,
+                "294739968"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "8dbed26a61752b28a24ebd1cb42416d150e74be5982526960fcfec233318e57d",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:72c9c208898624938c9e4183d6686ea4a5fd3f912bc29bc3f00147924c521a3e",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "node_exporter",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-580afb472bc286bbd4099a1e4cfdee003d89e74e772431682c21dfb495a4ab56.scope",
+            "image": "prom/node-exporter:latest",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-node_exporter-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "65536"
+            ],
+            [
+                1739745134,
+                "65536"
+            ],
+            [
+                1739745135,
+                "65536"
+            ],
+            [
+                1739745136,
+                "65536"
+            ],
+            [
+                1739745137,
+                "65536"
+            ],
+            [
+                1739745138,
+                "65536"
+            ],
+            [
+                1739745139,
+                "65536"
+            ],
+            [
+                1739745140,
+                "65536"
+            ],
+            [
+                1739745141,
+                "65536"
+            ],
+            [
+                1739745142,
+                "65536"
+            ],
+            [
+                1739745143,
+                "65536"
+            ],
+            [
+                1739745144,
+                "65536"
+            ],
+            [
+                1739745145,
+                "65536"
+            ],
+            [
+                1739745146,
+                "65536"
+            ],
+            [
+                1739745147,
+                "65536"
+            ],
+            [
+                1739745148,
+                "65536"
+            ],
+            [
+                1739745149,
+                "65536"
+            ],
+            [
+                1739745150,
+                "65536"
+            ],
+            [
+                1739745151,
+                "65536"
+            ],
+            [
+                1739745152,
+                "65536"
+            ],
+            [
+                1739745153,
+                "65536"
+            ],
+            [
+                1739745154,
+                "65536"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "8dbed26a61752b28a24ebd1cb42416d150e74be5982526960fcfec233318e57d",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:72c9c208898624938c9e4183d6686ea4a5fd3f912bc29bc3f00147924c521a3e",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "node_exporter",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-580afb472bc286bbd4099a1e4cfdee003d89e74e772431682c21dfb495a4ab56.scope",
+            "image": "prom/node-exporter:latest",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-node_exporter-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "97990285ffd34372a4cafc205c139c12cabf2014e00fb529991722020f60b7b3",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:5d2236bfb1bd28148955eddf21912925fe42eb76dab37467268127cb9492de10",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-service",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-a1799448bb6e422b9ac20af487c2d988b01ea155f40579a0f3e18995ff24de12.scope",
+            "image": "networknt/oauth2-service:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-service-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "4096"
+            ],
+            [
+                1739745134,
+                "4096"
+            ],
+            [
+                1739745135,
+                "4096"
+            ],
+            [
+                1739745136,
+                "4096"
+            ],
+            [
+                1739745137,
+                "4096"
+            ],
+            [
+                1739745138,
+                "4096"
+            ],
+            [
+                1739745139,
+                "4096"
+            ],
+            [
+                1739745140,
+                "4096"
+            ],
+            [
+                1739745141,
+                "4096"
+            ],
+            [
+                1739745142,
+                "4096"
+            ],
+            [
+                1739745143,
+                "4096"
+            ],
+            [
+                1739745144,
+                "4096"
+            ],
+            [
+                1739745145,
+                "4096"
+            ],
+            [
+                1739745146,
+                "4096"
+            ],
+            [
+                1739745147,
+                "4096"
+            ],
+            [
+                1739745148,
+                "4096"
+            ],
+            [
+                1739745149,
+                "4096"
+            ],
+            [
+                1739745150,
+                "4096"
+            ],
+            [
+                1739745151,
+                "4096"
+            ],
+            [
+                1739745152,
+                "4096"
+            ],
+            [
+                1739745153,
+                "4096"
+            ],
+            [
+                1739745154,
+                "4096"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "97990285ffd34372a4cafc205c139c12cabf2014e00fb529991722020f60b7b3",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:5d2236bfb1bd28148955eddf21912925fe42eb76dab37467268127cb9492de10",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-service",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-a1799448bb6e422b9ac20af487c2d988b01ea155f40579a0f3e18995ff24de12.scope",
+            "image": "networknt/oauth2-service:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-service-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "186605568"
+            ],
+            [
+                1739745134,
+                "186605568"
+            ],
+            [
+                1739745135,
+                "186605568"
+            ],
+            [
+                1739745136,
+                "186605568"
+            ],
+            [
+                1739745137,
+                "186605568"
+            ],
+            [
+                1739745138,
+                "186990592"
+            ],
+            [
+                1739745139,
+                "186990592"
+            ],
+            [
+                1739745140,
+                "186990592"
+            ],
+            [
+                1739745141,
+                "186990592"
+            ],
+            [
+                1739745142,
+                "186990592"
+            ],
+            [
+                1739745143,
+                "186990592"
+            ],
+            [
+                1739745144,
+                "187916288"
+            ],
+            [
+                1739745145,
+                "187916288"
+            ],
+            [
+                1739745146,
+                "187916288"
+            ],
+            [
+                1739745147,
+                "187916288"
+            ],
+            [
+                1739745148,
+                "187916288"
+            ],
+            [
+                1739745149,
+                "187916288"
+            ],
+            [
+                1739745150,
+                "187916288"
+            ],
+            [
+                1739745151,
+                "187916288"
+            ],
+            [
+                1739745152,
+                "187916288"
+            ],
+            [
+                1739745153,
+                "187916288"
+            ],
+            [
+                1739745154,
+                "187916288"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "b7efb8066180aac0c652553da3a0a7cfab0c7a4559e3cff5e8bdc5836d43600c",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "jaeger:service_started:false,mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:c7a2ab4e04754d881af62ae9dcc6a4805677bce4f3429d6cee1d70aed385f26a",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-code",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-d77239828d6f4b978f2054a89be90a2593d8e2953e2fa53203d673d406d7abfe.scope",
+            "image": "networknt/oauth2-code:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-code-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "376832"
+            ],
+            [
+                1739745134,
+                "376832"
+            ],
+            [
+                1739745135,
+                "376832"
+            ],
+            [
+                1739745136,
+                "376832"
+            ],
+            [
+                1739745137,
+                "376832"
+            ],
+            [
+                1739745138,
+                "376832"
+            ],
+            [
+                1739745139,
+                "376832"
+            ],
+            [
+                1739745140,
+                "376832"
+            ],
+            [
+                1739745141,
+                "376832"
+            ],
+            [
+                1739745142,
+                "376832"
+            ],
+            [
+                1739745143,
+                "376832"
+            ],
+            [
+                1739745144,
+                "376832"
+            ],
+            [
+                1739745145,
+                "376832"
+            ],
+            [
+                1739745146,
+                "376832"
+            ],
+            [
+                1739745147,
+                "376832"
+            ],
+            [
+                1739745148,
+                "376832"
+            ],
+            [
+                1739745149,
+                "376832"
+            ],
+            [
+                1739745150,
+                "376832"
+            ],
+            [
+                1739745151,
+                "376832"
+            ],
+            [
+                1739745152,
+                "376832"
+            ],
+            [
+                1739745153,
+                "376832"
+            ],
+            [
+                1739745154,
+                "376832"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "b7efb8066180aac0c652553da3a0a7cfab0c7a4559e3cff5e8bdc5836d43600c",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_depends_on": "jaeger:service_started:false,mysqldb:service_started:false",
+            "container_label_com_docker_compose_image": "sha256:c7a2ab4e04754d881af62ae9dcc6a4805677bce4f3429d6cee1d70aed385f26a",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "oauth2-code",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-d77239828d6f4b978f2054a89be90a2593d8e2953e2fa53203d673d406d7abfe.scope",
+            "image": "networknt/oauth2-code:2.0.28",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-oauth2-code-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "237039616"
+            ],
+            [
+                1739745134,
+                "237039616"
+            ],
+            [
+                1739745135,
+                "237047808"
+            ],
+            [
+                1739745136,
+                "237047808"
+            ],
+            [
+                1739745137,
+                "237047808"
+            ],
+            [
+                1739745138,
+                "237047808"
+            ],
+            [
+                1739745139,
+                "237047808"
+            ],
+            [
+                1739745140,
+                "237162496"
+            ],
+            [
+                1739745141,
+                "237162496"
+            ],
+            [
+                1739745142,
+                "237162496"
+            ],
+            [
+                1739745143,
+                "237162496"
+            ],
+            [
+                1739745144,
+                "237162496"
+            ],
+            [
+                1739745145,
+                "237162496"
+            ],
+            [
+                1739745146,
+                "237899776"
+            ],
+            [
+                1739745147,
+                "237899776"
+            ],
+            [
+                1739745148,
+                "237899776"
+            ],
+            [
+                1739745149,
+                "237899776"
+            ],
+            [
+                1739745150,
+                "237899776"
+            ],
+            [
+                1739745151,
+                "238632960"
+            ],
+            [
+                1739745152,
+                "238632960"
+            ],
+            [
+                1739745153,
+                "238632960"
+            ],
+            [
+                1739745154,
+                "238632960"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "b8deaf60d0cb3b6994d38d865c62e40bfee9d33632878e5b44950cc4f00cf549",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:6a5ddde754b61750cbca5cf1ffa80cbd35ba5f0c47f0a212905e43d95ac6d560",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "prometheus",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-ade01980a0a431359fe7d769b8aba091dad5b16104ba6275747d0fee8066db8f.scope",
+            "image": "prom/prometheus:latest",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-prometheus-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "28672"
+            ],
+            [
+                1739745134,
+                "28672"
+            ],
+            [
+                1739745135,
+                "28672"
+            ],
+            [
+                1739745136,
+                "28672"
+            ],
+            [
+                1739745137,
+                "28672"
+            ],
+            [
+                1739745138,
+                "28672"
+            ],
+            [
+                1739745139,
+                "28672"
+            ],
+            [
+                1739745140,
+                "28672"
+            ],
+            [
+                1739745141,
+                "28672"
+            ],
+            [
+                1739745142,
+                "28672"
+            ],
+            [
+                1739745143,
+                "28672"
+            ],
+            [
+                1739745144,
+                "28672"
+            ],
+            [
+                1739745145,
+                "28672"
+            ],
+            [
+                1739745146,
+                "28672"
+            ],
+            [
+                1739745147,
+                "28672"
+            ],
+            [
+                1739745148,
+                "28672"
+            ],
+            [
+                1739745149,
+                "28672"
+            ],
+            [
+                1739745150,
+                "28672"
+            ],
+            [
+                1739745151,
+                "28672"
+            ],
+            [
+                1739745152,
+                "28672"
+            ],
+            [
+                1739745153,
+                "28672"
+            ],
+            [
+                1739745154,
+                "28672"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "b8deaf60d0cb3b6994d38d865c62e40bfee9d33632878e5b44950cc4f00cf549",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:6a5ddde754b61750cbca5cf1ffa80cbd35ba5f0c47f0a212905e43d95ac6d560",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "prometheus",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-ade01980a0a431359fe7d769b8aba091dad5b16104ba6275747d0fee8066db8f.scope",
+            "image": "prom/prometheus:latest",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-prometheus-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "56336384"
+            ],
+            [
+                1739745134,
+                "56336384"
+            ],
+            [
+                1739745135,
+                "56336384"
+            ],
+            [
+                1739745136,
+                "56336384"
+            ],
+            [
+                1739745137,
+                "56336384"
+            ],
+            [
+                1739745138,
+                "56336384"
+            ],
+            [
+                1739745139,
+                "56336384"
+            ],
+            [
+                1739745140,
+                "56336384"
+            ],
+            [
+                1739745141,
+                "56336384"
+            ],
+            [
+                1739745142,
+                "56336384"
+            ],
+            [
+                1739745143,
+                "56336384"
+            ],
+            [
+                1739745144,
+                "56336384"
+            ],
+            [
+                1739745145,
+                "56336384"
+            ],
+            [
+                1739745146,
+                "56336384"
+            ],
+            [
+                1739745147,
+                "57106432"
+            ],
+            [
+                1739745148,
+                "57106432"
+            ],
+            [
+                1739745149,
+                "57106432"
+            ],
+            [
+                1739745150,
+                "57106432"
+            ],
+            [
+                1739745151,
+                "57106432"
+            ],
+            [
+                1739745152,
+                "57106432"
+            ],
+            [
+                1739745153,
+                "57106432"
+            ],
+            [
+                1739745154,
+                "57106432"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "e52a07cdf80a858ef64413405de5ddd3a1564457694c4fb551f9924dae22058f",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:d9124e6c552f0e739ef130add0e215af6abfc6efc0b43cc26e5a16b15df6c1ff",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "mysqldb",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-8794c52b64fce92ca27cd91debe47fc4f8f7f6991777e82e11a33b64925b768b.scope",
+            "image": "mysql:5.7.16",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-mysqldb-1",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "4096"
+            ],
+            [
+                1739745134,
+                "4096"
+            ],
+            [
+                1739745135,
+                "4096"
+            ],
+            [
+                1739745136,
+                "4096"
+            ],
+            [
+                1739745137,
+                "4096"
+            ],
+            [
+                1739745138,
+                "4096"
+            ],
+            [
+                1739745139,
+                "4096"
+            ],
+            [
+                1739745140,
+                "4096"
+            ],
+            [
+                1739745141,
+                "4096"
+            ],
+            [
+                1739745142,
+                "4096"
+            ],
+            [
+                1739745143,
+                "4096"
+            ],
+            [
+                1739745144,
+                "4096"
+            ],
+            [
+                1739745145,
+                "4096"
+            ],
+            [
+                1739745146,
+                "4096"
+            ],
+            [
+                1739745147,
+                "4096"
+            ],
+            [
+                1739745148,
+                "4096"
+            ],
+            [
+                1739745149,
+                "4096"
+            ],
+            [
+                1739745150,
+                "4096"
+            ],
+            [
+                1739745151,
+                "4096"
+            ],
+            [
+                1739745152,
+                "4096"
+            ],
+            [
+                1739745153,
+                "4096"
+            ],
+            [
+                1739745154,
+                "4096"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "container_label_com_docker_compose_config_hash": "e52a07cdf80a858ef64413405de5ddd3a1564457694c4fb551f9924dae22058f",
+            "container_label_com_docker_compose_container_number": "1",
+            "container_label_com_docker_compose_image": "sha256:d9124e6c552f0e739ef130add0e215af6abfc6efc0b43cc26e5a16b15df6c1ff",
+            "container_label_com_docker_compose_oneoff": "False",
+            "container_label_com_docker_compose_project": "light-oauth2",
+            "container_label_com_docker_compose_project_config_files": "/home/abakhtin22/light-oauth2/docker-compose-oauth2-mysql.yml",
+            "container_label_com_docker_compose_project_working_dir": "/home/abakhtin22/light-oauth2",
+            "container_label_com_docker_compose_service": "mysqldb",
+            "container_label_com_docker_compose_version": "2.32.4",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker-8794c52b64fce92ca27cd91debe47fc4f8f7f6991777e82e11a33b64925b768b.scope",
+            "image": "mysql:5.7.16",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "name": "light-oauth2-mysqldb-1",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "1837154304"
+            ],
+            [
+                1739745134,
+                "1837154304"
+            ],
+            [
+                1739745135,
+                "1837420544"
+            ],
+            [
+                1739745136,
+                "1837420544"
+            ],
+            [
+                1739745137,
+                "1839562752"
+            ],
+            [
+                1739745138,
+                "1841569792"
+            ],
+            [
+                1739745139,
+                "1841569792"
+            ],
+            [
+                1739745140,
+                "1845059584"
+            ],
+            [
+                1739745141,
+                "1847021568"
+            ],
+            [
+                1739745142,
+                "1847021568"
+            ],
+            [
+                1739745143,
+                "1848680448"
+            ],
+            [
+                1739745144,
+                "1851219968"
+            ],
+            [
+                1739745145,
+                "1851219968"
+            ],
+            [
+                1739745146,
+                "1853116416"
+            ],
+            [
+                1739745147,
+                "1853116416"
+            ],
+            [
+                1739745148,
+                "1854676992"
+            ],
+            [
+                1739745149,
+                "1856028672"
+            ],
+            [
+                1739745150,
+                "1856028672"
+            ],
+            [
+                1739745151,
+                "1858375680"
+            ],
+            [
+                1739745152,
+                "1858375680"
+            ],
+            [
+                1739745153,
+                "1860882432"
+            ],
+            [
+                1739745154,
+                "1862115328"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "37456066560"
+            ],
+            [
+                1739745134,
+                "37456066560"
+            ],
+            [
+                1739745135,
+                "37456066560"
+            ],
+            [
+                1739745136,
+                "37456066560"
+            ],
+            [
+                1739745137,
+                "37456066560"
+            ],
+            [
+                1739745138,
+                "37456066560"
+            ],
+            [
+                1739745139,
+                "37456066560"
+            ],
+            [
+                1739745140,
+                "37456066560"
+            ],
+            [
+                1739745141,
+                "37456066560"
+            ],
+            [
+                1739745142,
+                "37456066560"
+            ],
+            [
+                1739745143,
+                "37456066560"
+            ],
+            [
+                1739745144,
+                "37456066560"
+            ],
+            [
+                1739745145,
+                "37456066560"
+            ],
+            [
+                1739745146,
+                "37456066560"
+            ],
+            [
+                1739745147,
+                "37456066560"
+            ],
+            [
+                1739745148,
+                "37456066560"
+            ],
+            [
+                1739745149,
+                "37456066560"
+            ],
+            [
+                1739745150,
+                "37456066560"
+            ],
+            [
+                1739745151,
+                "37456066560"
+            ],
+            [
+                1739745152,
+                "37456066560"
+            ],
+            [
+                1739745153,
+                "37456066560"
+            ],
+            [
+                1739745154,
+                "37456066560"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "1965990793216"
+            ],
+            [
+                1739745134,
+                "1965990973440"
+            ],
+            [
+                1739745135,
+                "1965990973440"
+            ],
+            [
+                1739745136,
+                "1965999403008"
+            ],
+            [
+                1739745137,
+                "1965999403008"
+            ],
+            [
+                1739745138,
+                "1966012137472"
+            ],
+            [
+                1739745139,
+                "1966020501504"
+            ],
+            [
+                1739745140,
+                "1966020501504"
+            ],
+            [
+                1739745141,
+                "1966030925824"
+            ],
+            [
+                1739745142,
+                "1966040977408"
+            ],
+            [
+                1739745143,
+                "1966069731328"
+            ],
+            [
+                1739745144,
+                "1966069731328"
+            ],
+            [
+                1739745145,
+                "1966083112960"
+            ],
+            [
+                1739745146,
+                "1966097788928"
+            ],
+            [
+                1739745147,
+                "1966104596480"
+            ],
+            [
+                1739745148,
+                "1966104596480"
+            ],
+            [
+                1739745149,
+                "1966117543936"
+            ],
+            [
+                1739745150,
+                "1966117543936"
+            ],
+            [
+                1739745151,
+                "1966126231552"
+            ],
+            [
+                1739745152,
+                "1966133497856"
+            ],
+            [
+                1739745153,
+                "1966133497856"
+            ],
+            [
+                1739745154,
+                "1966153441280"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/init.scope",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "581632"
+            ],
+            [
+                1739745134,
+                "581632"
+            ],
+            [
+                1739745135,
+                "581632"
+            ],
+            [
+                1739745136,
+                "581632"
+            ],
+            [
+                1739745137,
+                "581632"
+            ],
+            [
+                1739745138,
+                "581632"
+            ],
+            [
+                1739745139,
+                "581632"
+            ],
+            [
+                1739745140,
+                "581632"
+            ],
+            [
+                1739745141,
+                "581632"
+            ],
+            [
+                1739745142,
+                "581632"
+            ],
+            [
+                1739745143,
+                "581632"
+            ],
+            [
+                1739745144,
+                "581632"
+            ],
+            [
+                1739745145,
+                "581632"
+            ],
+            [
+                1739745146,
+                "581632"
+            ],
+            [
+                1739745147,
+                "581632"
+            ],
+            [
+                1739745148,
+                "581632"
+            ],
+            [
+                1739745149,
+                "581632"
+            ],
+            [
+                1739745150,
+                "581632"
+            ],
+            [
+                1739745151,
+                "581632"
+            ],
+            [
+                1739745152,
+                "581632"
+            ],
+            [
+                1739745153,
+                "581632"
+            ],
+            [
+                1739745154,
+                "581632"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/init.scope",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "707235840"
+            ],
+            [
+                1739745134,
+                "707235840"
+            ],
+            [
+                1739745135,
+                "707235840"
+            ],
+            [
+                1739745136,
+                "707235840"
+            ],
+            [
+                1739745137,
+                "707235840"
+            ],
+            [
+                1739745138,
+                "707235840"
+            ],
+            [
+                1739745139,
+                "707235840"
+            ],
+            [
+                1739745140,
+                "707235840"
+            ],
+            [
+                1739745141,
+                "707235840"
+            ],
+            [
+                1739745142,
+                "707235840"
+            ],
+            [
+                1739745143,
+                "707235840"
+            ],
+            [
+                1739745144,
+                "707235840"
+            ],
+            [
+                1739745145,
+                "707235840"
+            ],
+            [
+                1739745146,
+                "707235840"
+            ],
+            [
+                1739745147,
+                "707235840"
+            ],
+            [
+                1739745148,
+                "707235840"
+            ],
+            [
+                1739745149,
+                "707235840"
+            ],
+            [
+                1739745150,
+                "707235840"
+            ],
+            [
+                1739745151,
+                "707235840"
+            ],
+            [
+                1739745152,
+                "707235840"
+            ],
+            [
+                1739745153,
+                "707235840"
+            ],
+            [
+                1739745154,
+                "707235840"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "23495300096"
+            ],
+            [
+                1739745134,
+                "23495300096"
+            ],
+            [
+                1739745135,
+                "23495300096"
+            ],
+            [
+                1739745136,
+                "23495300096"
+            ],
+            [
+                1739745137,
+                "23495300096"
+            ],
+            [
+                1739745138,
+                "23495300096"
+            ],
+            [
+                1739745139,
+                "23495300096"
+            ],
+            [
+                1739745140,
+                "23495300096"
+            ],
+            [
+                1739745141,
+                "23495300096"
+            ],
+            [
+                1739745142,
+                "23495300096"
+            ],
+            [
+                1739745143,
+                "23495300096"
+            ],
+            [
+                1739745144,
+                "23495300096"
+            ],
+            [
+                1739745145,
+                "23495300096"
+            ],
+            [
+                1739745146,
+                "23495300096"
+            ],
+            [
+                1739745147,
+                "23495300096"
+            ],
+            [
+                1739745148,
+                "23495300096"
+            ],
+            [
+                1739745149,
+                "23495300096"
+            ],
+            [
+                1739745150,
+                "23495300096"
+            ],
+            [
+                1739745151,
+                "23495300096"
+            ],
+            [
+                1739745152,
+                "23495300096"
+            ],
+            [
+                1739745153,
+                "23495300096"
+            ],
+            [
+                1739745154,
+                "23495300096"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "711521792000"
+            ],
+            [
+                1739745134,
+                "711521792000"
+            ],
+            [
+                1739745135,
+                "711522246656"
+            ],
+            [
+                1739745136,
+                "711526641664"
+            ],
+            [
+                1739745137,
+                "711526641664"
+            ],
+            [
+                1739745138,
+                "711528812544"
+            ],
+            [
+                1739745139,
+                "711534866432"
+            ],
+            [
+                1739745140,
+                "711534866432"
+            ],
+            [
+                1739745141,
+                "711538675712"
+            ],
+            [
+                1739745142,
+                "711538675712"
+            ],
+            [
+                1739745143,
+                "711541714944"
+            ],
+            [
+                1739745144,
+                "711548235776"
+            ],
+            [
+                1739745145,
+                "711548235776"
+            ],
+            [
+                1739745146,
+                "711556972544"
+            ],
+            [
+                1739745147,
+                "711558938624"
+            ],
+            [
+                1739745148,
+                "711558938624"
+            ],
+            [
+                1739745149,
+                "711562129408"
+            ],
+            [
+                1739745150,
+                "711565332480"
+            ],
+            [
+                1739745151,
+                "711566725120"
+            ],
+            [
+                1739745152,
+                "711566725120"
+            ],
+            [
+                1739745153,
+                "711569063936"
+            ],
+            [
+                1739745154,
+                "711569063936"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/NetworkManager.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "6426624"
+            ],
+            [
+                1739745134,
+                "6426624"
+            ],
+            [
+                1739745135,
+                "6426624"
+            ],
+            [
+                1739745136,
+                "6426624"
+            ],
+            [
+                1739745137,
+                "6426624"
+            ],
+            [
+                1739745138,
+                "6426624"
+            ],
+            [
+                1739745139,
+                "6426624"
+            ],
+            [
+                1739745140,
+                "6426624"
+            ],
+            [
+                1739745141,
+                "6426624"
+            ],
+            [
+                1739745142,
+                "6426624"
+            ],
+            [
+                1739745143,
+                "6426624"
+            ],
+            [
+                1739745144,
+                "6426624"
+            ],
+            [
+                1739745145,
+                "6426624"
+            ],
+            [
+                1739745146,
+                "6426624"
+            ],
+            [
+                1739745147,
+                "6426624"
+            ],
+            [
+                1739745148,
+                "6426624"
+            ],
+            [
+                1739745149,
+                "6426624"
+            ],
+            [
+                1739745150,
+                "6426624"
+            ],
+            [
+                1739745151,
+                "6426624"
+            ],
+            [
+                1739745152,
+                "6426624"
+            ],
+            [
+                1739745153,
+                "6426624"
+            ],
+            [
+                1739745154,
+                "6426624"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/NetworkManager.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "524288"
+            ],
+            [
+                1739745134,
+                "524288"
+            ],
+            [
+                1739745135,
+                "524288"
+            ],
+            [
+                1739745136,
+                "524288"
+            ],
+            [
+                1739745137,
+                "524288"
+            ],
+            [
+                1739745138,
+                "524288"
+            ],
+            [
+                1739745139,
+                "524288"
+            ],
+            [
+                1739745140,
+                "524288"
+            ],
+            [
+                1739745141,
+                "524288"
+            ],
+            [
+                1739745142,
+                "524288"
+            ],
+            [
+                1739745143,
+                "524288"
+            ],
+            [
+                1739745144,
+                "524288"
+            ],
+            [
+                1739745145,
+                "524288"
+            ],
+            [
+                1739745146,
+                "524288"
+            ],
+            [
+                1739745147,
+                "524288"
+            ],
+            [
+                1739745148,
+                "524288"
+            ],
+            [
+                1739745149,
+                "524288"
+            ],
+            [
+                1739745150,
+                "524288"
+            ],
+            [
+                1739745151,
+                "524288"
+            ],
+            [
+                1739745152,
+                "524288"
+            ],
+            [
+                1739745153,
+                "524288"
+            ],
+            [
+                1739745154,
+                "524288"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/chronyd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "3715072"
+            ],
+            [
+                1739745134,
+                "3715072"
+            ],
+            [
+                1739745135,
+                "3715072"
+            ],
+            [
+                1739745136,
+                "3715072"
+            ],
+            [
+                1739745137,
+                "3715072"
+            ],
+            [
+                1739745138,
+                "3715072"
+            ],
+            [
+                1739745139,
+                "3715072"
+            ],
+            [
+                1739745140,
+                "3715072"
+            ],
+            [
+                1739745141,
+                "3715072"
+            ],
+            [
+                1739745142,
+                "3715072"
+            ],
+            [
+                1739745143,
+                "3715072"
+            ],
+            [
+                1739745144,
+                "3715072"
+            ],
+            [
+                1739745145,
+                "3715072"
+            ],
+            [
+                1739745146,
+                "3715072"
+            ],
+            [
+                1739745147,
+                "3715072"
+            ],
+            [
+                1739745148,
+                "3715072"
+            ],
+            [
+                1739745149,
+                "3715072"
+            ],
+            [
+                1739745150,
+                "3715072"
+            ],
+            [
+                1739745151,
+                "3715072"
+            ],
+            [
+                1739745152,
+                "3715072"
+            ],
+            [
+                1739745153,
+                "3715072"
+            ],
+            [
+                1739745154,
+                "3715072"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/chronyd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "1638400"
+            ],
+            [
+                1739745134,
+                "1638400"
+            ],
+            [
+                1739745135,
+                "1638400"
+            ],
+            [
+                1739745136,
+                "1638400"
+            ],
+            [
+                1739745137,
+                "1638400"
+            ],
+            [
+                1739745138,
+                "1638400"
+            ],
+            [
+                1739745139,
+                "1638400"
+            ],
+            [
+                1739745140,
+                "1638400"
+            ],
+            [
+                1739745141,
+                "1638400"
+            ],
+            [
+                1739745142,
+                "1638400"
+            ],
+            [
+                1739745143,
+                "1638400"
+            ],
+            [
+                1739745144,
+                "1638400"
+            ],
+            [
+                1739745145,
+                "1638400"
+            ],
+            [
+                1739745146,
+                "1638400"
+            ],
+            [
+                1739745147,
+                "1638400"
+            ],
+            [
+                1739745148,
+                "1638400"
+            ],
+            [
+                1739745149,
+                "1638400"
+            ],
+            [
+                1739745150,
+                "1638400"
+            ],
+            [
+                1739745151,
+                "1638400"
+            ],
+            [
+                1739745152,
+                "1638400"
+            ],
+            [
+                1739745153,
+                "1638400"
+            ],
+            [
+                1739745154,
+                "1638400"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/containerd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "73003008"
+            ],
+            [
+                1739745134,
+                "73003008"
+            ],
+            [
+                1739745135,
+                "73003008"
+            ],
+            [
+                1739745136,
+                "73003008"
+            ],
+            [
+                1739745137,
+                "73003008"
+            ],
+            [
+                1739745138,
+                "73003008"
+            ],
+            [
+                1739745139,
+                "73003008"
+            ],
+            [
+                1739745140,
+                "73003008"
+            ],
+            [
+                1739745141,
+                "73003008"
+            ],
+            [
+                1739745142,
+                "73003008"
+            ],
+            [
+                1739745143,
+                "73003008"
+            ],
+            [
+                1739745144,
+                "73003008"
+            ],
+            [
+                1739745145,
+                "73003008"
+            ],
+            [
+                1739745146,
+                "73003008"
+            ],
+            [
+                1739745147,
+                "73003008"
+            ],
+            [
+                1739745148,
+                "73003008"
+            ],
+            [
+                1739745149,
+                "73003008"
+            ],
+            [
+                1739745150,
+                "73003008"
+            ],
+            [
+                1739745151,
+                "73003008"
+            ],
+            [
+                1739745152,
+                "73003008"
+            ],
+            [
+                1739745153,
+                "73003008"
+            ],
+            [
+                1739745154,
+                "73003008"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/containerd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "88469504"
+            ],
+            [
+                1739745134,
+                "88469504"
+            ],
+            [
+                1739745135,
+                "88469504"
+            ],
+            [
+                1739745136,
+                "88469504"
+            ],
+            [
+                1739745137,
+                "88469504"
+            ],
+            [
+                1739745138,
+                "88469504"
+            ],
+            [
+                1739745139,
+                "88469504"
+            ],
+            [
+                1739745140,
+                "88469504"
+            ],
+            [
+                1739745141,
+                "88469504"
+            ],
+            [
+                1739745142,
+                "88469504"
+            ],
+            [
+                1739745143,
+                "88469504"
+            ],
+            [
+                1739745144,
+                "88469504"
+            ],
+            [
+                1739745145,
+                "88469504"
+            ],
+            [
+                1739745146,
+                "88469504"
+            ],
+            [
+                1739745147,
+                "88469504"
+            ],
+            [
+                1739745148,
+                "88469504"
+            ],
+            [
+                1739745149,
+                "88469504"
+            ],
+            [
+                1739745150,
+                "88469504"
+            ],
+            [
+                1739745151,
+                "88469504"
+            ],
+            [
+                1739745152,
+                "88469504"
+            ],
+            [
+                1739745153,
+                "88469504"
+            ],
+            [
+                1739745154,
+                "88469504"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/crond.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "294912"
+            ],
+            [
+                1739745134,
+                "294912"
+            ],
+            [
+                1739745135,
+                "294912"
+            ],
+            [
+                1739745136,
+                "294912"
+            ],
+            [
+                1739745137,
+                "294912"
+            ],
+            [
+                1739745138,
+                "294912"
+            ],
+            [
+                1739745139,
+                "294912"
+            ],
+            [
+                1739745140,
+                "294912"
+            ],
+            [
+                1739745141,
+                "294912"
+            ],
+            [
+                1739745142,
+                "294912"
+            ],
+            [
+                1739745143,
+                "294912"
+            ],
+            [
+                1739745144,
+                "294912"
+            ],
+            [
+                1739745145,
+                "294912"
+            ],
+            [
+                1739745146,
+                "294912"
+            ],
+            [
+                1739745147,
+                "294912"
+            ],
+            [
+                1739745148,
+                "294912"
+            ],
+            [
+                1739745149,
+                "294912"
+            ],
+            [
+                1739745150,
+                "294912"
+            ],
+            [
+                1739745151,
+                "294912"
+            ],
+            [
+                1739745152,
+                "294912"
+            ],
+            [
+                1739745153,
+                "294912"
+            ],
+            [
+                1739745154,
+                "294912"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/crond.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/dbus-broker.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "2269184"
+            ],
+            [
+                1739745134,
+                "2269184"
+            ],
+            [
+                1739745135,
+                "2269184"
+            ],
+            [
+                1739745136,
+                "2269184"
+            ],
+            [
+                1739745137,
+                "2269184"
+            ],
+            [
+                1739745138,
+                "2269184"
+            ],
+            [
+                1739745139,
+                "2269184"
+            ],
+            [
+                1739745140,
+                "2269184"
+            ],
+            [
+                1739745141,
+                "2269184"
+            ],
+            [
+                1739745142,
+                "2269184"
+            ],
+            [
+                1739745143,
+                "2269184"
+            ],
+            [
+                1739745144,
+                "2269184"
+            ],
+            [
+                1739745145,
+                "2269184"
+            ],
+            [
+                1739745146,
+                "2269184"
+            ],
+            [
+                1739745147,
+                "2269184"
+            ],
+            [
+                1739745148,
+                "2269184"
+            ],
+            [
+                1739745149,
+                "2269184"
+            ],
+            [
+                1739745150,
+                "2269184"
+            ],
+            [
+                1739745151,
+                "2269184"
+            ],
+            [
+                1739745152,
+                "2269184"
+            ],
+            [
+                1739745153,
+                "2269184"
+            ],
+            [
+                1739745154,
+                "2269184"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/dbus-broker.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/dev-disk-by\\x2duuid-e6fcfcd2\\x2d98ef\\x2d4222\\x2d916e\\x2dca3ecea0a9ee.swap",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "290816"
+            ],
+            [
+                1739745134,
+                "290816"
+            ],
+            [
+                1739745135,
+                "290816"
+            ],
+            [
+                1739745136,
+                "290816"
+            ],
+            [
+                1739745137,
+                "290816"
+            ],
+            [
+                1739745138,
+                "290816"
+            ],
+            [
+                1739745139,
+                "290816"
+            ],
+            [
+                1739745140,
+                "290816"
+            ],
+            [
+                1739745141,
+                "290816"
+            ],
+            [
+                1739745142,
+                "290816"
+            ],
+            [
+                1739745143,
+                "290816"
+            ],
+            [
+                1739745144,
+                "290816"
+            ],
+            [
+                1739745145,
+                "290816"
+            ],
+            [
+                1739745146,
+                "290816"
+            ],
+            [
+                1739745147,
+                "290816"
+            ],
+            [
+                1739745148,
+                "290816"
+            ],
+            [
+                1739745149,
+                "290816"
+            ],
+            [
+                1739745150,
+                "290816"
+            ],
+            [
+                1739745151,
+                "290816"
+            ],
+            [
+                1739745152,
+                "290816"
+            ],
+            [
+                1739745153,
+                "290816"
+            ],
+            [
+                1739745154,
+                "290816"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/dev-disk-by\\x2duuid-e6fcfcd2\\x2d98ef\\x2d4222\\x2d916e\\x2dca3ecea0a9ee.swap",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "10997760"
+            ],
+            [
+                1739745134,
+                "10997760"
+            ],
+            [
+                1739745135,
+                "10997760"
+            ],
+            [
+                1739745136,
+                "10997760"
+            ],
+            [
+                1739745137,
+                "10997760"
+            ],
+            [
+                1739745138,
+                "10997760"
+            ],
+            [
+                1739745139,
+                "10997760"
+            ],
+            [
+                1739745140,
+                "10997760"
+            ],
+            [
+                1739745141,
+                "10997760"
+            ],
+            [
+                1739745142,
+                "10997760"
+            ],
+            [
+                1739745143,
+                "10997760"
+            ],
+            [
+                1739745144,
+                "10997760"
+            ],
+            [
+                1739745145,
+                "10997760"
+            ],
+            [
+                1739745146,
+                "10997760"
+            ],
+            [
+                1739745147,
+                "10997760"
+            ],
+            [
+                1739745148,
+                "10997760"
+            ],
+            [
+                1739745149,
+                "10997760"
+            ],
+            [
+                1739745150,
+                "10997760"
+            ],
+            [
+                1739745151,
+                "10997760"
+            ],
+            [
+                1739745152,
+                "10997760"
+            ],
+            [
+                1739745153,
+                "10997760"
+            ],
+            [
+                1739745154,
+                "10997760"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/docker.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "8021659648"
+            ],
+            [
+                1739745134,
+                "8021659648"
+            ],
+            [
+                1739745135,
+                "8021659648"
+            ],
+            [
+                1739745136,
+                "8021659648"
+            ],
+            [
+                1739745137,
+                "8025047040"
+            ],
+            [
+                1739745138,
+                "8025047040"
+            ],
+            [
+                1739745139,
+                "8025047040"
+            ],
+            [
+                1739745140,
+                "8025047040"
+            ],
+            [
+                1739745141,
+                "8025047040"
+            ],
+            [
+                1739745142,
+                "8025047040"
+            ],
+            [
+                1739745143,
+                "8025047040"
+            ],
+            [
+                1739745144,
+                "8025047040"
+            ],
+            [
+                1739745145,
+                "8025047040"
+            ],
+            [
+                1739745146,
+                "8025047040"
+            ],
+            [
+                1739745147,
+                "8030375936"
+            ],
+            [
+                1739745148,
+                "8030375936"
+            ],
+            [
+                1739745149,
+                "8030375936"
+            ],
+            [
+                1739745150,
+                "8030375936"
+            ],
+            [
+                1739745151,
+                "8030375936"
+            ],
+            [
+                1739745152,
+                "8030375936"
+            ],
+            [
+                1739745153,
+                "8030375936"
+            ],
+            [
+                1739745154,
+                "8030568448"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/firewalld.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "22437888"
+            ],
+            [
+                1739745134,
+                "22437888"
+            ],
+            [
+                1739745135,
+                "22437888"
+            ],
+            [
+                1739745136,
+                "22437888"
+            ],
+            [
+                1739745137,
+                "22437888"
+            ],
+            [
+                1739745138,
+                "22437888"
+            ],
+            [
+                1739745139,
+                "22437888"
+            ],
+            [
+                1739745140,
+                "22437888"
+            ],
+            [
+                1739745141,
+                "22437888"
+            ],
+            [
+                1739745142,
+                "22437888"
+            ],
+            [
+                1739745143,
+                "22437888"
+            ],
+            [
+                1739745144,
+                "22437888"
+            ],
+            [
+                1739745145,
+                "22437888"
+            ],
+            [
+                1739745146,
+                "22437888"
+            ],
+            [
+                1739745147,
+                "22437888"
+            ],
+            [
+                1739745148,
+                "22437888"
+            ],
+            [
+                1739745149,
+                "22437888"
+            ],
+            [
+                1739745150,
+                "22437888"
+            ],
+            [
+                1739745151,
+                "22437888"
+            ],
+            [
+                1739745152,
+                "22437888"
+            ],
+            [
+                1739745153,
+                "22437888"
+            ],
+            [
+                1739745154,
+                "22437888"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/firewalld.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "24576"
+            ],
+            [
+                1739745134,
+                "24576"
+            ],
+            [
+                1739745135,
+                "24576"
+            ],
+            [
+                1739745136,
+                "24576"
+            ],
+            [
+                1739745137,
+                "24576"
+            ],
+            [
+                1739745138,
+                "24576"
+            ],
+            [
+                1739745139,
+                "24576"
+            ],
+            [
+                1739745140,
+                "24576"
+            ],
+            [
+                1739745141,
+                "24576"
+            ],
+            [
+                1739745142,
+                "24576"
+            ],
+            [
+                1739745143,
+                "24576"
+            ],
+            [
+                1739745144,
+                "24576"
+            ],
+            [
+                1739745145,
+                "24576"
+            ],
+            [
+                1739745146,
+                "24576"
+            ],
+            [
+                1739745147,
+                "24576"
+            ],
+            [
+                1739745148,
+                "24576"
+            ],
+            [
+                1739745149,
+                "24576"
+            ],
+            [
+                1739745150,
+                "24576"
+            ],
+            [
+                1739745151,
+                "24576"
+            ],
+            [
+                1739745152,
+                "24576"
+            ],
+            [
+                1739745153,
+                "24576"
+            ],
+            [
+                1739745154,
+                "24576"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/gpm.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "114688"
+            ],
+            [
+                1739745134,
+                "114688"
+            ],
+            [
+                1739745135,
+                "114688"
+            ],
+            [
+                1739745136,
+                "114688"
+            ],
+            [
+                1739745137,
+                "114688"
+            ],
+            [
+                1739745138,
+                "114688"
+            ],
+            [
+                1739745139,
+                "114688"
+            ],
+            [
+                1739745140,
+                "114688"
+            ],
+            [
+                1739745141,
+                "114688"
+            ],
+            [
+                1739745142,
+                "114688"
+            ],
+            [
+                1739745143,
+                "114688"
+            ],
+            [
+                1739745144,
+                "114688"
+            ],
+            [
+                1739745145,
+                "114688"
+            ],
+            [
+                1739745146,
+                "114688"
+            ],
+            [
+                1739745147,
+                "114688"
+            ],
+            [
+                1739745148,
+                "114688"
+            ],
+            [
+                1739745149,
+                "114688"
+            ],
+            [
+                1739745150,
+                "114688"
+            ],
+            [
+                1739745151,
+                "114688"
+            ],
+            [
+                1739745152,
+                "114688"
+            ],
+            [
+                1739745153,
+                "114688"
+            ],
+            [
+                1739745154,
+                "114688"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/gpm.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/irqbalance.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "131072"
+            ],
+            [
+                1739745134,
+                "131072"
+            ],
+            [
+                1739745135,
+                "131072"
+            ],
+            [
+                1739745136,
+                "131072"
+            ],
+            [
+                1739745137,
+                "131072"
+            ],
+            [
+                1739745138,
+                "131072"
+            ],
+            [
+                1739745139,
+                "131072"
+            ],
+            [
+                1739745140,
+                "131072"
+            ],
+            [
+                1739745141,
+                "131072"
+            ],
+            [
+                1739745142,
+                "131072"
+            ],
+            [
+                1739745143,
+                "131072"
+            ],
+            [
+                1739745144,
+                "131072"
+            ],
+            [
+                1739745145,
+                "131072"
+            ],
+            [
+                1739745146,
+                "131072"
+            ],
+            [
+                1739745147,
+                "131072"
+            ],
+            [
+                1739745148,
+                "131072"
+            ],
+            [
+                1739745149,
+                "131072"
+            ],
+            [
+                1739745150,
+                "131072"
+            ],
+            [
+                1739745151,
+                "131072"
+            ],
+            [
+                1739745152,
+                "131072"
+            ],
+            [
+                1739745153,
+                "131072"
+            ],
+            [
+                1739745154,
+                "131072"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/irqbalance.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/polkit.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "13717504"
+            ],
+            [
+                1739745134,
+                "13717504"
+            ],
+            [
+                1739745135,
+                "13717504"
+            ],
+            [
+                1739745136,
+                "13717504"
+            ],
+            [
+                1739745137,
+                "13717504"
+            ],
+            [
+                1739745138,
+                "13717504"
+            ],
+            [
+                1739745139,
+                "13717504"
+            ],
+            [
+                1739745140,
+                "13717504"
+            ],
+            [
+                1739745141,
+                "13717504"
+            ],
+            [
+                1739745142,
+                "13717504"
+            ],
+            [
+                1739745143,
+                "13717504"
+            ],
+            [
+                1739745144,
+                "13717504"
+            ],
+            [
+                1739745145,
+                "13717504"
+            ],
+            [
+                1739745146,
+                "13717504"
+            ],
+            [
+                1739745147,
+                "13717504"
+            ],
+            [
+                1739745148,
+                "13717504"
+            ],
+            [
+                1739745149,
+                "13717504"
+            ],
+            [
+                1739745150,
+                "13717504"
+            ],
+            [
+                1739745151,
+                "13717504"
+            ],
+            [
+                1739745152,
+                "13717504"
+            ],
+            [
+                1739745153,
+                "13717504"
+            ],
+            [
+                1739745154,
+                "13717504"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/polkit.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/rhsmcertd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "918515712"
+            ],
+            [
+                1739745134,
+                "918515712"
+            ],
+            [
+                1739745135,
+                "918515712"
+            ],
+            [
+                1739745136,
+                "918515712"
+            ],
+            [
+                1739745137,
+                "918515712"
+            ],
+            [
+                1739745138,
+                "918515712"
+            ],
+            [
+                1739745139,
+                "918515712"
+            ],
+            [
+                1739745140,
+                "918515712"
+            ],
+            [
+                1739745141,
+                "918515712"
+            ],
+            [
+                1739745142,
+                "918515712"
+            ],
+            [
+                1739745143,
+                "918515712"
+            ],
+            [
+                1739745144,
+                "918515712"
+            ],
+            [
+                1739745145,
+                "918515712"
+            ],
+            [
+                1739745146,
+                "918515712"
+            ],
+            [
+                1739745147,
+                "918515712"
+            ],
+            [
+                1739745148,
+                "918515712"
+            ],
+            [
+                1739745149,
+                "918515712"
+            ],
+            [
+                1739745150,
+                "918515712"
+            ],
+            [
+                1739745151,
+                "918515712"
+            ],
+            [
+                1739745152,
+                "918515712"
+            ],
+            [
+                1739745153,
+                "918515712"
+            ],
+            [
+                1739745154,
+                "918515712"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/rhsmcertd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "16814080"
+            ],
+            [
+                1739745134,
+                "16814080"
+            ],
+            [
+                1739745135,
+                "16814080"
+            ],
+            [
+                1739745136,
+                "16814080"
+            ],
+            [
+                1739745137,
+                "16814080"
+            ],
+            [
+                1739745138,
+                "16814080"
+            ],
+            [
+                1739745139,
+                "16814080"
+            ],
+            [
+                1739745140,
+                "16814080"
+            ],
+            [
+                1739745141,
+                "16814080"
+            ],
+            [
+                1739745142,
+                "16814080"
+            ],
+            [
+                1739745143,
+                "16814080"
+            ],
+            [
+                1739745144,
+                "16814080"
+            ],
+            [
+                1739745145,
+                "16814080"
+            ],
+            [
+                1739745146,
+                "16814080"
+            ],
+            [
+                1739745147,
+                "16814080"
+            ],
+            [
+                1739745148,
+                "16814080"
+            ],
+            [
+                1739745149,
+                "16814080"
+            ],
+            [
+                1739745150,
+                "16814080"
+            ],
+            [
+                1739745151,
+                "16814080"
+            ],
+            [
+                1739745152,
+                "16814080"
+            ],
+            [
+                1739745153,
+                "16814080"
+            ],
+            [
+                1739745154,
+                "16814080"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/rsyslog.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "1277952"
+            ],
+            [
+                1739745134,
+                "1277952"
+            ],
+            [
+                1739745135,
+                "1277952"
+            ],
+            [
+                1739745136,
+                "1277952"
+            ],
+            [
+                1739745137,
+                "1277952"
+            ],
+            [
+                1739745138,
+                "1277952"
+            ],
+            [
+                1739745139,
+                "1277952"
+            ],
+            [
+                1739745140,
+                "1277952"
+            ],
+            [
+                1739745141,
+                "1277952"
+            ],
+            [
+                1739745142,
+                "1277952"
+            ],
+            [
+                1739745143,
+                "1277952"
+            ],
+            [
+                1739745144,
+                "1277952"
+            ],
+            [
+                1739745145,
+                "1277952"
+            ],
+            [
+                1739745146,
+                "1277952"
+            ],
+            [
+                1739745147,
+                "1277952"
+            ],
+            [
+                1739745148,
+                "1277952"
+            ],
+            [
+                1739745149,
+                "1277952"
+            ],
+            [
+                1739745150,
+                "1277952"
+            ],
+            [
+                1739745151,
+                "1277952"
+            ],
+            [
+                1739745152,
+                "1277952"
+            ],
+            [
+                1739745153,
+                "1277952"
+            ],
+            [
+                1739745154,
+                "1277952"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/rsyslog.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "39303868416"
+            ],
+            [
+                1739745134,
+                "39303868416"
+            ],
+            [
+                1739745135,
+                "39303868416"
+            ],
+            [
+                1739745136,
+                "39304208384"
+            ],
+            [
+                1739745137,
+                "39304208384"
+            ],
+            [
+                1739745138,
+                "39304450048"
+            ],
+            [
+                1739745139,
+                "39304450048"
+            ],
+            [
+                1739745140,
+                "39304687616"
+            ],
+            [
+                1739745141,
+                "39304687616"
+            ],
+            [
+                1739745142,
+                "39304929280"
+            ],
+            [
+                1739745143,
+                "39305101312"
+            ],
+            [
+                1739745144,
+                "39305101312"
+            ],
+            [
+                1739745145,
+                "39305363456"
+            ],
+            [
+                1739745146,
+                "39305547776"
+            ],
+            [
+                1739745147,
+                "39305547776"
+            ],
+            [
+                1739745148,
+                "39305789440"
+            ],
+            [
+                1739745149,
+                "39305961472"
+            ],
+            [
+                1739745150,
+                "39305961472"
+            ],
+            [
+                1739745151,
+                "39306166272"
+            ],
+            [
+                1739745152,
+                "39306338304"
+            ],
+            [
+                1739745153,
+                "39306338304"
+            ],
+            [
+                1739745154,
+                "39306579968"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/sshd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "3600384"
+            ],
+            [
+                1739745134,
+                "3600384"
+            ],
+            [
+                1739745135,
+                "3600384"
+            ],
+            [
+                1739745136,
+                "3600384"
+            ],
+            [
+                1739745137,
+                "3600384"
+            ],
+            [
+                1739745138,
+                "3600384"
+            ],
+            [
+                1739745139,
+                "3600384"
+            ],
+            [
+                1739745140,
+                "3600384"
+            ],
+            [
+                1739745141,
+                "3600384"
+            ],
+            [
+                1739745142,
+                "3600384"
+            ],
+            [
+                1739745143,
+                "3600384"
+            ],
+            [
+                1739745144,
+                "3600384"
+            ],
+            [
+                1739745145,
+                "3600384"
+            ],
+            [
+                1739745146,
+                "3600384"
+            ],
+            [
+                1739745147,
+                "3600384"
+            ],
+            [
+                1739745148,
+                "3600384"
+            ],
+            [
+                1739745149,
+                "3600384"
+            ],
+            [
+                1739745150,
+                "3600384"
+            ],
+            [
+                1739745151,
+                "3600384"
+            ],
+            [
+                1739745152,
+                "3600384"
+            ],
+            [
+                1739745153,
+                "3600384"
+            ],
+            [
+                1739745154,
+                "3600384"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/sshd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "109891584"
+            ],
+            [
+                1739745134,
+                "109891584"
+            ],
+            [
+                1739745135,
+                "109891584"
+            ],
+            [
+                1739745136,
+                "109891584"
+            ],
+            [
+                1739745137,
+                "109891584"
+            ],
+            [
+                1739745138,
+                "109891584"
+            ],
+            [
+                1739745139,
+                "109891584"
+            ],
+            [
+                1739745140,
+                "109891584"
+            ],
+            [
+                1739745141,
+                "109891584"
+            ],
+            [
+                1739745142,
+                "109891584"
+            ],
+            [
+                1739745143,
+                "109891584"
+            ],
+            [
+                1739745144,
+                "109891584"
+            ],
+            [
+                1739745145,
+                "109895680"
+            ],
+            [
+                1739745146,
+                "109895680"
+            ],
+            [
+                1739745147,
+                "109895680"
+            ],
+            [
+                1739745148,
+                "109895680"
+            ],
+            [
+                1739745149,
+                "109895680"
+            ],
+            [
+                1739745150,
+                "109895680"
+            ],
+            [
+                1739745151,
+                "109895680"
+            ],
+            [
+                1739745152,
+                "109895680"
+            ],
+            [
+                1739745153,
+                "109895680"
+            ],
+            [
+                1739745154,
+                "109895680"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/system-getty.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "69632"
+            ],
+            [
+                1739745134,
+                "69632"
+            ],
+            [
+                1739745135,
+                "69632"
+            ],
+            [
+                1739745136,
+                "69632"
+            ],
+            [
+                1739745137,
+                "69632"
+            ],
+            [
+                1739745138,
+                "69632"
+            ],
+            [
+                1739745139,
+                "69632"
+            ],
+            [
+                1739745140,
+                "69632"
+            ],
+            [
+                1739745141,
+                "69632"
+            ],
+            [
+                1739745142,
+                "69632"
+            ],
+            [
+                1739745143,
+                "69632"
+            ],
+            [
+                1739745144,
+                "69632"
+            ],
+            [
+                1739745145,
+                "69632"
+            ],
+            [
+                1739745146,
+                "69632"
+            ],
+            [
+                1739745147,
+                "69632"
+            ],
+            [
+                1739745148,
+                "69632"
+            ],
+            [
+                1739745149,
+                "69632"
+            ],
+            [
+                1739745150,
+                "69632"
+            ],
+            [
+                1739745151,
+                "69632"
+            ],
+            [
+                1739745152,
+                "69632"
+            ],
+            [
+                1739745153,
+                "69632"
+            ],
+            [
+                1739745154,
+                "69632"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/system-getty.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/system-modprobe.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "1200128"
+            ],
+            [
+                1739745134,
+                "1200128"
+            ],
+            [
+                1739745135,
+                "1200128"
+            ],
+            [
+                1739745136,
+                "1200128"
+            ],
+            [
+                1739745137,
+                "1200128"
+            ],
+            [
+                1739745138,
+                "1200128"
+            ],
+            [
+                1739745139,
+                "1200128"
+            ],
+            [
+                1739745140,
+                "1200128"
+            ],
+            [
+                1739745141,
+                "1200128"
+            ],
+            [
+                1739745142,
+                "1200128"
+            ],
+            [
+                1739745143,
+                "1200128"
+            ],
+            [
+                1739745144,
+                "1200128"
+            ],
+            [
+                1739745145,
+                "1200128"
+            ],
+            [
+                1739745146,
+                "1200128"
+            ],
+            [
+                1739745147,
+                "1200128"
+            ],
+            [
+                1739745148,
+                "1200128"
+            ],
+            [
+                1739745149,
+                "1200128"
+            ],
+            [
+                1739745150,
+                "1200128"
+            ],
+            [
+                1739745151,
+                "1200128"
+            ],
+            [
+                1739745152,
+                "1200128"
+            ],
+            [
+                1739745153,
+                "1200128"
+            ],
+            [
+                1739745154,
+                "1200128"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/system-modprobe.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/system-systemd\\x2dfsck.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "2142208"
+            ],
+            [
+                1739745134,
+                "2142208"
+            ],
+            [
+                1739745135,
+                "2142208"
+            ],
+            [
+                1739745136,
+                "2142208"
+            ],
+            [
+                1739745137,
+                "2142208"
+            ],
+            [
+                1739745138,
+                "2142208"
+            ],
+            [
+                1739745139,
+                "2142208"
+            ],
+            [
+                1739745140,
+                "2142208"
+            ],
+            [
+                1739745141,
+                "2142208"
+            ],
+            [
+                1739745142,
+                "2142208"
+            ],
+            [
+                1739745143,
+                "2142208"
+            ],
+            [
+                1739745144,
+                "2142208"
+            ],
+            [
+                1739745145,
+                "2142208"
+            ],
+            [
+                1739745146,
+                "2142208"
+            ],
+            [
+                1739745147,
+                "2142208"
+            ],
+            [
+                1739745148,
+                "2142208"
+            ],
+            [
+                1739745149,
+                "2142208"
+            ],
+            [
+                1739745150,
+                "2142208"
+            ],
+            [
+                1739745151,
+                "2142208"
+            ],
+            [
+                1739745152,
+                "2142208"
+            ],
+            [
+                1739745153,
+                "2142208"
+            ],
+            [
+                1739745154,
+                "2142208"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/system-systemd\\x2dfsck.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "90112"
+            ],
+            [
+                1739745134,
+                "90112"
+            ],
+            [
+                1739745135,
+                "90112"
+            ],
+            [
+                1739745136,
+                "90112"
+            ],
+            [
+                1739745137,
+                "90112"
+            ],
+            [
+                1739745138,
+                "90112"
+            ],
+            [
+                1739745139,
+                "90112"
+            ],
+            [
+                1739745140,
+                "90112"
+            ],
+            [
+                1739745141,
+                "90112"
+            ],
+            [
+                1739745142,
+                "90112"
+            ],
+            [
+                1739745143,
+                "90112"
+            ],
+            [
+                1739745144,
+                "90112"
+            ],
+            [
+                1739745145,
+                "90112"
+            ],
+            [
+                1739745146,
+                "90112"
+            ],
+            [
+                1739745147,
+                "90112"
+            ],
+            [
+                1739745148,
+                "90112"
+            ],
+            [
+                1739745149,
+                "90112"
+            ],
+            [
+                1739745150,
+                "90112"
+            ],
+            [
+                1739745151,
+                "90112"
+            ],
+            [
+                1739745152,
+                "90112"
+            ],
+            [
+                1739745153,
+                "90112"
+            ],
+            [
+                1739745154,
+                "90112"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/systemd-journald.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "229376"
+            ],
+            [
+                1739745134,
+                "229376"
+            ],
+            [
+                1739745135,
+                "229376"
+            ],
+            [
+                1739745136,
+                "229376"
+            ],
+            [
+                1739745137,
+                "229376"
+            ],
+            [
+                1739745138,
+                "229376"
+            ],
+            [
+                1739745139,
+                "229376"
+            ],
+            [
+                1739745140,
+                "229376"
+            ],
+            [
+                1739745141,
+                "229376"
+            ],
+            [
+                1739745142,
+                "229376"
+            ],
+            [
+                1739745143,
+                "229376"
+            ],
+            [
+                1739745144,
+                "229376"
+            ],
+            [
+                1739745145,
+                "229376"
+            ],
+            [
+                1739745146,
+                "229376"
+            ],
+            [
+                1739745147,
+                "229376"
+            ],
+            [
+                1739745148,
+                "229376"
+            ],
+            [
+                1739745149,
+                "229376"
+            ],
+            [
+                1739745150,
+                "229376"
+            ],
+            [
+                1739745151,
+                "229376"
+            ],
+            [
+                1739745152,
+                "229376"
+            ],
+            [
+                1739745153,
+                "229376"
+            ],
+            [
+                1739745154,
+                "229376"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/systemd-journald.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/systemd-logind.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "311296"
+            ],
+            [
+                1739745134,
+                "311296"
+            ],
+            [
+                1739745135,
+                "311296"
+            ],
+            [
+                1739745136,
+                "311296"
+            ],
+            [
+                1739745137,
+                "311296"
+            ],
+            [
+                1739745138,
+                "311296"
+            ],
+            [
+                1739745139,
+                "311296"
+            ],
+            [
+                1739745140,
+                "311296"
+            ],
+            [
+                1739745141,
+                "311296"
+            ],
+            [
+                1739745142,
+                "311296"
+            ],
+            [
+                1739745143,
+                "311296"
+            ],
+            [
+                1739745144,
+                "311296"
+            ],
+            [
+                1739745145,
+                "311296"
+            ],
+            [
+                1739745146,
+                "311296"
+            ],
+            [
+                1739745147,
+                "311296"
+            ],
+            [
+                1739745148,
+                "311296"
+            ],
+            [
+                1739745149,
+                "311296"
+            ],
+            [
+                1739745150,
+                "311296"
+            ],
+            [
+                1739745151,
+                "311296"
+            ],
+            [
+                1739745152,
+                "311296"
+            ],
+            [
+                1739745153,
+                "311296"
+            ],
+            [
+                1739745154,
+                "311296"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/systemd-logind.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/systemd-udevd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "14315520"
+            ],
+            [
+                1739745134,
+                "14315520"
+            ],
+            [
+                1739745135,
+                "14315520"
+            ],
+            [
+                1739745136,
+                "14315520"
+            ],
+            [
+                1739745137,
+                "14315520"
+            ],
+            [
+                1739745138,
+                "14315520"
+            ],
+            [
+                1739745139,
+                "14315520"
+            ],
+            [
+                1739745140,
+                "14315520"
+            ],
+            [
+                1739745141,
+                "14315520"
+            ],
+            [
+                1739745142,
+                "14315520"
+            ],
+            [
+                1739745143,
+                "14315520"
+            ],
+            [
+                1739745144,
+                "14315520"
+            ],
+            [
+                1739745145,
+                "14315520"
+            ],
+            [
+                1739745146,
+                "14315520"
+            ],
+            [
+                1739745147,
+                "14315520"
+            ],
+            [
+                1739745148,
+                "14315520"
+            ],
+            [
+                1739745149,
+                "14315520"
+            ],
+            [
+                1739745150,
+                "14315520"
+            ],
+            [
+                1739745151,
+                "14315520"
+            ],
+            [
+                1739745152,
+                "14315520"
+            ],
+            [
+                1739745153,
+                "14315520"
+            ],
+            [
+                1739745154,
+                "14315520"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/systemd-udevd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "0"
+            ],
+            [
+                1739745134,
+                "0"
+            ],
+            [
+                1739745135,
+                "0"
+            ],
+            [
+                1739745136,
+                "0"
+            ],
+            [
+                1739745137,
+                "0"
+            ],
+            [
+                1739745138,
+                "0"
+            ],
+            [
+                1739745139,
+                "0"
+            ],
+            [
+                1739745140,
+                "0"
+            ],
+            [
+                1739745141,
+                "0"
+            ],
+            [
+                1739745142,
+                "0"
+            ],
+            [
+                1739745143,
+                "0"
+            ],
+            [
+                1739745144,
+                "0"
+            ],
+            [
+                1739745145,
+                "0"
+            ],
+            [
+                1739745146,
+                "0"
+            ],
+            [
+                1739745147,
+                "0"
+            ],
+            [
+                1739745148,
+                "0"
+            ],
+            [
+                1739745149,
+                "0"
+            ],
+            [
+                1739745150,
+                "0"
+            ],
+            [
+                1739745151,
+                "0"
+            ],
+            [
+                1739745152,
+                "0"
+            ],
+            [
+                1739745153,
+                "0"
+            ],
+            [
+                1739745154,
+                "0"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/vgauthd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "5406720"
+            ],
+            [
+                1739745134,
+                "5406720"
+            ],
+            [
+                1739745135,
+                "5406720"
+            ],
+            [
+                1739745136,
+                "5406720"
+            ],
+            [
+                1739745137,
+                "5406720"
+            ],
+            [
+                1739745138,
+                "5406720"
+            ],
+            [
+                1739745139,
+                "5406720"
+            ],
+            [
+                1739745140,
+                "5406720"
+            ],
+            [
+                1739745141,
+                "5406720"
+            ],
+            [
+                1739745142,
+                "5406720"
+            ],
+            [
+                1739745143,
+                "5406720"
+            ],
+            [
+                1739745144,
+                "5406720"
+            ],
+            [
+                1739745145,
+                "5406720"
+            ],
+            [
+                1739745146,
+                "5406720"
+            ],
+            [
+                1739745147,
+                "5406720"
+            ],
+            [
+                1739745148,
+                "5406720"
+            ],
+            [
+                1739745149,
+                "5406720"
+            ],
+            [
+                1739745150,
+                "5406720"
+            ],
+            [
+                1739745151,
+                "5406720"
+            ],
+            [
+                1739745152,
+                "5406720"
+            ],
+            [
+                1739745153,
+                "5406720"
+            ],
+            [
+                1739745154,
+                "5406720"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/vgauthd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "8192"
+            ],
+            [
+                1739745134,
+                "8192"
+            ],
+            [
+                1739745135,
+                "8192"
+            ],
+            [
+                1739745136,
+                "8192"
+            ],
+            [
+                1739745137,
+                "8192"
+            ],
+            [
+                1739745138,
+                "8192"
+            ],
+            [
+                1739745139,
+                "8192"
+            ],
+            [
+                1739745140,
+                "8192"
+            ],
+            [
+                1739745141,
+                "8192"
+            ],
+            [
+                1739745142,
+                "8192"
+            ],
+            [
+                1739745143,
+                "8192"
+            ],
+            [
+                1739745144,
+                "8192"
+            ],
+            [
+                1739745145,
+                "8192"
+            ],
+            [
+                1739745146,
+                "8192"
+            ],
+            [
+                1739745147,
+                "8192"
+            ],
+            [
+                1739745148,
+                "8192"
+            ],
+            [
+                1739745149,
+                "8192"
+            ],
+            [
+                1739745150,
+                "8192"
+            ],
+            [
+                1739745151,
+                "8192"
+            ],
+            [
+                1739745152,
+                "8192"
+            ],
+            [
+                1739745153,
+                "8192"
+            ],
+            [
+                1739745154,
+                "8192"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/vmtoolsd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "4341760"
+            ],
+            [
+                1739745134,
+                "4341760"
+            ],
+            [
+                1739745135,
+                "4341760"
+            ],
+            [
+                1739745136,
+                "4341760"
+            ],
+            [
+                1739745137,
+                "4341760"
+            ],
+            [
+                1739745138,
+                "4341760"
+            ],
+            [
+                1739745139,
+                "4341760"
+            ],
+            [
+                1739745140,
+                "4341760"
+            ],
+            [
+                1739745141,
+                "4341760"
+            ],
+            [
+                1739745142,
+                "4341760"
+            ],
+            [
+                1739745143,
+                "4341760"
+            ],
+            [
+                1739745144,
+                "4341760"
+            ],
+            [
+                1739745145,
+                "4341760"
+            ],
+            [
+                1739745146,
+                "4341760"
+            ],
+            [
+                1739745147,
+                "4341760"
+            ],
+            [
+                1739745148,
+                "4341760"
+            ],
+            [
+                1739745149,
+                "4341760"
+            ],
+            [
+                1739745150,
+                "4341760"
+            ],
+            [
+                1739745151,
+                "4341760"
+            ],
+            [
+                1739745152,
+                "4341760"
+            ],
+            [
+                1739745153,
+                "4341760"
+            ],
+            [
+                1739745154,
+                "4341760"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/system.slice/vmtoolsd.service",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "16384"
+            ],
+            [
+                1739745134,
+                "16384"
+            ],
+            [
+                1739745135,
+                "16384"
+            ],
+            [
+                1739745136,
+                "16384"
+            ],
+            [
+                1739745137,
+                "16384"
+            ],
+            [
+                1739745138,
+                "16384"
+            ],
+            [
+                1739745139,
+                "16384"
+            ],
+            [
+                1739745140,
+                "16384"
+            ],
+            [
+                1739745141,
+                "16384"
+            ],
+            [
+                1739745142,
+                "16384"
+            ],
+            [
+                1739745143,
+                "16384"
+            ],
+            [
+                1739745144,
+                "16384"
+            ],
+            [
+                1739745145,
+                "16384"
+            ],
+            [
+                1739745146,
+                "16384"
+            ],
+            [
+                1739745147,
+                "16384"
+            ],
+            [
+                1739745148,
+                "16384"
+            ],
+            [
+                1739745149,
+                "16384"
+            ],
+            [
+                1739745150,
+                "16384"
+            ],
+            [
+                1739745151,
+                "16384"
+            ],
+            [
+                1739745152,
+                "16384"
+            ],
+            [
+                1739745153,
+                "16384"
+            ],
+            [
+                1739745154,
+                "16384"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/user.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Read"
+        },
+        "values": [
+            [
+                1739745133,
+                "13883174912"
+            ],
+            [
+                1739745134,
+                "13883174912"
+            ],
+            [
+                1739745135,
+                "13883174912"
+            ],
+            [
+                1739745136,
+                "13883174912"
+            ],
+            [
+                1739745137,
+                "13883174912"
+            ],
+            [
+                1739745138,
+                "13883174912"
+            ],
+            [
+                1739745139,
+                "13883174912"
+            ],
+            [
+                1739745140,
+                "13883174912"
+            ],
+            [
+                1739745141,
+                "13883174912"
+            ],
+            [
+                1739745142,
+                "13883174912"
+            ],
+            [
+                1739745143,
+                "13883174912"
+            ],
+            [
+                1739745144,
+                "13883174912"
+            ],
+            [
+                1739745145,
+                "13883174912"
+            ],
+            [
+                1739745146,
+                "13883174912"
+            ],
+            [
+                1739745147,
+                "13883174912"
+            ],
+            [
+                1739745148,
+                "13883174912"
+            ],
+            [
+                1739745149,
+                "13883174912"
+            ],
+            [
+                1739745150,
+                "13883174912"
+            ],
+            [
+                1739745151,
+                "13883174912"
+            ],
+            [
+                1739745152,
+                "13883174912"
+            ],
+            [
+                1739745153,
+                "13883174912"
+            ],
+            [
+                1739745154,
+                "13883174912"
+            ]
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "container_blkio_device_usage_total",
+            "device": "/dev/sda",
+            "id": "/user.slice",
+            "instance": "cadvisor:8080",
+            "job": "cadvisor",
+            "major": "8",
+            "minor": "0",
+            "operation": "Write"
+        },
+        "values": [
+            [
+                1739745133,
+                "236654006272"
+            ],
+            [
+                1739745134,
+                "236654006272"
+            ],
+            [
+                1739745135,
+                "236654006272"
+            ],
+            [
+                1739745136,
+                "236654006272"
+            ],
+            [
+                1739745137,
+                "236654006272"
+            ],
+            [
+                1739745138,
+                "236654006272"
+            ],
+            [
+                1739745139,
+                "236654006272"
+            ],
+            [
+                1739745140,
+                "236654006272"
+            ],
+            [
+                1739745141,
+                "236654006272"
+            ],
+            [
+                1739745142,
+                "236654006272"
+            ],
+            [
+                1739745143,
+                "236674846720"
+            ],
+            [
+                1739745144,
+                "236674846720"
+            ],
+            [
+                1739745145,
+                "236674846720"
+            ],
+            [
+                1739745146,
+                "236674846720"
+            ],
+            [
+                1739745147,
+                "236674846720"
+            ],
+            [
+                1739745148,
+                "236677718016"
+            ],
+            [
+                1739745149,
+                "236677718016"
+            ],
+            [
+                1739745150,
+                "236677718016"
+            ],
+            [
+                1739745151,
+                "236677718016"
+            ],
+            [
+                1739745152,
+                "236677718016"
+            ],
+            [
+                1739745153,
+                "236677718016"
+            ],
+            [
+                1739745154,
+                "236677718016"
+            ]
+        ]
+    }
+]
