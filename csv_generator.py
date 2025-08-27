@@ -6,13 +6,10 @@ for run_dir in os.listdir(os.getcwd()):
     if not all([os.path.isdir(run_dir),
                 run_dir.startswith('LO2_run')]):
         continue
-    METRICS = dict()
-    output_csv = f"{run_dir}.csv"
+    NODE_METRICS = dict()
+    node_output_csv = f"{run_dir}-node-metrics.csv"
     for test_dir in os.listdir(run_dir):
         test_path = os.path.join(run_dir, test_dir)
-        if os.path.isfile(output_csv):
-            print(f"{output_csv} exists, skipping...")
-            continue
         if not os.path.isdir(test_path):
             continue
         metrics_dir = os.path.join(test_path, "metrics")
@@ -27,30 +24,32 @@ for run_dir in os.listdir(os.getcwd()):
                     print(f"Error when loading JSON from {metric_json}")
                     continue
             for metric in data:
-                if metric["metric"]["job"] != "node":
-                    continue
-                metric_name = metric["metric"]["__name__"] + "&" + "&".join([f"{k}={v}" for k,v in metric["metric"].items() if k not in {"group", "instance", "job", "__name__"}])
-                metric_name = metric_name.removesuffix("&")
-                for timestamp, value in metric["values"]:
-                    test_dict = METRICS.setdefault(timestamp, dict())
-                    metric_dict = test_dict.setdefault(test_dir, dict())
-                    metric_dict[metric_name] = value
+                if metric["metric"]["job"] == "node":
+                    metric_name = [metric["metric"]["__name__"]] + [f"{k}={v}" for k,v in metric["metric"].items() if k not in {"group", "instance", "job", "__name__"}]
+                    metric_name = '&'.join(metric_name)
+                    for timestamp, value in metric["values"]:
+                        test_dict = NODE_METRICS.setdefault(timestamp, dict())
+                        metric_dict = test_dict.setdefault(test_dir, dict())
+                        metric_dict[metric_name] = value
 
-    all_metrics = set()
-    for test_dict in METRICS.values():
-        for metric_dict in test_dict.values():
-            all_metrics = all_metrics.union(metric_dict.keys())
-    all_metrics = sorted(list(all_metrics))
-    HEADER = ["timestamp", "run_start", "test_name"]
-    HEADER.extend(all_metrics)
+    if os.path.isfile(node_output_csv):
+        print(f"{node_output_csv} exists, skipping...")
+    else:
+        all_metrics = set()
+        for test_dict in NODE_METRICS.values():
+            for metric_dict in test_dict.values():
+                all_metrics = all_metrics.union(metric_dict.keys())
+        all_metrics = sorted(list(all_metrics))
+        HEADER = ["timestamp", "run", "test"]
+        HEADER.extend(all_metrics)
 
-    print(f"Writing to {output_csv}...")
-    with open(output_csv, 'w', newline='') as f:
-        csv_writer = csv.writer(f)
-        csv_writer.writerow(HEADER)
-        for timestamp, test_dict in METRICS.items():
-            for test_name, metrics_dict in test_dict.items():
-                row = [timestamp, run_dir, test_name]
-                for metric in all_metrics:
-                    row.append(metrics_dict.get(metric, None))
-            csv_writer.writerow(row)
+        print(f"Writing to {node_output_csv}...")
+        with open(node_output_csv, 'w', newline='') as f:
+            csv_writer = csv.writer(f)
+            csv_writer.writerow(HEADER)
+            for timestamp, test_dict in NODE_METRICS.items():
+                for test_name, metrics_dict in test_dict.items():
+                    row = [timestamp, run_dir, test_name]
+                    for metric in all_metrics:
+                        row.append(metrics_dict.get(metric, None))
+                csv_writer.writerow(row)
