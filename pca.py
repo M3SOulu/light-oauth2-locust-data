@@ -12,9 +12,10 @@ def top_features(component_df, components, top):
         print(values)
         selected_features.update(values.index)
     selected_features = sorted(list(selected_features))
-    print(f"Selected {len(selected_features)} features from TOP-{TOP_features} of {N_components} best components:")
-    for i in selected_features:
-        print(i)
+    if components > 1:
+        print(f"Selected {len(selected_features)} features from TOP-{top} of {components} best components:")
+        for i in selected_features:
+            print(i)
     return selected_features
 
 
@@ -31,39 +32,38 @@ def calc_pca(df):
     return result, component_df, variance_ratio, cumulative_variance
 
 
-# Raw data
-df = pd.read_csv("LO2_run_1739743201-node-metrics.csv", index_col=None)
+def main(df, col_to_drop, TOP_features, N_components):
+    # Raw data
+    df = df.drop(columns=col_to_drop)
+    print("Rows:", len(df))
+    print("Cols:", len(df.columns))
 
-# Split the data into correct test and errors tests
-df_correct = df[df["test"] == "correct"]
-df_correct = df_correct.drop(columns=['timestamp', 'run', 'test'])
-df_errors = df[df["test"] != "correct"]
-df_errors = df_errors.drop(columns=['timestamp', 'run', 'test'])
-df = df.drop(columns=['timestamp', 'run', 'test'])
+    _, component_df, _, _ = calc_pca(df)
 
-# features = df.values
-# features_correct = df_correct.values
-# features_errors = df_errors.values
+    selected_features = top_features(component_df, components=N_components, top=TOP_features)
 
-# Scaling (seems to have not effect)
-# from sklearn.preprocessing import StandardScaler
-# features_scaled = StandardScaler().fit_transform(features)
+    plt.show()
 
-_, component_df, _, _ = calc_pca(df)
-_, component_df_correct, _, _ = calc_pca(df_correct)
-_, component_df_errors, _, _ = calc_pca(df_errors)
 
-TOP_features = 5
-N_components = 3  # From the plot 3 components are enough
-print("\nFull time-series")
-selected_features = top_features(component_df, components=N_components, top=TOP_features)
-print("\nCorrect test only")
-selected_features_correct = top_features(component_df_correct, components=N_components, top=TOP_features)
-print("\nError tests only")
-selected_features_errors = top_features(component_df_errors, components=N_components, top=TOP_features)
+if __name__ == "__main__":
+    df = pd.read_csv("LO2_run_1739743201-node-metrics.csv", index_col=None)
+    TOP_features = 5
+    N_components = 3  # From the plot 3 components are enough
+    col_to_drop = ['timestamp', 'run', 'test']
+    print("Host metrics")
+    main(df, col_to_drop, TOP_features, N_components)
+    col_to_drop = ['timestamp', 'run', 'container', 'test']
+    TOP_features = 10
+    N_components = 1  # From the plot 1 component is enough
+    for container in ["mysqldb",
+                      "oauth2-client",
+                      "oauth2-code",
+                      "oauth2-key",
+                      "oauth2-refresh-token",
+                      "oauth2-service",
+                      "oauth2-token",
+                      "oauth2-user"]:
+        print(f"\n{container}")
+        df = pd.read_csv(f"LO2_run_1739743201-light-oauth2-{container}-1-metrics.csv", index_col=None)
+        main(df, col_to_drop, TOP_features, N_components)
 
-# Scaled
-# _, component_df_scaled, _, _ = calc_pca(features_scaled)
-# selected_features_scaled = top_features(component_df_scaled, components=N_components, top=TOP_features)
-
-plt.show()
